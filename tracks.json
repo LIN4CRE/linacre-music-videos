@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "skint-dave",
+    "title": "Skint Dave from Barnsley",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "British Indie Rock / Pub-Singalong",
+    "duration": "3:41",
+    "durationSec": 221.2,
+    "videoFile": "videos/Skint Dave from Barnsley.mp4",
+    "coverFile": "covers/skint-dave.jpg",
+    "bpm": "96 BPM",
+    "model": "Suno V6-MINI",
+    "story": "A warm northern character anthem about daily struggles, ADHD weather, leaking washing machines, hearing aids, and the stubborn spirit of Dave from Barnsley refusing to give in.",
+    "lyrics": [
+      {
+        "start": 0.0,
+        "end": 4.54,
+        "text": "Morning sticks to the curtains, kettle takes its time"
+      },
+      {
+        "start": 9.14,
+        "end": 12.5,
+        "text": "Fester guards the toolbox, Ralf is stealing mine"
+      },
+      {
+        "start": 15.32,
+        "end": 18.4,
+        "text": "Nic says, \u201cYou\u2019ve got a plan then?\u201d I say, \u201cI\u2019ve got a few\u201d"
+      },
+      {
+        "start": 18.94,
+        "end": 22.85,
+        "text": "There\u2019s a chair that needs repairing and a shed that wants me too"
+      },
+      {
+        "start": 22.9,
+        "end": 24.24,
+        "text": "My left side\u2019s playing hide-and-seek"
+      },
+      {
+        "start": 26.3,
+        "end": 30.18,
+        "text": "The batteries chirp when I try to speak"
+      },
+      {
+        "start": 30.72,
+        "end": 34.2,
+        "text": "The room keeps ringing like a shop alarm"
+      },
+      {
+        "start": 34.58,
+        "end": 38.6,
+        "text": "Still I pull my boots on, still I mean no harm"
+      },
+      {
+        "start": 39.52,
+        "end": 43.39,
+        "text": "I\u2019m skint, Dave from Barnsley, counting pennies by the sink"
+      },
+      {
+        "start": 43.44,
+        "end": 47.31,
+        "text": "Body coming loose at the seams, but I\u2019m not done, I think"
+      },
+      {
+        "start": 47.36,
+        "end": 51.02,
+        "text": "Fester, Ralf and Nic keep pulling me through"
+      },
+      {
+        "start": 51.02,
+        "end": 55.21,
+        "text": "Every daft little project is a road I can choose"
+      },
+      {
+        "start": 55.26,
+        "end": 58.72,
+        "text": "If the day says no, I\u2019ll have another go"
+      },
+      {
+        "start": 59.08,
+        "end": 63.9,
+        "text": "There\u2019s a small light somewhere and I\u2019m learning where it goes"
+      },
+      {
+        "start": 66.6,
+        "end": 70.54,
+        "text": "Ramsey Hunt left a calling card beside my tired eye"
+      },
+      {
+        "start": 70.8,
+        "end": 74.48,
+        "text": "Hearing aid whistles back whenever buses pass me by"
+      },
+      {
+        "start": 75.56,
+        "end": 78.33,
+        "text": "Tinnitus fills the quiet, sleep forgets my name"
+      },
+      {
+        "start": 78.38,
+        "end": 81.93,
+        "text": "I wake up feeling ninety, then I try the game again"
+      },
+      {
+        "start": 81.98,
+        "end": 84.99,
+        "text": "The washing machine is leaking by the door"
+      },
+      {
+        "start": 85.04,
+        "end": 88.43,
+        "text": "My knees have started arguing with the floor"
+      },
+      {
+        "start": 89.46,
+        "end": 92.08,
+        "text": "Nic puts tea beside me, says, \u201cDon\u2019t make it grand\u201d"
+      },
+      {
+        "start": 92.94,
+        "end": 97.3,
+        "text": "So I draw another sketch with a pencil in my hand"
+      },
+      {
+        "start": 97.86,
+        "end": 101.42,
+        "text": "I\u2019m skint, Dave from Barnsley, counting pennies by the sink"
+      },
+      {
+        "start": 101.86,
+        "end": 105.32,
+        "text": "Body coming loose at the seams, but I\u2019m not done, I think"
+      },
+      {
+        "start": 106.66,
+        "end": 109.14,
+        "text": "Fester, Ralf and Nic keep pulling me through"
+      },
+      {
+        "start": 109.14,
+        "end": 113.21,
+        "text": "Every daft little project is a road I can choose"
+      },
+      {
+        "start": 113.26,
+        "end": 116.76,
+        "text": "If the day says no, I\u2019ll have another go"
+      },
+      {
+        "start": 117.02,
+        "end": 121.88,
+        "text": "There\u2019s a small light somewhere and I\u2019m learning where it goes"
+      },
+      {
+        "start": 124.3,
+        "end": 128.5,
+        "text": "One plan for a planter, one plan for a shelf"
+      },
+      {
+        "start": 129.08,
+        "end": 132.58,
+        "text": "Three half-built inventions scattered round myself"
+      },
+      {
+        "start": 133.02,
+        "end": 136.61,
+        "text": "ADHD weather, thunder in my head"
+      },
+      {
+        "start": 136.66,
+        "end": 140.45,
+        "text": "But Nic finds the missing screw beneath the bed"
+      },
+      {
+        "start": 140.5,
+        "end": 144.58,
+        "text": "I turn the power on and something starts to hum"
+      },
+      {
+        "start": 144.86,
+        "end": 150.02,
+        "text": "Not the ringing in my ears this time\u2014something I have done"
+      },
+      {
+        "start": 152.88,
+        "end": 157.14,
+        "text": "I\u2019m skint, Dave from Barnsley, but the numbers start to change"
+      },
+      {
+        "start": 157.48,
+        "end": 161.62,
+        "text": "That little thing I built today has found its way to someone\u2019s place"
+      },
+      {
+        "start": 162.14,
+        "end": 165.52,
+        "text": "Fester\u2019s on the worktop, Ralf is curled up blue"
+      },
+      {
+        "start": 165.96,
+        "end": 169.7,
+        "text": "Nic is laughing in the doorway saying, \u201cSee, I knew you\u2019d do\u201d"
+      },
+      {
+        "start": 169.96,
+        "end": 173.58,
+        "text": "If the day says no, I\u2019ll have another go"
+      },
+      {
+        "start": 173.9,
+        "end": 178.86,
+        "text": "There\u2019s a small light getting brighter and I\u2019m learning where it goes"
+      },
+      {
+        "start": 185.74,
+        "end": 189.97,
+        "text": "The kettle clicks, the morning comes, the workshop catches fire"
+      },
+      {
+        "start": 190.02,
+        "end": 194.13,
+        "text": "Not a blaze, just one good idea climbing a little higher"
+      },
+      {
+        "start": 194.18,
+        "end": 198.38,
+        "text": "I\u2019m still here, still trying, with a spark beneath the skin"
+      },
+      {
+        "start": 199.84,
+        "end": 204.58,
+        "text": "Skint, Dave from Barnsley\u2014and tonight, I think I win"
+      }
+    ]
+  },
+  {
+    "id": "penny",
+    "title": "Penny, You're Still Here",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "Contemporary Folk-Pop / Heartfelt",
+    "duration": "3:58",
+    "durationSec": 238.0,
+    "videoFile": "videos/Penny, You're Still Here.mp4",
+    "coverFile": "covers/penny.jpg",
+    "bpm": "112 BPM",
+    "model": "Suno V6-MINI",
+    "story": "An uplifting story of overcoming addiction and generational hardship in Barnsley, finding strength through family love for 11-year-old Riley and 2-year-old Tommy.",
+    "lyrics": [
+      {
+        "start": 0.0,
+        "end": 11.0,
+        "text": "Penny grew up where the coal dust stayed,"
+      },
+      {
+        "start": 14.06,
+        "end": 16.42,
+        "text": "Barnsley rain on the windowpane."
+      },
+      {
+        "start": 18.02,
+        "end": 22.85,
+        "text": "Jamie was older, trying to stand tall,"
+      },
+      {
+        "start": 22.9,
+        "end": 27.48,
+        "text": "Chelsea was little, afraid of it all."
+      },
+      {
+        "start": 27.56,
+        "end": 31.82,
+        "text": "She learned to smile when the cupboard was bare,"
+      },
+      {
+        "start": 32.14,
+        "end": 36.5,
+        "text": "To hide heavy thoughts beneath brushed hair."
+      },
+      {
+        "start": 37.04,
+        "end": 40.9,
+        "text": "Some nights the bottle promised relief,"
+      },
+      {
+        "start": 41.14,
+        "end": 45.8,
+        "text": "Then morning came carrying shame and grief."
+      },
+      {
+        "start": 46.44,
+        "end": 50.74,
+        "text": "But underneath the hurt, underneath the years,"
+      },
+      {
+        "start": 51.08,
+        "end": 55.44,
+        "text": "A small brave voice was louder than fear."
+      },
+      {
+        "start": 56.72,
+        "end": 58.45,
+        "text": "Penny, you're still here, still breathing,"
+      },
+      {
+        "start": 58.5,
+        "end": 61.24,
+        "text": "Still got a heart that won't stop beating."
+      },
+      {
+        "start": 61.44,
+        "end": 63.74,
+        "text": "Riley needs your arms, Tommy needs your light,"
+      },
+      {
+        "start": 63.94,
+        "end": 65.79,
+        "text": "There's a road out of the longest night."
+      },
+      {
+        "start": 65.84,
+        "end": 67.82,
+        "text": "Step by step, with the past behind,"
+      },
+      {
+        "start": 68.02,
+        "end": 71.2,
+        "text": "You can leave those chains, you can change your mind."
+      },
+      {
+        "start": 71.4,
+        "end": 73.39,
+        "text": "Penny, the world can be kind again,"
+      },
+      {
+        "start": 73.44,
+        "end": 76.26,
+        "text": "This is where your new life begins."
+      },
+      {
+        "start": 84.66,
+        "end": 87.8,
+        "text": "Eleven-year-old Riley watched her face,"
+      },
+      {
+        "start": 88.8,
+        "end": 91.98,
+        "text": "Two-year-old Tommy reached for her embrace."
+      },
+      {
+        "start": 92.18,
+        "end": 96.84,
+        "text": "She saw in their eyes what she couldn't deny,"
+      },
+      {
+        "start": 97.04,
+        "end": 101.56,
+        "text": "A reason to rise, a reason to try."
+      },
+      {
+        "start": 102.04,
+        "end": 105.76,
+        "text": "Jamie called round, and Chelsea came too,"
+      },
+      {
+        "start": 105.96,
+        "end": 109.86,
+        "text": "No grand words, just a hand held true."
+      },
+      {
+        "start": 110.06,
+        "end": 115.06,
+        "text": "The old days pulled like a river in flood,"
+      },
+      {
+        "start": 115.26,
+        "end": 120.0,
+        "text": "But Penny kept choosing the people she loved."
+      },
+      {
+        "start": 120.96,
+        "end": 124.68,
+        "text": "There were tears on the kitchen floor,"
+      },
+      {
+        "start": 125.34,
+        "end": 129.18,
+        "text": "But she didn't sleep there anymore."
+      },
+      {
+        "start": 130.36,
+        "end": 132.66,
+        "text": "Penny, you're still here, still breathing,"
+      },
+      {
+        "start": 132.86,
+        "end": 135.1,
+        "text": "Still got a heart that won't stop beating."
+      },
+      {
+        "start": 135.3,
+        "end": 137.44,
+        "text": "Riley needs your arms, Tommy needs your light,"
+      },
+      {
+        "start": 137.64,
+        "end": 139.01,
+        "text": "There's a road out of the longest night."
+      },
+      {
+        "start": 139.06,
+        "end": 141.27,
+        "text": "Step by step, with the past behind,"
+      },
+      {
+        "start": 141.32,
+        "end": 144.76,
+        "text": "You can leave those chains, you can change your mind."
+      },
+      {
+        "start": 144.96,
+        "end": 146.61,
+        "text": "Penny, the world can be kind again,"
+      },
+      {
+        "start": 146.66,
+        "end": 149.32,
+        "text": "This is where your new life begins."
+      },
+      {
+        "start": 158.08,
+        "end": 161.51,
+        "text": "One honest morning, one open door,"
+      },
+      {
+        "start": 161.56,
+        "end": 166.54,
+        "text": "One promise stronger than before."
+      },
+      {
+        "start": 166.74,
+        "end": 171.42,
+        "text": "David stood beside her, steady and true,"
+      },
+      {
+        "start": 171.62,
+        "end": 175.26,
+        "text": "And Penny found the strength to follow through."
+      },
+      {
+        "start": 175.78,
+        "end": 179.68,
+        "text": "No miracle erased what had been,"
+      },
+      {
+        "start": 181.2,
+        "end": 184.72,
+        "text": "Just courage to begin again."
+      },
+      {
+        "start": 185.6,
+        "end": 187.72,
+        "text": "Penny, you're still here, still believing,"
+      },
+      {
+        "start": 187.92,
+        "end": 190.4,
+        "text": "Still got a heart that won't stop beating."
+      },
+      {
+        "start": 190.6,
+        "end": 192.86,
+        "text": "Riley's laughing, Tommy's holding tight,"
+      },
+      {
+        "start": 193.06,
+        "end": 194.88,
+        "text": "The kitchen's full of ordinary light."
+      },
+      {
+        "start": 195.86,
+        "end": 197.18,
+        "text": "Jamie and Chelsea see her stand,"
+      },
+      {
+        "start": 197.38,
+        "end": 199.56,
+        "text": "A brighter future built by hand."
+      },
+      {
+        "start": 199.76,
+        "end": 203.5,
+        "text": "Penny, the world is kind again,"
+      },
+      {
+        "start": 204.32,
+        "end": 207.56,
+        "text": "This is where your new life begins."
+      },
+      {
+        "start": 209.74,
+        "end": 212.88,
+        "text": "From Barnsley rain to a clearer sky,"
+      },
+      {
+        "start": 213.08,
+        "end": 217.84,
+        "text": "She chose tomorrow, she chose to try."
+      },
+      {
+        "start": 218.04,
+        "end": 222.08,
+        "text": "Penny, keep walking, the worst has passed,"
+      },
+      {
+        "start": 222.28,
+        "end": 227.34,
+        "text": "A hard-won joy can last."
+      }
+    ]
+  },
+  {
+    "id": "dave-barnsley",
+    "title": "Dave from Barnsley",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "UK Boom-Bap / Comedy Rap",
+    "duration": "3:20",
+    "durationSec": 200.0,
+    "videoFile": "videos/Dave from Barnsley.mp4",
+    "coverFile": "covers/dave-barnsley.jpg",
+    "bpm": "94 BPM",
+    "model": "Suno V6-MINI",
+    "story": "The legendary original UK comedy rap take on Dave, arguing with kettles, dealing with Ramsey Hunt and tinnitus, while cats Fester and Ralf prowl for breakfast.",
+    "lyrics": [
+      {
+        "start": 0.0,
+        "end": 3.08,
+        "text": "Yeah, this is Dave from Barnsley"
+      },
+      {
+        "start": 3.7,
+        "end": 5.32,
+        "text": "Skint, knackered, still standing"
+      },
+      {
+        "start": 6.06,
+        "end": 7.85,
+        "text": "Nic says, \u201cYou\u2019ll get there\u201d"
+      },
+      {
+        "start": 7.9,
+        "end": 15.89,
+        "text": "The cats say nothing, they just want dinner"
+      },
+      {
+        "start": 15.94,
+        "end": 19.0,
+        "text": "Wakes up grumpy, argues with the kettle"
+      },
+      {
+        "start": 19.34,
+        "end": 21.4,
+        "text": "Bills on the table, nerves on the metal"
+      },
+      {
+        "start": 22.02,
+        "end": 23.66,
+        "text": "One sock missing, toast burnt black"
+      },
+      {
+        "start": 24.18,
+        "end": 26.11,
+        "text": "Fester wants breakfast, Ralf wants that"
+      },
+      {
+        "start": 26.16,
+        "end": 28.15,
+        "text": "Nic says, \u201cBreathe, love, take it slow\u201d"
+      },
+      {
+        "start": 28.2,
+        "end": 30.5,
+        "text": "Dave says, \u201cI would, but me body says no\u201d"
+      },
+      {
+        "start": 31.48,
+        "end": 32.8,
+        "text": "Hearing aid squeals like a bus in a tunnel"
+      },
+      {
+        "start": 33.76,
+        "end": 35.22,
+        "text": "Tinnitus drums on a permanent funnel"
+      },
+      {
+        "start": 35.98,
+        "end": 37.62,
+        "text": "Ramsey Hunt left him feeling worn and strange"
+      },
+      {
+        "start": 38.24,
+        "end": 39.44,
+        "text": "Still he checks the post for a life-changing change"
+      },
+      {
+        "start": 41.9,
+        "end": 44.95,
+        "text": "Oh Dave, Dave, world\u2019s most miserable man"
+      },
+      {
+        "start": 45.0,
+        "end": 47.23,
+        "text": "Down on his luck but he\u2019s doing what he can"
+      },
+      {
+        "start": 47.28,
+        "end": 49.51,
+        "text": "With a head full of plans and a pocket full of lint"
+      },
+      {
+        "start": 49.56,
+        "end": 51.0,
+        "text": "He keeps on trying though the battery\u2019s spent"
+      },
+      {
+        "start": 51.96,
+        "end": 53.98,
+        "text": "Oh Dave, Dave, don\u2019t throw in the towel"
+      },
+      {
+        "start": 54.46,
+        "end": 56.49,
+        "text": "Fester and Ralf are prowling for chow"
+      },
+      {
+        "start": 56.54,
+        "end": 58.93,
+        "text": "Nic says, \u201cOne more go, you\u2019re closer than you think\u201d"
+      },
+      {
+        "start": 58.98,
+        "end": 61.04,
+        "text": "He\u2019s got one little spark, and it\u2019s starting to blink"
+      },
+      {
+        "start": 61.7,
+        "end": 63.18,
+        "text": "Project number one: fix the old machine"
+      },
+      {
+        "start": 63.96,
+        "end": 65.76,
+        "text": "Project number two: build a better dream"
+      },
+      {
+        "start": 66.3,
+        "end": 67.66,
+        "text": "Project number three: sell a clever guide"
+      },
+      {
+        "start": 68.54,
+        "end": 70.34,
+        "text": "Project number four: the wheels fall off inside"
+      },
+      {
+        "start": 71.08,
+        "end": 72.82,
+        "text": "ADHD brain does a lap of the room"
+      },
+      {
+        "start": 73.16,
+        "end": 75.13,
+        "text": "Starts with a hammer, ends up painting the loo"
+      },
+      {
+        "start": 75.18,
+        "end": 77.66,
+        "text": "Exhausted by breakfast, asleep by half ten"
+      },
+      {
+        "start": 78.08,
+        "end": 79.82,
+        "text": "Wakes up annoyed, then he tries again"
+      },
+      {
+        "start": 80.32,
+        "end": 82.69,
+        "text": "Back aches, knees creak, shoulder says \u201cWhy?\u201d"
+      },
+      {
+        "start": 82.74,
+        "end": 84.5,
+        "text": "He blames every joint on the weather outside"
+      },
+      {
+        "start": 85.3,
+        "end": 87.25,
+        "text": "Nic brings tea and gives him the look"
+      },
+      {
+        "start": 87.3,
+        "end": 89.26,
+        "text": "Fester steals a cable, Ralf eats the book"
+      },
+      {
+        "start": 90.4,
+        "end": 91.72,
+        "text": "Oh Dave, Dave, world\u2019s most miserable man"
+      },
+      {
+        "start": 92.34,
+        "end": 94.31,
+        "text": "Down on his luck but he\u2019s doing what he can"
+      },
+      {
+        "start": 94.36,
+        "end": 96.61,
+        "text": "With a head full of plans and a pocket full of lint"
+      },
+      {
+        "start": 96.66,
+        "end": 98.82,
+        "text": "He keeps on trying though the battery\u2019s spent"
+      },
+      {
+        "start": 100.22,
+        "end": 101.42,
+        "text": "Oh Dave, Dave, don\u2019t throw in the towel"
+      },
+      {
+        "start": 101.58,
+        "end": 103.24,
+        "text": "Fester and Ralf are prowling for chow"
+      },
+      {
+        "start": 103.7,
+        "end": 105.89,
+        "text": "Nic says, \u201cOne more go, you\u2019re closer than you think\u201d"
+      },
+      {
+        "start": 105.94,
+        "end": 108.16,
+        "text": "He\u2019s got one little spark, and it\u2019s starting to blink"
+      },
+      {
+        "start": 108.7,
+        "end": 112.28,
+        "text": "Come on, Dave, get up, have another try"
+      },
+      {
+        "start": 113.14,
+        "end": 115.15,
+        "text": "I\u2019ve got a list, though I\u2019ve lost where I put it"
+      },
+      {
+        "start": 115.2,
+        "end": 117.41,
+        "text": "A half-built thing and a cat that\u2019s chewed it"
+      },
+      {
+        "start": 117.46,
+        "end": 119.81,
+        "text": "The world says no, but I\u2019m not done yet"
+      },
+      {
+        "start": 119.86,
+        "end": 122.38,
+        "text": "I\u2019ve survived worse than a dodgy internet set"
+      },
+      {
+        "start": 122.74,
+        "end": 124.85,
+        "text": "No grand parade, no miracle plan"
+      },
+      {
+        "start": 124.9,
+        "end": 127.33,
+        "text": "Just one more step from a stubborn old man"
+      },
+      {
+        "start": 127.38,
+        "end": 129.55,
+        "text": "If success is a door, I\u2019ll lean on the frame"
+      },
+      {
+        "start": 129.6,
+        "end": 131.89,
+        "text": "If it won\u2019t open today, I\u2019ll remember the name"
+      },
+      {
+        "start": 131.94,
+        "end": 134.29,
+        "text": "Then one small customer says, \u201cThis works for me\u201d"
+      },
+      {
+        "start": 134.34,
+        "end": 136.35,
+        "text": "One proper payment, not a maybe or \u201cwe\u2019ll see\u201d"
+      },
+      {
+        "start": 136.4,
+        "end": 139.03,
+        "text": "Dave checks the screen, then checks it again"
+      },
+      {
+        "start": 139.08,
+        "end": 141.39,
+        "text": "Nic starts laughing, he nearly falls off the chair then"
+      },
+      {
+        "start": 141.44,
+        "end": 143.5,
+        "text": "Fester looks proud, Ralf knocks over the light"
+      },
+      {
+        "start": 143.98,
+        "end": 145.88,
+        "text": "The room\u2019s still a mess, but the feeling is right"
+      },
+      {
+        "start": 146.2,
+        "end": 148.59,
+        "text": "His body still groans and the ringing stays loud"
+      },
+      {
+        "start": 148.64,
+        "end": 150.64,
+        "text": "But Dave lifts his chin and he\u2019s grinning now"
+      },
+      {
+        "start": 152.04,
+        "end": 153.24,
+        "text": "From Barnsley gloom to a modest success"
+      },
+      {
+        "start": 153.26,
+        "end": 155.1,
+        "text": "Not fixed, not rich, but a little less stressed"
+      },
+      {
+        "start": 155.6,
+        "end": 157.7,
+        "text": "Oh Dave, Dave, world\u2019s most miserable man"
+      },
+      {
+        "start": 158.08,
+        "end": 160.27,
+        "text": "Down on his luck but he\u2019s doing what he can"
+      },
+      {
+        "start": 160.32,
+        "end": 162.59,
+        "text": "With a head full of plans and a pocket of grit"
+      },
+      {
+        "start": 162.64,
+        "end": 164.85,
+        "text": "He kept on moving and he\u2019s landed a hit"
+      },
+      {
+        "start": 164.9,
+        "end": 167.45,
+        "text": "Oh Dave, Dave, let the whole room know"
+      },
+      {
+        "start": 167.5,
+        "end": 169.56,
+        "text": "Fester and Ralf, it\u2019s time for the show"
+      },
+      {
+        "start": 170.74,
+        "end": 172.03,
+        "text": "Nic says, \u201cSee? You\u2019re closer than you think\u201d"
+      },
+      {
+        "start": 172.08,
+        "end": 174.14,
+        "text": "That little spark caught fire, now it\u2019s starting to link"
+      },
+      {
+        "start": 174.6,
+        "end": 176.57,
+        "text": "Still grumpy, still tired, still losing his pen"
+      },
+      {
+        "start": 176.62,
+        "end": 179.15,
+        "text": "Still starting new projects at quarter past ten"
+      },
+      {
+        "start": 179.2,
+        "end": 181.23,
+        "text": "But the kettle is singing, the cats have been fed"
+      },
+      {
+        "start": 181.28,
+        "end": 183.72,
+        "text": "And Dave\u2019s got a future inside his head"
+      },
+      {
+        "start": 184.12,
+        "end": 186.0,
+        "text": "One small win, one stubborn man"
+      },
+      {
+        "start": 186.98,
+        "end": 189.54,
+        "text": "Barnsley\u2019s finest doing what he can"
+      }
+    ]
+  },
+  {
+    "id": "crazy-rap",
+    "title": "Crazy Rap",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "UK Comedy Rap / Garage Hip-Hop",
+    "duration": "2:04",
+    "durationSec": 123.96,
+    "videoFile": "videos/Crazy Rap.mp4",
+    "coverFile": "covers/crazy-rap.jpg",
+    "bpm": "130 BPM",
+    "model": "Suno V6-MINI",
+    "story": "A high-octane council estate comedy rap filled with puns about mud, Sharon in wellies, Kev doing deals by the bins, and tea in the mug.",
+    "lyrics": [
+      {
+        "start": 0.0,
+        "end": 1.82,
+        "text": "Oi, mind the puddle by the stairwell"
+      },
+      {
+        "start": 2.84,
+        "end": 4.48,
+        "text": "Kettle on, telly loud"
+      },
+      {
+        "start": 4.78,
+        "end": 10.28,
+        "text": "Woke up to a council letter stuck to the door,"
+      },
+      {
+        "start": 10.32,
+        "end": 12.06,
+        "text": "Said the rent needs sorting \u2014 I\u2019ve heard that before."
+      },
+      {
+        "start": 12.1,
+        "end": 13.8,
+        "text": "Down by the bins, Kev\u2019s doing deals with a grin,"
+      },
+      {
+        "start": 14.02,
+        "end": 15.54,
+        "text": "While Sharon in wellies brings the mud right in."
+      },
+      {
+        "start": 15.58,
+        "end": 17.4,
+        "text": "She\u2019s a proper muck magnet, boots full of clay,"
+      },
+      {
+        "start": 17.44,
+        "end": 19.04,
+        "text": "Says, \u201cCome on, handsome, let\u2019s get filthy today.\u201d"
+      },
+      {
+        "start": 19.08,
+        "end": 20.9,
+        "text": "I said, \u201cLove, I\u2019ve got manners, a mop and a plan,\u201d"
+      },
+      {
+        "start": 20.94,
+        "end": 22.74,
+        "text": "She said, \u201cForget the mop \u2014 be a mucky woman\u2019s man.\u201d"
+      },
+      {
+        "start": 22.78,
+        "end": 24.52,
+        "text": "Tea in the mug, green in the tin,"
+      },
+      {
+        "start": 24.56,
+        "end": 26.32,
+        "text": "Neighbours start knocking: \u201cCan we come in?\u201d"
+      },
+      {
+        "start": 26.36,
+        "end": 27.9,
+        "text": "One little laugh turns the whole block mad,"
+      },
+      {
+        "start": 28.12,
+        "end": 29.62,
+        "text": "Best worst evening that we\u2019ve ever had."
+      },
+      {
+        "start": 30.16,
+        "end": 32.02,
+        "text": "Crazy rap from the flats, no lift, just stairs,"
+      },
+      {
+        "start": 32.06,
+        "end": 33.49,
+        "text": "Mud on the mat and smoke in the airs."
+      },
+      {
+        "start": 34.08,
+        "end": 35.38,
+        "text": "Mucky woman dancing like she owns the hall,"
+      },
+      {
+        "start": 35.8,
+        "end": 37.14,
+        "text": "Puns so rude make the plaster fall."
+      },
+      {
+        "start": 37.38,
+        "end": 38.58,
+        "text": "Crazy rap, let the whole block sing,"
+      },
+      {
+        "start": 39.08,
+        "end": 40.24,
+        "text": "Council-estate royalty, plastic-gold ring."
+      },
+      {
+        "start": 40.28,
+        "end": 42.0,
+        "text": "If life gets grim, we make it slap,"
+      },
+      {
+        "start": 42.04,
+        "end": 43.7,
+        "text": "Put the kettle on \u2014 it\u2019s the crazy rap!"
+      },
+      {
+        "start": 43.74,
+        "end": 45.58,
+        "text": "She said, \u201cYou\u2019re a grass,\u201d I said, \u201cNo, I\u2019m a sage,\u201d"
+      },
+      {
+        "start": 45.62,
+        "end": 47.28,
+        "text": "She said, \u201cThat\u2019s not a herb, that\u2019s a landlord\u2019s rage.\u201d"
+      },
+      {
+        "start": 47.32,
+        "end": 48.99,
+        "text": "Got a spliff in the garden, but the garden\u2019s a tray,"
+      },
+      {
+        "start": 49.32,
+        "end": 50.82,
+        "text": "Three dead plants and a fox that won\u2019t go away."
+      },
+      {
+        "start": 50.86,
+        "end": 52.6,
+        "text": "Her coat\u2019s second-hand but her attitude\u2019s new,"
+      },
+      {
+        "start": 52.64,
+        "end": 54.4,
+        "text": "Got mud on her leggings and a point of view."
+      },
+      {
+        "start": 54.44,
+        "end": 56.12,
+        "text": "She called me a stud \u2014 I said, \u201cThat\u2019s a screw,\u201d"
+      },
+      {
+        "start": 56.16,
+        "end": 57.88,
+        "text": "Now I\u2019m fixing the cupboard while she fixes my mood."
+      },
+      {
+        "start": 57.92,
+        "end": 59.64,
+        "text": "Bangers in the kitchen, bass through the wall,"
+      },
+      {
+        "start": 59.68,
+        "end": 61.54,
+        "text": "Someone\u2019s burnt the toast, but we\u2019re blaming the hall."
+      },
+      {
+        "start": 61.58,
+        "end": 63.14,
+        "text": "The dog\u2019s got my slipper, the cat\u2019s got the cap,"
+      },
+      {
+        "start": 63.34,
+        "end": 64.9,
+        "text": "Everybody\u2019s skanking to the crazy rap."
+      },
+      {
+        "start": 65.42,
+        "end": 67.34,
+        "text": "Crazy rap from the flats, no lift, just stairs,"
+      },
+      {
+        "start": 67.38,
+        "end": 68.75,
+        "text": "Mud on the mat and smoke in the airs."
+      },
+      {
+        "start": 69.32,
+        "end": 70.62,
+        "text": "Mucky woman dancing like she owns the hall,"
+      },
+      {
+        "start": 71.06,
+        "end": 72.42,
+        "text": "Puns so rude make the plaster fall."
+      },
+      {
+        "start": 72.46,
+        "end": 73.7,
+        "text": "Crazy rap, let the whole block sing,"
+      },
+      {
+        "start": 74.52,
+        "end": 75.52,
+        "text": "Council-estate royalty, plastic-gold ring."
+      },
+      {
+        "start": 75.56,
+        "end": 77.26,
+        "text": "If life gets grim, we make it slap,"
+      },
+      {
+        "start": 77.3,
+        "end": 78.92,
+        "text": "Put the kettle on \u2014 it\u2019s the crazy rap!"
+      },
+      {
+        "start": 78.96,
+        "end": 80.88,
+        "text": "She said, \u201cCall me dirty,\u201d I said, \u201cThat\u2019s your brand,\u201d"
+      },
+      {
+        "start": 80.92,
+        "end": 82.6,
+        "text": "She slipped in the puddle and still took my hand."
+      },
+      {
+        "start": 82.64,
+        "end": 84.4,
+        "text": "We laughed so hard that the neighbours complained,"
+      },
+      {
+        "start": 84.44,
+        "end": 86.02,
+        "text": "Then borrowed our sugar and came back again."
+      },
+      {
+        "start": 86.06,
+        "end": 89.14,
+        "text": "No palace, no marble, no chandelier,"
+      },
+      {
+        "start": 89.14,
+        "end": 91.56,
+        "text": "Just love by the launderette and a bargain-bin beer."
+      },
+      {
+        "start": 95.08,
+        "end": 97.24,
+        "text": "Crazy rap from the flats, no lift, just stairs,"
+      },
+      {
+        "start": 97.28,
+        "end": 99.06,
+        "text": "Mud on the mat and smoke in the airs."
+      },
+      {
+        "start": 99.3,
+        "end": 100.5,
+        "text": "Mucky woman dancing like she owns the hall,"
+      },
+      {
+        "start": 101.1,
+        "end": 102.34,
+        "text": "Puns so rude make the plaster fall."
+      },
+      {
+        "start": 102.38,
+        "end": 103.64,
+        "text": "Crazy rap, let the whole block sing,"
+      },
+      {
+        "start": 104.44,
+        "end": 105.42,
+        "text": "Council-estate royalty, plastic-gold ring."
+      },
+      {
+        "start": 105.46,
+        "end": 107.18,
+        "text": "If life gets grim, we make it slap,"
+      },
+      {
+        "start": 107.22,
+        "end": 109.04,
+        "text": "Put the kettle on \u2014 it\u2019s the crazy rap!"
+      },
+      {
+        "start": 109.08,
+        "end": 110.68,
+        "text": "Mind the step, mind the mop,"
+      },
+      {
+        "start": 110.96,
+        "end": 112.56,
+        "text": "Mind that woman \u2014 she don\u2019t stop."
+      },
+      {
+        "start": 112.6,
+        "end": 114.3,
+        "text": "Green in the tin, tea in the cup,"
+      },
+      {
+        "start": 114.34,
+        "end": 115.96,
+        "text": "Estate life down, but the chorus up."
+      }
+    ]
+  },
+  {
+    "id": "statistically",
+    "title": "Statistically, We're Fine",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "UK Alternative Comedy Hip-Hop",
+    "duration": "2:22",
+    "durationSec": 141.8,
+    "videoFile": "videos/Statistically, We're Fine.mp4",
+    "coverFile": "covers/statistically.jpg",
+    "bpm": "94 BPM",
+    "model": "Suno V6-MINI",
+    "story": "Dry British deadpan comedy hip-hop about velvet waistcoats, spreadsheets for feelings, emergency stair whistles, and orderly panic.",
+    "lyrics": [
+      {
+        "start": 0.74,
+        "end": 1.4,
+        "text": "Right\u2014keep it tidy."
+      },
+      {
+        "start": 4.4,
+        "end": 5.94,
+        "text": "No, actually, don\u2019t."
+      },
+      {
+        "start": 10.52,
+        "end": 13.54,
+        "text": "I bought a velvet waistcoat from a man called Dave,"
+      },
+      {
+        "start": 13.58,
+        "end": 16.18,
+        "text": "He said, \u201cIt\u2019s nearly vintage,\u201d I said, \u201cNearly\u2019s brave.\u201d"
+      },
+      {
+        "start": 16.22,
+        "end": 18.86,
+        "text": "Got a spreadsheet for my feelings, colour-coded in despair,"
+      },
+      {
+        "start": 18.9,
+        "end": 20.66,
+        "text": "And a tiny little whistle for emergencies involving stairs."
+      },
+      {
+        "start": 21.42,
+        "end": 23.92,
+        "text": "I\u2019m remarkably composed in a queue for a kebab,"
+      },
+      {
+        "start": 23.96,
+        "end": 26.42,
+        "text": "Till a pigeon stole my napkin and I called it a cab."
+      },
+      {
+        "start": 26.46,
+        "end": 28.9,
+        "text": "I\u2019ve got manners like a butler, taste buds like a bin,"
+      },
+      {
+        "start": 28.94,
+        "end": 31.56,
+        "text": "Put a crown upon a sausage and I\u2019ll probably let it in."
+      },
+      {
+        "start": 31.6,
+        "end": 32.34,
+        "text": "Hold up\u2014"
+      },
+      {
+        "start": 32.34,
+        "end": 33.0,
+        "text": "What was that?"
+      },
+      {
+        "start": 33.36,
+        "end": 34.12,
+        "text": "No, leave it."
+      },
+      {
+        "start": 34.12,
+        "end": 35.98,
+        "text": "That\u2019s definitely part of the plan."
+      },
+      {
+        "start": 36.02,
+        "end": 38.74,
+        "text": "We\u2019re doing fine, we\u2019re doing fine,"
+      },
+      {
+        "start": 38.78,
+        "end": 41.22,
+        "text": "Absolutely normal, every single time."
+      },
+      {
+        "start": 41.48,
+        "end": 43.6,
+        "text": "Hands up high if your life\u2019s off-line,"
+      },
+      {
+        "start": 43.64,
+        "end": 46.3,
+        "text": "We\u2019re doing fine, we\u2019re doing fine."
+      },
+      {
+        "start": 46.86,
+        "end": 47.9,
+        "text": "Say, \u201cFine!\u201d"
+      },
+      {
+        "start": 47.9,
+        "end": 48.82,
+        "text": "(Fine!)"
+      },
+      {
+        "start": 49.46,
+        "end": 50.48,
+        "text": "Say, \u201cFine!\u201d"
+      },
+      {
+        "start": 50.48,
+        "end": 50.78,
+        "text": "(Fine!)"
+      },
+      {
+        "start": 51.58,
+        "end": 54.83,
+        "text": "That\u2019s the spirit\u2014statistically, we\u2019re fine."
+      },
+      {
+        "start": 55.2,
+        "end": 59.02,
+        "text": "I rehearsed an apology in case I bump a chair,"
+      },
+      {
+        "start": 59.06,
+        "end": 61.5,
+        "text": "Then I blamed the architecture with a confident stare."
+      },
+      {
+        "start": 61.7,
+        "end": 64.04,
+        "text": "My neighbour owns a parrot that has learned to swear,"
+      },
+      {
+        "start": 64.08,
+        "end": 67.06,
+        "text": "Now it\u2019s more emotionally available than anyone upstairs."
+      },
+      {
+        "start": 67.1,
+        "end": 69.8,
+        "text": "I made a five-year plan, it lasted till Tuesday,"
+      },
+      {
+        "start": 69.84,
+        "end": 72.58,
+        "text": "Bought a motivational mug, it said, \u201cTry again someday.\u201d"
+      },
+      {
+        "start": 72.62,
+        "end": 74.92,
+        "text": "My barber asked for guidance; I said, \u201cSurprise me, mate,\u201d"
+      },
+      {
+        "start": 74.96,
+        "end": 77.58,
+        "text": "Now I look like a haunted pear that\u2019s running late."
+      },
+      {
+        "start": 77.62,
+        "end": 79.02,
+        "text": "The bass drops out\u2014"
+      },
+      {
+        "start": 79.02,
+        "end": 80.0,
+        "text": "The room gets tense\u2014"
+      },
+      {
+        "start": 80.4,
+        "end": 81.19,
+        "text": "I\u2019ve got one thought"
+      },
+      {
+        "start": 81.24,
+        "end": 82.76,
+        "text": "And it\u2019s making no sense."
+      },
+      {
+        "start": 82.8,
+        "end": 84.6,
+        "text": "I\u2019m fluent in excuses, conversational in cheek,"
+      },
+      {
+        "start": 85.16,
+        "end": 86.62,
+        "text": "I can turn a minor setback to a documentary critique."
+      },
+      {
+        "start": 87.78,
+        "end": 90.3,
+        "text": "Got a sandwich in my pocket and a theory in my shoe,"
+      },
+      {
+        "start": 90.34,
+        "end": 92.82,
+        "text": "If confidence was currency, I\u2019d owe a pound or two."
+      },
+      {
+        "start": 92.86,
+        "end": 94.56,
+        "text": "You can call me unrealistic; I prefer \u201cfuture-famous,\u201d"
+      },
+      {
+        "start": 95.46,
+        "end": 98.02,
+        "text": "I put \u201cenigmatic\u201d on a form that asked for \u201cname and address.\u201d"
+      },
+      {
+        "start": 98.06,
+        "end": 100.5,
+        "text": "When the punchline lands sideways, let the brass section shout,"
+      },
+      {
+        "start": 100.54,
+        "end": 102.32,
+        "text": "If you didn\u2019t get the first one, there\u2019s another one\u2014watch out."
+      },
+      {
+        "start": 103.66,
+        "end": 106.3,
+        "text": "We\u2019re doing fine, we\u2019re doing fine,"
+      },
+      {
+        "start": 106.5,
+        "end": 108.92,
+        "text": "Absolutely normal, every single time."
+      },
+      {
+        "start": 109.2,
+        "end": 111.34,
+        "text": "Hands up high if your life\u2019s off-line,"
+      },
+      {
+        "start": 111.38,
+        "end": 113.8,
+        "text": "We\u2019re doing fine, we\u2019re doing fine."
+      },
+      {
+        "start": 114.26,
+        "end": 115.52,
+        "text": "Say, \u201cFine!\u201d"
+      },
+      {
+        "start": 115.52,
+        "end": 116.5,
+        "text": "(Fine!)"
+      },
+      {
+        "start": 116.5,
+        "end": 117.8,
+        "text": "Say, \u201cFine!\u201d"
+      },
+      {
+        "start": 117.8,
+        "end": 118.98,
+        "text": "(Fine!)"
+      },
+      {
+        "start": 118.98,
+        "end": 123.0,
+        "text": "That\u2019s the spirit\u2014statistically, we\u2019re fine."
+      },
+      {
+        "start": 123.8,
+        "end": 125.86,
+        "text": "No further questions."
+      },
+      {
+        "start": 125.9,
+        "end": 129.0,
+        "text": "Please form an orderly panic."
+      },
+      {
+        "start": 129.24,
+        "end": 133.0,
+        "text": "We\u2019re doing fine."
+      }
+    ]
+  }
+]

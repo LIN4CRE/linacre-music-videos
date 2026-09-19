@@ -1,0 +1,71 @@
+[Script Info]
+Title: Penny, You're Still Here - Official Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:03:58.00,Header,,0,0,0,,{\b1}PENNY, YOU'RE STILL HERE{\b0}   |   LINACRE
+Dialogue: 1,0:00:00.00,0:00:11.00,Lyrics,,0,0,0,,Penny grew up where the coal dust stayed,
+Dialogue: 1,0:00:14.06,0:00:16.42,Lyrics,,0,0,0,,Barnsley rain on the windowpane.
+Dialogue: 1,0:00:18.02,0:00:22.85,Lyrics,,0,0,0,,Jamie was older, trying to stand tall,
+Dialogue: 1,0:00:22.90,0:00:27.48,Lyrics,,0,0,0,,Chelsea was little, afraid of it all.
+Dialogue: 1,0:00:27.56,0:00:31.82,Lyrics,,0,0,0,,She learned to smile when the cupboard was bare,
+Dialogue: 1,0:00:32.14,0:00:36.50,Lyrics,,0,0,0,,To hide heavy thoughts beneath brushed hair.
+Dialogue: 1,0:00:37.04,0:00:40.90,Lyrics,,0,0,0,,Some nights the bottle promised relief,
+Dialogue: 1,0:00:41.14,0:00:45.80,Lyrics,,0,0,0,,Then morning came carrying shame and grief.
+Dialogue: 1,0:00:46.44,0:00:50.74,Lyrics,,0,0,0,,But underneath the hurt, underneath the years,
+Dialogue: 1,0:00:51.08,0:00:55.44,Lyrics,,0,0,0,,A small brave voice was louder than fear.
+Dialogue: 1,0:00:56.72,0:00:58.45,Lyrics,,0,0,0,,Penny, you're still here, still breathing,
+Dialogue: 1,0:00:58.50,0:01:01.24,Lyrics,,0,0,0,,Still got a heart that won't stop beating.
+Dialogue: 1,0:01:01.44,0:01:03.74,Lyrics,,0,0,0,,Riley needs your arms, Tommy needs your light,
+Dialogue: 1,0:01:03.94,0:01:05.79,Lyrics,,0,0,0,,There's a road out of the longest night.
+Dialogue: 1,0:01:05.84,0:01:07.82,Lyrics,,0,0,0,,Step by step, with the past behind,
+Dialogue: 1,0:01:08.02,0:01:11.20,Lyrics,,0,0,0,,You can leave those chains, you can change your mind.
+Dialogue: 1,0:01:11.40,0:01:13.39,Lyrics,,0,0,0,,Penny, the world can be kind again,
+Dialogue: 1,0:01:13.44,0:01:16.26,Lyrics,,0,0,0,,This is where your new life begins.
+Dialogue: 1,0:01:24.66,0:01:27.80,Lyrics,,0,0,0,,Eleven-year-old Riley watched her face,
+Dialogue: 1,0:01:28.80,0:01:31.98,Lyrics,,0,0,0,,Two-year-old Tommy reached for her embrace.
+Dialogue: 1,0:01:32.18,0:01:36.84,Lyrics,,0,0,0,,She saw in their eyes what she couldn't deny,
+Dialogue: 1,0:01:37.04,0:01:41.56,Lyrics,,0,0,0,,A reason to rise, a reason to try.
+Dialogue: 1,0:01:42.04,0:01:45.76,Lyrics,,0,0,0,,Jamie called round, and Chelsea came too,
+Dialogue: 1,0:01:45.96,0:01:49.86,Lyrics,,0,0,0,,No grand words, just a hand held true.
+Dialogue: 1,0:01:50.06,0:01:55.06,Lyrics,,0,0,0,,The old days pulled like a river in flood,
+Dialogue: 1,0:01:55.26,0:02:00.00,Lyrics,,0,0,0,,But Penny kept choosing the people she loved.
+Dialogue: 1,0:02:00.96,0:02:04.68,Lyrics,,0,0,0,,There were tears on the kitchen floor,
+Dialogue: 1,0:02:05.34,0:02:09.18,Lyrics,,0,0,0,,But she didn't sleep there anymore.
+Dialogue: 1,0:02:10.36,0:02:12.66,Lyrics,,0,0,0,,Penny, you're still here, still breathing,
+Dialogue: 1,0:02:12.86,0:02:15.10,Lyrics,,0,0,0,,Still got a heart that won't stop beating.
+Dialogue: 1,0:02:15.30,0:02:17.44,Lyrics,,0,0,0,,Riley needs your arms, Tommy needs your light,
+Dialogue: 1,0:02:17.64,0:02:19.01,Lyrics,,0,0,0,,There's a road out of the longest night.
+Dialogue: 1,0:02:19.06,0:02:21.27,Lyrics,,0,0,0,,Step by step, with the past behind,
+Dialogue: 1,0:02:21.32,0:02:24.76,Lyrics,,0,0,0,,You can leave those chains, you can change your mind.
+Dialogue: 1,0:02:24.96,0:02:26.61,Lyrics,,0,0,0,,Penny, the world can be kind again,
+Dialogue: 1,0:02:26.66,0:02:29.32,Lyrics,,0,0,0,,This is where your new life begins.
+Dialogue: 1,0:02:38.08,0:02:41.51,Lyrics,,0,0,0,,One honest morning, one open door,
+Dialogue: 1,0:02:41.56,0:02:46.54,Lyrics,,0,0,0,,One promise stronger than before.
+Dialogue: 1,0:02:46.74,0:02:51.42,Lyrics,,0,0,0,,David stood beside her, steady and true,
+Dialogue: 1,0:02:51.62,0:02:55.26,Lyrics,,0,0,0,,And Penny found the strength to follow through.
+Dialogue: 1,0:02:55.78,0:02:59.68,Lyrics,,0,0,0,,No miracle erased what had been,
+Dialogue: 1,0:03:01.20,0:03:04.72,Lyrics,,0,0,0,,Just courage to begin again.
+Dialogue: 1,0:03:05.60,0:03:07.72,Lyrics,,0,0,0,,Penny, you're still here, still believing,
+Dialogue: 1,0:03:07.92,0:03:10.40,Lyrics,,0,0,0,,Still got a heart that won't stop beating.
+Dialogue: 1,0:03:10.60,0:03:12.86,Lyrics,,0,0,0,,Riley's laughing, Tommy's holding tight,
+Dialogue: 1,0:03:13.06,0:03:14.88,Lyrics,,0,0,0,,The kitchen's full of ordinary light.
+Dialogue: 1,0:03:15.86,0:03:17.18,Lyrics,,0,0,0,,Jamie and Chelsea see her stand,
+Dialogue: 1,0:03:17.38,0:03:19.56,Lyrics,,0,0,0,,A brighter future built by hand.
+Dialogue: 1,0:03:19.76,0:03:23.50,Lyrics,,0,0,0,,Penny, the world is kind again,
+Dialogue: 1,0:03:24.32,0:03:27.56,Lyrics,,0,0,0,,This is where your new life begins.
+Dialogue: 1,0:03:29.74,0:03:32.88,Lyrics,,0,0,0,,From Barnsley rain to a clearer sky,
+Dialogue: 1,0:03:33.08,0:03:37.84,Lyrics,,0,0,0,,She chose tomorrow, she chose to try.
+Dialogue: 1,0:03:38.04,0:03:42.08,Lyrics,,0,0,0,,Penny, keep walking, the worst has passed,
+Dialogue: 1,0:03:42.28,0:03:47.34,Lyrics,,0,0,0,,A hard-won joy can last.

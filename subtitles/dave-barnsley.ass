@@ -1,0 +1,92 @@
+[Script Info]
+Title: Dave from Barnsley - Canonical Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:03:20.00,Header,,0,0,0,,{\b1}DAVE FROM BARNSLEY{\b0}   |   LINACRE
+Dialogue: 1,0:00:00.00,0:00:03.08,Lyrics,,0,0,0,,Yeah, this is Dave from Barnsley
+Dialogue: 1,0:00:03.70,0:00:05.32,Lyrics,,0,0,0,,Skint, knackered, still standing
+Dialogue: 1,0:00:06.06,0:00:07.85,Lyrics,,0,0,0,,Nic says, "You'll get there"
+Dialogue: 1,0:00:07.90,0:00:15.89,Lyrics,,0,0,0,,The cats say nothing, they just want dinner
+Dialogue: 1,0:00:15.94,0:00:19.00,Lyrics,,0,0,0,,Wakes up grumpy, argues with the kettle
+Dialogue: 1,0:00:19.34,0:00:21.40,Lyrics,,0,0,0,,Bills on the table, nerves on the metal
+Dialogue: 1,0:00:22.02,0:00:23.66,Lyrics,,0,0,0,,One sock missing, toast burnt black
+Dialogue: 1,0:00:24.18,0:00:26.11,Lyrics,,0,0,0,,Fester wants breakfast, Ralf wants that
+Dialogue: 1,0:00:26.16,0:00:28.15,Lyrics,,0,0,0,,Nic says, "Breathe, love, take it slow"
+Dialogue: 1,0:00:28.20,0:00:30.50,Lyrics,,0,0,0,,Dave says, "I would, but me body says no"
+Dialogue: 1,0:00:31.48,0:00:32.80,Lyrics,,0,0,0,,Hearing aid squeals like a bus in a tunnel
+Dialogue: 1,0:00:33.76,0:00:35.22,Lyrics,,0,0,0,,Tinnitus drums on a permanent funnel
+Dialogue: 1,0:00:35.98,0:00:37.62,Lyrics,,0,0,0,,Ramsey Hunt left him feeling worn and strange
+Dialogue: 1,0:00:38.24,0:00:39.44,Lyrics,,0,0,0,,Still he checks the post for a life-changing change
+Dialogue: 1,0:00:41.90,0:00:44.95,Lyrics,,0,0,0,,Oh Dave, Dave, world's most miserable man
+Dialogue: 1,0:00:45.00,0:00:47.23,Lyrics,,0,0,0,,Down on his luck but he's doing what he can
+Dialogue: 1,0:00:47.28,0:00:49.51,Lyrics,,0,0,0,,With a head full of plans and a pocket full of lint
+Dialogue: 1,0:00:49.56,0:00:51.00,Lyrics,,0,0,0,,He keeps on trying though the battery's spent
+Dialogue: 1,0:00:51.96,0:00:53.98,Lyrics,,0,0,0,,Oh Dave, Dave, don't throw in the towel
+Dialogue: 1,0:00:54.46,0:00:56.49,Lyrics,,0,0,0,,Fester and Ralf are prowling for chow
+Dialogue: 1,0:00:56.54,0:00:58.93,Lyrics,,0,0,0,,Nic says, "One more go, you're closer than you think"
+Dialogue: 1,0:00:58.98,0:01:01.04,Lyrics,,0,0,0,,He's got one little spark, and it's starting to blink
+Dialogue: 1,0:01:01.70,0:01:03.18,Lyrics,,0,0,0,,Project number one: fix the old machine
+Dialogue: 1,0:01:03.96,0:01:05.76,Lyrics,,0,0,0,,Project number two: build a better dream
+Dialogue: 1,0:01:06.30,0:01:07.66,Lyrics,,0,0,0,,Project number three: sell a clever guide
+Dialogue: 1,0:01:08.54,0:01:10.34,Lyrics,,0,0,0,,Project number four: the wheels fall off inside
+Dialogue: 1,0:01:11.08,0:01:12.82,Lyrics,,0,0,0,,ADHD brain does a lap of the room
+Dialogue: 1,0:01:13.16,0:01:15.13,Lyrics,,0,0,0,,Starts with a hammer, ends up painting the loo
+Dialogue: 1,0:01:15.18,0:01:17.66,Lyrics,,0,0,0,,Exhausted by breakfast, asleep by half ten
+Dialogue: 1,0:01:18.08,0:01:19.82,Lyrics,,0,0,0,,Wakes up annoyed, then he tries again
+Dialogue: 1,0:01:20.32,0:01:22.69,Lyrics,,0,0,0,,Back aches, knees creak, shoulder says "Why?"
+Dialogue: 1,0:01:22.74,0:01:24.50,Lyrics,,0,0,0,,He blames every joint on the weather outside
+Dialogue: 1,0:01:25.30,0:01:27.25,Lyrics,,0,0,0,,Nic brings tea and gives him the look
+Dialogue: 1,0:01:27.30,0:01:29.26,Lyrics,,0,0,0,,Fester steals a cable, Ralf eats the book
+Dialogue: 1,0:01:30.40,0:01:31.72,Lyrics,,0,0,0,,Oh Dave, Dave, world's most miserable man
+Dialogue: 1,0:01:32.34,0:01:34.31,Lyrics,,0,0,0,,Down on his luck but he's doing what he can
+Dialogue: 1,0:01:34.36,0:01:36.61,Lyrics,,0,0,0,,With a head full of plans and a pocket full of lint
+Dialogue: 1,0:01:36.66,0:01:38.82,Lyrics,,0,0,0,,He keeps on trying though the battery's spent
+Dialogue: 1,0:01:40.22,0:01:41.42,Lyrics,,0,0,0,,Oh Dave, Dave, don't throw in the towel
+Dialogue: 1,0:01:41.58,0:01:43.24,Lyrics,,0,0,0,,Fester and Ralf are prowling for chow
+Dialogue: 1,0:01:43.70,0:01:45.89,Lyrics,,0,0,0,,Nic says, "One more go, you're closer than you think"
+Dialogue: 1,0:01:45.94,0:01:48.16,Lyrics,,0,0,0,,He's got one little spark, and it's starting to blink
+Dialogue: 1,0:01:48.70,0:01:52.28,Lyrics,,0,0,0,,Come on, Dave, get up, have another try
+Dialogue: 1,0:01:53.14,0:01:55.15,Lyrics,,0,0,0,,I've got a list, though I've lost where I put it
+Dialogue: 1,0:01:55.20,0:01:57.41,Lyrics,,0,0,0,,A half-built thing and a cat that's chewed it
+Dialogue: 1,0:01:57.46,0:01:59.81,Lyrics,,0,0,0,,The world says no, but I'm not done yet
+Dialogue: 1,0:01:59.86,0:02:02.38,Lyrics,,0,0,0,,I've survived worse than a dodgy internet set
+Dialogue: 1,0:02:02.74,0:02:04.85,Lyrics,,0,0,0,,No grand parade, no miracle plan
+Dialogue: 1,0:02:04.90,0:02:07.33,Lyrics,,0,0,0,,Just one more step from a stubborn old man
+Dialogue: 1,0:02:07.38,0:02:09.55,Lyrics,,0,0,0,,If success is a door, I'll lean on the frame
+Dialogue: 1,0:02:09.60,0:02:11.89,Lyrics,,0,0,0,,If it won't open today, I'll remember the name
+Dialogue: 1,0:02:11.94,0:02:14.29,Lyrics,,0,0,0,,Then one small customer says, "This works for me"
+Dialogue: 1,0:02:14.34,0:02:16.35,Lyrics,,0,0,0,,One proper payment, not a maybe or "we'll see"
+Dialogue: 1,0:02:16.40,0:02:19.03,Lyrics,,0,0,0,,Dave checks the screen, then checks it again
+Dialogue: 1,0:02:19.08,0:02:21.39,Lyrics,,0,0,0,,Nic starts laughing, he nearly falls off the chair then
+Dialogue: 1,0:02:21.44,0:02:23.50,Lyrics,,0,0,0,,Fester looks proud, Ralf knocks over the light
+Dialogue: 1,0:02:23.98,0:02:25.88,Lyrics,,0,0,0,,The room's still a mess, but the feeling is right
+Dialogue: 1,0:02:26.20,0:02:28.59,Lyrics,,0,0,0,,His body still groans and the ringing stays loud
+Dialogue: 1,0:02:28.64,0:02:30.64,Lyrics,,0,0,0,,But Dave lifts his chin and he's grinning now
+Dialogue: 1,0:02:32.04,0:02:33.24,Lyrics,,0,0,0,,From Barnsley gloom to a modest success
+Dialogue: 1,0:02:33.26,0:02:35.10,Lyrics,,0,0,0,,Not fixed, not rich, but a little less stressed
+Dialogue: 1,0:02:35.60,0:02:37.70,Lyrics,,0,0,0,,Oh Dave, Dave, world's most miserable man
+Dialogue: 1,0:02:38.08,0:02:40.27,Lyrics,,0,0,0,,Down on his luck but he's doing what he can
+Dialogue: 1,0:02:40.32,0:02:42.59,Lyrics,,0,0,0,,With a head full of plans and a pocket of grit
+Dialogue: 1,0:02:42.64,0:02:44.85,Lyrics,,0,0,0,,He kept on moving and he's landed a hit
+Dialogue: 1,0:02:44.90,0:02:47.45,Lyrics,,0,0,0,,Oh Dave, Dave, let the whole room know
+Dialogue: 1,0:02:47.50,0:02:49.56,Lyrics,,0,0,0,,Fester and Ralf, it's time for the show
+Dialogue: 1,0:02:50.74,0:02:52.03,Lyrics,,0,0,0,,Nic says, "See? You're closer than you think"
+Dialogue: 1,0:02:52.08,0:02:54.14,Lyrics,,0,0,0,,That little spark caught fire, now it's starting to link
+Dialogue: 1,0:02:54.60,0:02:56.57,Lyrics,,0,0,0,,Still grumpy, still tired, still losing his pen
+Dialogue: 1,0:02:56.62,0:02:59.15,Lyrics,,0,0,0,,Still starting new projects at quarter past ten
+Dialogue: 1,0:02:59.20,0:03:01.23,Lyrics,,0,0,0,,But the kettle is singing, the cats have been fed
+Dialogue: 1,0:03:01.28,0:03:03.72,Lyrics,,0,0,0,,And Dave's got a future inside his head
+Dialogue: 1,0:03:04.12,0:03:06.00,Lyrics,,0,0,0,,One small win, one stubborn man
+Dialogue: 1,0:03:06.98,0:03:09.54,Lyrics,,0,0,0,,Barnsley's finest doing what he can

@@ -1,0 +1,61 @@
+[Script Info]
+Title: Skint Dave from Barnsley - Official Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:03:41.20,Header,,0,0,0,,{\b1}SKINT DAVE FROM BARNSLEY{\b0}   |   LINACRE
+Dialogue: 1,0:00:00.00,0:00:04.54,Lyrics,,0,0,0,,Morning sticks to the curtains, kettle takes its time
+Dialogue: 1,0:00:09.14,0:00:12.50,Lyrics,,0,0,0,,Fester guards the toolbox, Ralf is stealing mine
+Dialogue: 1,0:00:15.32,0:00:18.40,Lyrics,,0,0,0,,Nic says, "You've got a plan then?" I say, "I've got a few"
+Dialogue: 1,0:00:18.94,0:00:22.85,Lyrics,,0,0,0,,There's a chair that needs repairing and a shed that wants me too
+Dialogue: 1,0:00:22.90,0:00:24.24,Lyrics,,0,0,0,,My left side's playing hide-and-seek
+Dialogue: 1,0:00:26.30,0:00:30.18,Lyrics,,0,0,0,,The batteries chirp when I try to speak
+Dialogue: 1,0:00:30.72,0:00:34.20,Lyrics,,0,0,0,,The room keeps ringing like a shop alarm
+Dialogue: 1,0:00:34.58,0:00:38.60,Lyrics,,0,0,0,,Still I pull my boots on, still I mean no harm
+Dialogue: 1,0:00:39.52,0:00:43.39,Lyrics,,0,0,0,,I'm skint, Dave from Barnsley, counting pennies by the sink
+Dialogue: 1,0:00:43.44,0:00:47.31,Lyrics,,0,0,0,,Body coming loose at the seams, but I'm not done, I think
+Dialogue: 1,0:00:47.36,0:00:51.02,Lyrics,,0,0,0,,Fester, Ralf and Nic keep pulling me through
+Dialogue: 1,0:00:51.02,0:00:55.21,Lyrics,,0,0,0,,Every daft little project is a road I can choose
+Dialogue: 1,0:00:55.26,0:00:58.72,Lyrics,,0,0,0,,If the day says no, I'll have another go
+Dialogue: 1,0:00:59.08,0:01:03.90,Lyrics,,0,0,0,,There's a small light somewhere and I'm learning where it goes
+Dialogue: 1,0:01:06.60,0:01:10.54,Lyrics,,0,0,0,,Ramsey Hunt left a calling card beside my tired eye
+Dialogue: 1,0:01:10.80,0:01:14.48,Lyrics,,0,0,0,,Hearing aid whistles back whenever buses pass me by
+Dialogue: 1,0:01:15.56,0:01:18.33,Lyrics,,0,0,0,,Tinnitus fills the quiet, sleep forgets my name
+Dialogue: 1,0:01:18.38,0:01:21.93,Lyrics,,0,0,0,,I wake up feeling ninety, then I try the game again
+Dialogue: 1,0:01:21.98,0:01:24.99,Lyrics,,0,0,0,,The washing machine is leaking by the door
+Dialogue: 1,0:01:25.04,0:01:28.43,Lyrics,,0,0,0,,My knees have started arguing with the floor
+Dialogue: 1,0:01:29.46,0:01:32.08,Lyrics,,0,0,0,,Nic puts tea beside me, says, "Don't make it grand"
+Dialogue: 1,0:01:32.94,0:01:37.30,Lyrics,,0,0,0,,So I draw another sketch with a pencil in my hand
+Dialogue: 1,0:01:37.86,0:01:41.42,Lyrics,,0,0,0,,I'm skint, Dave from Barnsley, counting pennies by the sink
+Dialogue: 1,0:01:41.86,0:01:45.32,Lyrics,,0,0,0,,Body coming loose at the seams, but I'm not done, I think
+Dialogue: 1,0:01:46.66,0:01:49.14,Lyrics,,0,0,0,,Fester, Ralf and Nic keep pulling me through
+Dialogue: 1,0:01:49.14,0:01:53.21,Lyrics,,0,0,0,,Every daft little project is a road I can choose
+Dialogue: 1,0:01:53.26,0:01:56.76,Lyrics,,0,0,0,,If the day says no, I'll have another go
+Dialogue: 1,0:01:57.02,0:02:01.88,Lyrics,,0,0,0,,There's a small light somewhere and I'm learning where it goes
+Dialogue: 1,0:02:04.30,0:02:08.50,Lyrics,,0,0,0,,One plan for a planter, one plan for a shelf
+Dialogue: 1,0:02:09.08,0:02:12.58,Lyrics,,0,0,0,,Three half-built inventions scattered round myself
+Dialogue: 1,0:02:13.02,0:02:16.61,Lyrics,,0,0,0,,ADHD weather, thunder in my head
+Dialogue: 1,0:02:16.66,0:02:20.45,Lyrics,,0,0,0,,But Nic finds the missing screw beneath the bed
+Dialogue: 1,0:02:20.50,0:02:24.58,Lyrics,,0,0,0,,I turn the power on and something starts to hum
+Dialogue: 1,0:02:24.86,0:02:30.02,Lyrics,,0,0,0,,Not the ringing in my ears this time-something I have done
+Dialogue: 1,0:02:32.88,0:02:37.14,Lyrics,,0,0,0,,I'm skint, Dave from Barnsley, but the numbers start to change
+Dialogue: 1,0:02:37.48,0:02:41.62,Lyrics,,0,0,0,,That little thing I built today has found its way to someone's place
+Dialogue: 1,0:02:42.14,0:02:45.52,Lyrics,,0,0,0,,Fester's on the worktop, Ralf is curled up blue
+Dialogue: 1,0:02:45.96,0:02:49.70,Lyrics,,0,0,0,,Nic is laughing in the doorway saying, "See, I knew you'd do"
+Dialogue: 1,0:02:49.96,0:02:53.58,Lyrics,,0,0,0,,If the day says no, I'll have another go
+Dialogue: 1,0:02:53.90,0:02:58.86,Lyrics,,0,0,0,,There's a small light getting brighter and I'm learning where it goes
+Dialogue: 1,0:03:05.74,0:03:09.97,Lyrics,,0,0,0,,The kettle clicks, the morning comes, the workshop catches fire
+Dialogue: 1,0:03:10.02,0:03:14.13,Lyrics,,0,0,0,,Not a blaze, just one good idea climbing a little higher
+Dialogue: 1,0:03:14.18,0:03:18.38,Lyrics,,0,0,0,,I'm still here, still trying, with a spark beneath the skin
+Dialogue: 1,0:03:19.84,0:03:24.58,Lyrics,,0,0,0,,Skint, Dave from Barnsley-and tonight, I think I win
