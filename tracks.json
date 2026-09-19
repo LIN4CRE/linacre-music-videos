@@ -1,5 +1,311 @@
 [
   {
+    "id": "barnsley-town",
+    "title": "Barnsley Town",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "UK Comedy Pop-Rap / Garage",
+    "duration": "3:01",
+    "durationSec": 181.45,
+    "videoFile": "videos/Barnsley Town.mp4",
+    "coverFile": "covers/barnsley-town.jpg",
+    "bpm": "132 BPM",
+    "model": "Suno V6-MINI",
+    "story": "A bouncy northern council estate comedy pop-rap anthem celebrating Barnsley life, Chambers pub, Creepy Steve by the bins, Bhramahs, mucky women moonwalking, and the iconic Blue da-ba-dee dance breakdown.",
+    "lyrics": [
+      {
+        "start": 0.0,
+        "end": 2.1,
+        "text": "Alright, Barnsley Town!"
+      },
+      {
+        "start": 2.52,
+        "end": 5.2,
+        "text": "Chambers on the corner, Bhramahs in the air"
+      },
+      {
+        "start": 5.68,
+        "end": 9.2,
+        "text": "Creepy Steve\u2019s by the bins like he\u2019s always been there"
+      },
+      {
+        "start": 9.98,
+        "end": 12.28,
+        "text": "Council flat kingdom, kettle on the boil"
+      },
+      {
+        "start": 12.32,
+        "end": 14.7,
+        "text": "Lift smells funny but we\u2019re loyal to the soil"
+      },
+      {
+        "start": 15.02,
+        "end": 16.8,
+        "text": "Mucky woman\u2019s laughing in a dressing gown"
+      },
+      {
+        "start": 16.8,
+        "end": 19.08,
+        "text": "Says, \u201cI\u2019ve got class, love\u201d \u2014 then she falls straight down"
+      },
+      {
+        "start": 19.08,
+        "end": 21.96,
+        "text": "Creepy Steve\u2019s got a raincoat and a plastic cup"
+      },
+      {
+        "start": 21.96,
+        "end": 24.2,
+        "text": "Knows every back door, every shortcut up"
+      },
+      {
+        "start": 24.62,
+        "end": 26.24,
+        "text": "Bhramahs on the table, crisps in a bowl"
+      },
+      {
+        "start": 26.28,
+        "end": 28.21,
+        "text": "Weed in the garden, keeping slugs on patrol"
+      },
+      {
+        "start": 28.26,
+        "end": 30.56,
+        "text": "If the rent\u2019s gone up, we\u2019ll blame the moon"
+      },
+      {
+        "start": 30.6,
+        "end": 32.72,
+        "text": "If the telly breaks, we\u2019ll fix it with a spoon"
+      },
+      {
+        "start": 32.92,
+        "end": 35.28,
+        "text": "From the stairwell choir to the busted old van"
+      },
+      {
+        "start": 35.32,
+        "end": 38.06,
+        "text": "We\u2019re making do, mate \u2014 that\u2019s the council plan"
+      },
+      {
+        "start": 38.36,
+        "end": 40.44,
+        "text": "Crazy cuz, crazy cuz, what you playing at?"
+      },
+      {
+        "start": 40.48,
+        "end": 42.72,
+        "text": "Mucky woman\u2019s moonwalking in a leopard hat"
+      },
+      {
+        "start": 42.76,
+        "end": 45.0,
+        "text": "Barnsley Town, sing it loud, don\u2019t be shy"
+      },
+      {
+        "start": 45.2,
+        "end": 47.32,
+        "text": "Chambers pub calling, so we\u2019re giving it a try"
+      },
+      {
+        "start": 47.54,
+        "end": 49.8,
+        "text": "Crazy cuz, crazy cuz, life\u2019s a funny little tune"
+      },
+      {
+        "start": 50.44,
+        "end": 51.92,
+        "text": "Bhramahs, bits of weed, and a washing line balloon"
+      },
+      {
+        "start": 51.96,
+        "end": 53.96,
+        "text": "Creepy Steve says, \u201cOne more?\u201d \u2014 and we all shout, \u201cCourse!\u201d"
+      },
+      {
+        "start": 54.0,
+        "end": 57.5,
+        "text": "Then we lose the last bus crawling back from Chambers!"
+      },
+      {
+        "start": 62.22,
+        "end": 67.42,
+        "text": "The hallway\u2019s got a mystery stain with history"
+      },
+      {
+        "start": 67.8,
+        "end": 70.0,
+        "text": "Landlord calls it \u201ccharacter,\u201d we call it misery"
+      },
+      {
+        "start": 70.4,
+        "end": 72.56,
+        "text": "Mucky woman\u2019s got a handbag full of receipts"
+      },
+      {
+        "start": 72.56,
+        "end": 75.0,
+        "text": "And a kebab that\u2019s been ageing for three weeks"
+      },
+      {
+        "start": 75.04,
+        "end": 77.3,
+        "text": "Creepy Steve\u2019s doing parkour by the bin store"
+      },
+      {
+        "start": 77.56,
+        "end": 79.6,
+        "text": "Missed the landing, now he\u2019s knocking on floor four"
+      },
+      {
+        "start": 79.98,
+        "end": 81.9,
+        "text": "Bhramahs makes the wisdom seem surprisingly deep"
+      },
+      {
+        "start": 82.14,
+        "end": 84.1,
+        "text": "\u201cNever trust a pigeon that refuses to sleep\u201d"
+      },
+      {
+        "start": 84.32,
+        "end": 86.74,
+        "text": "The neighbour\u2019s got a barbecue made from a chair"
+      },
+      {
+        "start": 86.74,
+        "end": 88.74,
+        "text": "Someone\u2019s growing herbs in the communal air"
+      },
+      {
+        "start": 88.78,
+        "end": 91.22,
+        "text": "We\u2019ve got big dreams and a tiny front room"
+      },
+      {
+        "start": 91.26,
+        "end": 93.5,
+        "text": "But the bass through the ceiling makes the whole block boom"
+      },
+      {
+        "start": 93.78,
+        "end": 95.9,
+        "text": "Crazy cuz, crazy cuz, what you playing at?"
+      },
+      {
+        "start": 96.08,
+        "end": 98.2,
+        "text": "Mucky woman\u2019s moonwalking in a leopard hat"
+      },
+      {
+        "start": 98.4,
+        "end": 100.62,
+        "text": "Barnsley Town, sing it loud, don\u2019t be shy"
+      },
+      {
+        "start": 100.62,
+        "end": 102.8,
+        "text": "Chambers pub calling, so we\u2019re giving it a try"
+      },
+      {
+        "start": 103.0,
+        "end": 105.3,
+        "text": "Crazy cuz, crazy cuz, life\u2019s a funny little tune"
+      },
+      {
+        "start": 105.58,
+        "end": 107.3,
+        "text": "Bhramahs, bits of weed, and a washing line balloon"
+      },
+      {
+        "start": 107.34,
+        "end": 109.4,
+        "text": "Creepy Steve says, \u201cOne more?\u201d \u2014 and we all shout, \u201cCourse!\u201d"
+      },
+      {
+        "start": 109.44,
+        "end": 112.5,
+        "text": "Then we lose the last bus crawling back from Chambers!"
+      },
+      {
+        "start": 112.6,
+        "end": 126.5,
+        "text": "\u266a (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da...) \u266a"
+      },
+      {
+        "start": 126.6,
+        "end": 141.5,
+        "text": "\u266a (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da!) \u266a"
+      },
+      {
+        "start": 142.36,
+        "end": 144.2,
+        "text": "Crazy cuz, crazy cuz, clap along with that"
+      },
+      {
+        "start": 144.2,
+        "end": 146.46,
+        "text": "Mucky woman\u2019s singing through a borrowed megaphone hat"
+      },
+      {
+        "start": 146.6,
+        "end": 148.76,
+        "text": "Barnsley Town, raise the roof, let it fly"
+      },
+      {
+        "start": 148.76,
+        "end": 151.2,
+        "text": "We\u2019re too skint for taxis but we still get by"
+      },
+      {
+        "start": 151.46,
+        "end": 153.66,
+        "text": "Crazy cuz, crazy cuz, laughing at the doom"
+      },
+      {
+        "start": 153.66,
+        "end": 155.72,
+        "text": "Weed by the window, Bhramahs in the room"
+      },
+      {
+        "start": 155.84,
+        "end": 158.18,
+        "text": "Creepy Steve says, \u201cLast one!\u201d \u2014 we all know the score"
+      },
+      {
+        "start": 158.18,
+        "end": 161.32,
+        "text": "Then we\u2019re dancing in the drizzle outside Chambers\u2019 door!"
+      },
+      {
+        "start": 161.32,
+        "end": 163.58,
+        "text": "Barnsley Town, council crown"
+      },
+      {
+        "start": 163.58,
+        "end": 165.64,
+        "text": "Creepy Steve, don\u2019t let us down"
+      },
+      {
+        "start": 165.86,
+        "end": 168.24,
+        "text": "Bhramahs, weed, and a night outdoors"
+      },
+      {
+        "start": 168.24,
+        "end": 171.16,
+        "text": "See you next week, same time, same Chambers!"
+      },
+      {
+        "start": 171.2,
+        "end": 180.68,
+        "text": "\u266a Chambers... Chambers! \u266a"
+      }
+    ]
+  },
+  {
     "id": "skint-dave",
     "title": "Skint Dave from Barnsley",
     "artist": "Linacre",

@@ -1,0 +1,75 @@
+[Script Info]
+Title: Barnsley Town - Official Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:03:01.49,Header,,0,0,0,,{\b1}BARNSLEY TOWN{\b0}   |   LINACRE
+Dialogue: 1,0:00:00.00,0:00:02.10,Lyrics,,0,0,0,,Alright, Barnsley Town!
+Dialogue: 1,0:00:02.52,0:00:05.20,Lyrics,,0,0,0,,Chambers on the corner, Bhramahs in the air
+Dialogue: 1,0:00:05.68,0:00:09.20,Lyrics,,0,0,0,,Creepy Steve's by the bins like he's always been there
+Dialogue: 1,0:00:09.98,0:00:12.28,Lyrics,,0,0,0,,Council flat kingdom, kettle on the boil
+Dialogue: 1,0:00:12.32,0:00:14.70,Lyrics,,0,0,0,,Lift smells funny but we're loyal to the soil
+Dialogue: 1,0:00:15.02,0:00:16.80,Lyrics,,0,0,0,,Mucky woman's laughing in a dressing gown
+Dialogue: 1,0:00:16.80,0:00:19.08,Lyrics,,0,0,0,,Says, "I've got class, love" - then she falls straight down
+Dialogue: 1,0:00:19.08,0:00:21.96,Lyrics,,0,0,0,,Creepy Steve's got a raincoat and a plastic cup
+Dialogue: 1,0:00:21.96,0:00:24.20,Lyrics,,0,0,0,,Knows every back door, every shortcut up
+Dialogue: 1,0:00:24.62,0:00:26.24,Lyrics,,0,0,0,,Bhramahs on the table, crisps in a bowl
+Dialogue: 1,0:00:26.28,0:00:28.21,Lyrics,,0,0,0,,Weed in the garden, keeping slugs on patrol
+Dialogue: 1,0:00:28.26,0:00:30.56,Lyrics,,0,0,0,,If the rent's gone up, we'll blame the moon
+Dialogue: 1,0:00:30.60,0:00:32.72,Lyrics,,0,0,0,,If the telly breaks, we'll fix it with a spoon
+Dialogue: 1,0:00:32.92,0:00:35.28,Lyrics,,0,0,0,,From the stairwell choir to the busted old van
+Dialogue: 1,0:00:35.32,0:00:38.06,Lyrics,,0,0,0,,We're making do, mate - that's the council plan
+Dialogue: 1,0:00:38.36,0:00:40.44,Lyrics,,0,0,0,,Crazy cuz, crazy cuz, what you playing at?
+Dialogue: 1,0:00:40.48,0:00:42.72,Lyrics,,0,0,0,,Mucky woman's moonwalking in a leopard hat
+Dialogue: 1,0:00:42.76,0:00:45.00,Lyrics,,0,0,0,,Barnsley Town, sing it loud, don't be shy
+Dialogue: 1,0:00:45.20,0:00:47.32,Lyrics,,0,0,0,,Chambers pub calling, so we're giving it a try
+Dialogue: 1,0:00:47.54,0:00:49.80,Lyrics,,0,0,0,,Crazy cuz, crazy cuz, life's a funny little tune
+Dialogue: 1,0:00:50.44,0:00:51.92,Lyrics,,0,0,0,,Bhramahs, bits of weed, and a washing line balloon
+Dialogue: 1,0:00:51.96,0:00:53.96,Lyrics,,0,0,0,,Creepy Steve says, "One more?" - and we all shout, "Course!"
+Dialogue: 1,0:00:54.00,0:00:57.50,Lyrics,,0,0,0,,Then we lose the last bus crawling back from Chambers!
+Dialogue: 1,0:01:02.22,0:01:07.42,Lyrics,,0,0,0,,The hallway's got a mystery stain with history
+Dialogue: 1,0:01:07.80,0:01:10.00,Lyrics,,0,0,0,,Landlord calls it "character," we call it misery
+Dialogue: 1,0:01:10.40,0:01:12.56,Lyrics,,0,0,0,,Mucky woman's got a handbag full of receipts
+Dialogue: 1,0:01:12.56,0:01:15.00,Lyrics,,0,0,0,,And a kebab that's been ageing for three weeks
+Dialogue: 1,0:01:15.04,0:01:17.30,Lyrics,,0,0,0,,Creepy Steve's doing parkour by the bin store
+Dialogue: 1,0:01:17.56,0:01:19.60,Lyrics,,0,0,0,,Missed the landing, now he's knocking on floor four
+Dialogue: 1,0:01:19.98,0:01:21.90,Lyrics,,0,0,0,,Bhramahs makes the wisdom seem surprisingly deep
+Dialogue: 1,0:01:22.14,0:01:24.10,Lyrics,,0,0,0,,"Never trust a pigeon that refuses to sleep"
+Dialogue: 1,0:01:24.32,0:01:26.74,Lyrics,,0,0,0,,The neighbour's got a barbecue made from a chair
+Dialogue: 1,0:01:26.74,0:01:28.74,Lyrics,,0,0,0,,Someone's growing herbs in the communal air
+Dialogue: 1,0:01:28.78,0:01:31.22,Lyrics,,0,0,0,,We've got big dreams and a tiny front room
+Dialogue: 1,0:01:31.26,0:01:33.50,Lyrics,,0,0,0,,But the bass through the ceiling makes the whole block boom
+Dialogue: 1,0:01:33.78,0:01:35.90,Lyrics,,0,0,0,,Crazy cuz, crazy cuz, what you playing at?
+Dialogue: 1,0:01:36.08,0:01:38.20,Lyrics,,0,0,0,,Mucky woman's moonwalking in a leopard hat
+Dialogue: 1,0:01:38.40,0:01:40.62,Lyrics,,0,0,0,,Barnsley Town, sing it loud, don't be shy
+Dialogue: 1,0:01:40.62,0:01:42.80,Lyrics,,0,0,0,,Chambers pub calling, so we're giving it a try
+Dialogue: 1,0:01:43.00,0:01:45.30,Lyrics,,0,0,0,,Crazy cuz, crazy cuz, life's a funny little tune
+Dialogue: 1,0:01:45.58,0:01:47.30,Lyrics,,0,0,0,,Bhramahs, bits of weed, and a washing line balloon
+Dialogue: 1,0:01:47.34,0:01:49.40,Lyrics,,0,0,0,,Creepy Steve says, "One more?" - and we all shout, "Course!"
+Dialogue: 1,0:01:49.44,0:01:52.50,Lyrics,,0,0,0,,Then we lose the last bus crawling back from Chambers!
+Dialogue: 1,0:01:52.60,0:02:06.50,Lyrics,,0,0,0,,♪ (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da...) ♪
+Dialogue: 1,0:02:06.60,0:02:21.50,Lyrics,,0,0,0,,♪ (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da!) ♪
+Dialogue: 1,0:02:22.36,0:02:24.20,Lyrics,,0,0,0,,Crazy cuz, crazy cuz, clap along with that
+Dialogue: 1,0:02:24.20,0:02:26.46,Lyrics,,0,0,0,,Mucky woman's singing through a borrowed megaphone hat
+Dialogue: 1,0:02:26.60,0:02:28.76,Lyrics,,0,0,0,,Barnsley Town, raise the roof, let it fly
+Dialogue: 1,0:02:28.76,0:02:31.20,Lyrics,,0,0,0,,We're too skint for taxis but we still get by
+Dialogue: 1,0:02:31.46,0:02:33.66,Lyrics,,0,0,0,,Crazy cuz, crazy cuz, laughing at the doom
+Dialogue: 1,0:02:33.66,0:02:35.72,Lyrics,,0,0,0,,Weed by the window, Bhramahs in the room
+Dialogue: 1,0:02:35.84,0:02:38.18,Lyrics,,0,0,0,,Creepy Steve says, "Last one!" - we all know the score
+Dialogue: 1,0:02:38.18,0:02:41.32,Lyrics,,0,0,0,,Then we're dancing in the drizzle outside Chambers' door!
+Dialogue: 1,0:02:41.32,0:02:43.58,Lyrics,,0,0,0,,Barnsley Town, council crown
+Dialogue: 1,0:02:43.58,0:02:45.64,Lyrics,,0,0,0,,Creepy Steve, don't let us down
+Dialogue: 1,0:02:45.86,0:02:48.24,Lyrics,,0,0,0,,Bhramahs, weed, and a night outdoors
+Dialogue: 1,0:02:48.24,0:02:51.16,Lyrics,,0,0,0,,See you next week, same time, same Chambers!
+Dialogue: 1,0:02:51.20,0:03:00.68,Lyrics,,0,0,0,,♪ Chambers... Chambers! ♪

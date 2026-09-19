@@ -69,6 +69,9 @@ async function initApp() {
 
 // Render the Playlist Cards
 function renderPlaylist() {
+  const countBadge = document.getElementById('trackCountBadge');
+  if (countBadge) countBadge.textContent = `${tracks.length} Videos`;
+
   playlistGrid.innerHTML = '';
   tracks.forEach((track, index) => {
     const card = document.createElement('div');
@@ -261,6 +264,7 @@ function drawAmbientFrame() {
 
 function updateAmbientPalette(trackId) {
   const palettes = {
+    'barnsley-town': 'radial-gradient(circle at 50% 20%, rgba(0, 240, 255, 0.14) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'skint-dave': 'radial-gradient(circle at 50% 20%, rgba(255, 170, 0, 0.12) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'penny': 'radial-gradient(circle at 50% 20%, rgba(244, 63, 94, 0.12) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'dave-barnsley': 'radial-gradient(circle at 50% 20%, rgba(59, 130, 246, 0.12) 0%, rgba(8, 9, 13, 0.95) 75%)',
