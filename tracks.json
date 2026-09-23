@@ -2070,5 +2070,306 @@
         "text": "Take your time, I understand."
       }
     ]
+  },
+  {
+    "id": "nic-on-donny-road",
+    "title": "Nic on Donny Road",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "UK Comedy Rap / Northern Boom-Bap",
+    "duration": "2:53",
+    "durationSec": 173.4,
+    "videoFile": "videos/Nic on Donny Road.mp4",
+    "coverFile": "covers/nic-on-donny-road.jpg",
+    "bpm": "98 BPM",
+    "model": "Suno V6-MINI",
+    "story": "A hilarious, affectionate Northern comedy rap anthem celebrating Nic running the household on Donny Road\u2014sorting out grumpy Dave, feeding cats Fester & Ralf, and keeping the entire show moving with tea and a smile.",
+    "lyrics": [
+      {
+        "start": 0.0,
+        "end": 2.5,
+        "text": "Yeah, down on Donny Road,"
+      },
+      {
+        "start": 2.5,
+        "end": 4.9,
+        "text": "Nic's in charge, keeping the wheels turning."
+      },
+      {
+        "start": 4.9,
+        "end": 7.38,
+        "text": "Dave's still grumpy, the cats are still hungry,"
+      },
+      {
+        "start": 7.38,
+        "end": 12.16,
+        "text": "But Nic's running the show on Donny Road."
+      },
+      {
+        "start": 14.92,
+        "end": 18.0,
+        "text": "Early morning sunshine on Donny Road,"
+      },
+      {
+        "start": 18.0,
+        "end": 20.98,
+        "text": "Nic's on the go, carrying the heavy load."
+      },
+      {
+        "start": 21.3,
+        "end": 23.5,
+        "text": "Tea in the mug and the keys in her hand,"
+      },
+      {
+        "start": 23.5,
+        "end": 25.72,
+        "text": "Sorting out the madness, running the land."
+      },
+      {
+        "start": 25.72,
+        "end": 28.0,
+        "text": "Dave's in the corner losing his phone,"
+      },
+      {
+        "start": 28.0,
+        "end": 30.52,
+        "text": "Fester and Ralf making Donny Road their home."
+      },
+      {
+        "start": 30.66,
+        "end": 33.0,
+        "text": "She handles the chaos with a smile and a nod,"
+      },
+      {
+        "start": 33.0,
+        "end": 35.14,
+        "text": "Managing the house like an absolute god."
+      },
+      {
+        "start": 35.28,
+        "end": 37.8,
+        "text": "Postman comes by, drops off the mail,"
+      },
+      {
+        "start": 37.8,
+        "end": 40.28,
+        "text": "Nic keeps the ship straight, never gonna fail."
+      },
+      {
+        "start": 41.72,
+        "end": 44.5,
+        "text": "Oh Nic, Nic, legend of Donny Road,"
+      },
+      {
+        "start": 44.5,
+        "end": 46.88,
+        "text": "Keeping everyone steady, lightens the load."
+      },
+      {
+        "start": 47.04,
+        "end": 49.0,
+        "text": "With a heart made of gold and a cup full of tea,"
+      },
+      {
+        "start": 49.0,
+        "end": 51.02,
+        "text": "She's the brightest spark on Donny Road, you see."
+      },
+      {
+        "start": 51.02,
+        "end": 54.0,
+        "text": "Oh Nic, Nic, holding it all together,"
+      },
+      {
+        "start": 54.0,
+        "end": 57.46,
+        "text": "Rain or shine, whatever the weather."
+      },
+      {
+        "start": 57.56,
+        "end": 60.0,
+        "text": "She tells old Dave, \"We're doing just fine,\""
+      },
+      {
+        "start": 60.0,
+        "end": 62.44,
+        "text": "Nic on Donny Road, shining all the time!"
+      },
+      {
+        "start": 62.44,
+        "end": 64.6,
+        "text": "Donny Road traffic humming right outside,"
+      },
+      {
+        "start": 64.6,
+        "end": 66.82,
+        "text": "Nic takes it all in a stride full of pride."
+      },
+      {
+        "start": 66.98,
+        "end": 69.3,
+        "text": "Fixing up the schedule, planning out the week,"
+      },
+      {
+        "start": 69.3,
+        "end": 71.62,
+        "text": "Giving Dave the answers before he can speak."
+      },
+      {
+        "start": 71.82,
+        "end": 74.0,
+        "text": "Fester wants cuddles, Ralf wants a treat,"
+      },
+      {
+        "start": 74.0,
+        "end": 76.4,
+        "text": "Nic moves smooth, never losing a beat."
+      },
+      {
+        "start": 76.4,
+        "end": 78.6,
+        "text": "From the kitchen counter to the garden gate,"
+      },
+      {
+        "start": 78.6,
+        "end": 80.86,
+        "text": "She keeps things sweet, never letting things grate."
+      },
+      {
+        "start": 80.86,
+        "end": 84.5,
+        "text": "A bit of Northern warmth in everything she does,"
+      },
+      {
+        "start": 84.5,
+        "end": 88.26,
+        "text": "Donny Road's humming with a happy little buzz."
+      },
+      {
+        "start": 88.26,
+        "end": 90.8,
+        "text": "Oh Nic, Nic, legend of Donny Road,"
+      },
+      {
+        "start": 90.8,
+        "end": 93.34,
+        "text": "Keeping everyone steady, lightens the load."
+      },
+      {
+        "start": 93.34,
+        "end": 95.8,
+        "text": "With a heart made of gold and a cup full of tea,"
+      },
+      {
+        "start": 95.8,
+        "end": 98.36,
+        "text": "She's the brightest spark on Donny Road, you see."
+      },
+      {
+        "start": 98.74,
+        "end": 101.4,
+        "text": "Oh Nic, Nic, holding it all together,"
+      },
+      {
+        "start": 101.4,
+        "end": 104.16,
+        "text": "Rain or shine, whatever the weather."
+      },
+      {
+        "start": 104.16,
+        "end": 106.8,
+        "text": "She tells old Dave, \"We're doing just fine,\""
+      },
+      {
+        "start": 106.8,
+        "end": 109.62,
+        "text": "Nic on Donny Road, shining all the time!"
+      },
+      {
+        "start": 109.62,
+        "end": 111.8,
+        "text": "Dave: \"Nic, love, where'd I put me keys?\""
+      },
+      {
+        "start": 111.8,
+        "end": 114.3,
+        "text": "Nic: \"They're on the hook, Dave, right by your knees!\""
+      },
+      {
+        "start": 114.3,
+        "end": 116.6,
+        "text": "I keep the place running, keep the cats fed,"
+      },
+      {
+        "start": 116.6,
+        "end": 118.96,
+        "text": "Make sure there's a roof right over your head."
+      },
+      {
+        "start": 118.96,
+        "end": 121.5,
+        "text": "Through the daily hassle and the Donny Road noise,"
+      },
+      {
+        "start": 121.5,
+        "end": 124.06,
+        "text": "I'm keeping my cool and keeping my poise."
+      },
+      {
+        "start": 124.18,
+        "end": 126.8,
+        "text": "Sun goes down over Donny Road street,"
+      },
+      {
+        "start": 126.8,
+        "end": 129.64,
+        "text": "Nic sits back, finally off her feet."
+      },
+      {
+        "start": 129.64,
+        "end": 132.5,
+        "text": "Dave brings a brew, says \"Thanks for the day,\""
+      },
+      {
+        "start": 132.5,
+        "end": 135.0,
+        "text": "Cats curl up in their usual way."
+      },
+      {
+        "start": 135.0,
+        "end": 137.28,
+        "text": "From morning rush to the evening glow,"
+      },
+      {
+        "start": 137.28,
+        "end": 140.5,
+        "text": "Nic's the real star of the Donny Road show."
+      },
+      {
+        "start": 140.5,
+        "end": 143.5,
+        "text": "Yeah, Nic on Donny Road,"
+      },
+      {
+        "start": 143.5,
+        "end": 146.0,
+        "text": "Keeping it all together."
+      },
+      {
+        "start": 146.0,
+        "end": 148.32,
+        "text": "Dave, Fester, Ralf and Nic,"
+      },
+      {
+        "start": 148.32,
+        "end": 151.52,
+        "text": "Best team on Donny Road!"
+      },
+      {
+        "start": 151.52,
+        "end": 160.0,
+        "text": "That's how we do it!"
+      }
+    ]
   }
 ]

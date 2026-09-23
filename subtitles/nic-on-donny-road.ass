@@ -1,0 +1,74 @@
+[Script Info]
+Title: Nic on Donny Road - Official Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:02:53.40,Header,,0,0,0,,{\b1}NIC ON DONNY ROAD{\b0}   |   LINACRE
+Dialogue: 1,0:00:00.00,0:00:02.50,Lyrics,,0,0,0,,Yeah, down on Donny Road,
+Dialogue: 1,0:00:02.50,0:00:04.90,Lyrics,,0,0,0,,Nic's in charge, keeping the wheels turning.
+Dialogue: 1,0:00:04.90,0:00:07.38,Lyrics,,0,0,0,,Dave's still grumpy, the cats are still hungry,
+Dialogue: 1,0:00:07.38,0:00:12.16,Lyrics,,0,0,0,,But Nic's running the show on Donny Road.
+Dialogue: 1,0:00:14.92,0:00:18.00,Lyrics,,0,0,0,,Early morning sunshine on Donny Road,
+Dialogue: 1,0:00:18.00,0:00:20.98,Lyrics,,0,0,0,,Nic's on the go, carrying the heavy load.
+Dialogue: 1,0:00:21.30,0:00:23.50,Lyrics,,0,0,0,,Tea in the mug and the keys in her hand,
+Dialogue: 1,0:00:23.50,0:00:25.72,Lyrics,,0,0,0,,Sorting out the madness, running the land.
+Dialogue: 1,0:00:25.72,0:00:28.00,Lyrics,,0,0,0,,Dave's in the corner losing his phone,
+Dialogue: 1,0:00:28.00,0:00:30.52,Lyrics,,0,0,0,,Fester and Ralf making Donny Road their home.
+Dialogue: 1,0:00:30.66,0:00:33.00,Lyrics,,0,0,0,,She handles the chaos with a smile and a nod,
+Dialogue: 1,0:00:33.00,0:00:35.14,Lyrics,,0,0,0,,Managing the house like an absolute god.
+Dialogue: 1,0:00:35.28,0:00:37.80,Lyrics,,0,0,0,,Postman comes by, drops off the mail,
+Dialogue: 1,0:00:37.80,0:00:40.28,Lyrics,,0,0,0,,Nic keeps the ship straight, never gonna fail.
+Dialogue: 1,0:00:41.72,0:00:44.50,Lyrics,,0,0,0,,Oh Nic, Nic, legend of Donny Road,
+Dialogue: 1,0:00:44.50,0:00:46.88,Lyrics,,0,0,0,,Keeping everyone steady, lightens the load.
+Dialogue: 1,0:00:47.04,0:00:49.00,Lyrics,,0,0,0,,With a heart made of gold and a cup full of tea,
+Dialogue: 1,0:00:49.00,0:00:51.02,Lyrics,,0,0,0,,She's the brightest spark on Donny Road, you see.
+Dialogue: 1,0:00:51.02,0:00:54.00,Lyrics,,0,0,0,,Oh Nic, Nic, holding it all together,
+Dialogue: 1,0:00:54.00,0:00:57.46,Lyrics,,0,0,0,,Rain or shine, whatever the weather.
+Dialogue: 1,0:00:57.56,0:01:00.00,Lyrics,,0,0,0,,She tells old Dave, \"We're doing just fine,\"
+Dialogue: 1,0:01:00.00,0:01:02.44,Lyrics,,0,0,0,,Nic on Donny Road, shining all the time!
+Dialogue: 1,0:01:02.44,0:01:04.60,Lyrics,,0,0,0,,Donny Road traffic humming right outside,
+Dialogue: 1,0:01:04.60,0:01:06.82,Lyrics,,0,0,0,,Nic takes it all in a stride full of pride.
+Dialogue: 1,0:01:06.98,0:01:09.30,Lyrics,,0,0,0,,Fixing up the schedule, planning out the week,
+Dialogue: 1,0:01:09.30,0:01:11.62,Lyrics,,0,0,0,,Giving Dave the answers before he can speak.
+Dialogue: 1,0:01:11.82,0:01:14.00,Lyrics,,0,0,0,,Fester wants cuddles, Ralf wants a treat,
+Dialogue: 1,0:01:14.00,0:01:16.40,Lyrics,,0,0,0,,Nic moves smooth, never losing a beat.
+Dialogue: 1,0:01:16.40,0:01:18.60,Lyrics,,0,0,0,,From the kitchen counter to the garden gate,
+Dialogue: 1,0:01:18.60,0:01:20.86,Lyrics,,0,0,0,,She keeps things sweet, never letting things grate.
+Dialogue: 1,0:01:20.86,0:01:24.50,Lyrics,,0,0,0,,A bit of Northern warmth in everything she does,
+Dialogue: 1,0:01:24.50,0:01:28.26,Lyrics,,0,0,0,,Donny Road's humming with a happy little buzz.
+Dialogue: 1,0:01:28.26,0:01:30.80,Lyrics,,0,0,0,,Oh Nic, Nic, legend of Donny Road,
+Dialogue: 1,0:01:30.80,0:01:33.34,Lyrics,,0,0,0,,Keeping everyone steady, lightens the load.
+Dialogue: 1,0:01:33.34,0:01:35.80,Lyrics,,0,0,0,,With a heart made of gold and a cup full of tea,
+Dialogue: 1,0:01:35.80,0:01:38.36,Lyrics,,0,0,0,,She's the brightest spark on Donny Road, you see.
+Dialogue: 1,0:01:38.74,0:01:41.40,Lyrics,,0,0,0,,Oh Nic, Nic, holding it all together,
+Dialogue: 1,0:01:41.40,0:01:44.16,Lyrics,,0,0,0,,Rain or shine, whatever the weather.
+Dialogue: 1,0:01:44.16,0:01:46.80,Lyrics,,0,0,0,,She tells old Dave, \"We're doing just fine,\"
+Dialogue: 1,0:01:46.80,0:01:49.62,Lyrics,,0,0,0,,Nic on Donny Road, shining all the time!
+Dialogue: 1,0:01:49.62,0:01:51.80,Lyrics,,0,0,0,,Dave: \"Nic, love, where'd I put me keys?\"
+Dialogue: 1,0:01:51.80,0:01:54.30,Lyrics,,0,0,0,,Nic: \"They're on the hook, Dave, right by your knees!\"
+Dialogue: 1,0:01:54.30,0:01:56.60,Lyrics,,0,0,0,,I keep the place running, keep the cats fed,
+Dialogue: 1,0:01:56.60,0:01:58.96,Lyrics,,0,0,0,,Make sure there's a roof right over your head.
+Dialogue: 1,0:01:58.96,0:02:01.50,Lyrics,,0,0,0,,Through the daily hassle and the Donny Road noise,
+Dialogue: 1,0:02:01.50,0:02:04.06,Lyrics,,0,0,0,,I'm keeping my cool and keeping my poise.
+Dialogue: 1,0:02:04.18,0:02:06.80,Lyrics,,0,0,0,,Sun goes down over Donny Road street,
+Dialogue: 1,0:02:06.80,0:02:09.64,Lyrics,,0,0,0,,Nic sits back, finally off her feet.
+Dialogue: 1,0:02:09.64,0:02:12.50,Lyrics,,0,0,0,,Dave brings a brew, says \"Thanks for the day,\"
+Dialogue: 1,0:02:12.50,0:02:15.00,Lyrics,,0,0,0,,Cats curl up in their usual way.
+Dialogue: 1,0:02:15.00,0:02:17.28,Lyrics,,0,0,0,,From morning rush to the evening glow,
+Dialogue: 1,0:02:17.28,0:02:20.50,Lyrics,,0,0,0,,Nic's the real star of the Donny Road show.
+Dialogue: 1,0:02:20.50,0:02:23.50,Lyrics,,0,0,0,,Yeah, Nic on Donny Road,
+Dialogue: 1,0:02:23.50,0:02:26.00,Lyrics,,0,0,0,,Keeping it all together.
+Dialogue: 1,0:02:26.00,0:02:28.32,Lyrics,,0,0,0,,Dave, Fester, Ralf and Nic,
+Dialogue: 1,0:02:28.32,0:02:31.52,Lyrics,,0,0,0,,Best team on Donny Road!
+Dialogue: 1,0:02:31.52,0:02:40.00,Lyrics,,0,0,0,,That's how we do it!
