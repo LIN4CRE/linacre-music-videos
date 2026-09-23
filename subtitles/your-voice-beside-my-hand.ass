@@ -1,0 +1,63 @@
+[Script Info]
+Title: Your Voice Beside My Hand - Official Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:03:07.16,Header,,0,0,0,,{\b1}YOUR VOICE BESIDE MY HAND{\b0}   |   LINACRE
+Dialogue: 1,0:00:10.00,0:00:13.50,Lyrics,,0,0,0,,Coffee cooling by the window,
+Dialogue: 1,0:00:14.00,0:00:17.50,Lyrics,,0,0,0,,Morning folding into gold.
+Dialogue: 1,0:00:18.00,0:00:20.20,Lyrics,,0,0,0,,You say, \"Take your time,
+Dialogue: 1,0:00:20.20,0:00:25.18,Lyrics,,0,0,0,,There's nowhere that we have to be today.\"
+Dialogue: 1,0:00:27.16,0:00:31.00,Lyrics,,0,0,0,,So we leave the door half-open,
+Dialogue: 1,0:00:31.64,0:00:35.50,Lyrics,,0,0,0,,Let the quiet fill the space.
+Dialogue: 1,0:00:36.16,0:00:39.22,Lyrics,,0,0,0,,Every little breath feels lighter
+Dialogue: 1,0:00:39.22,0:00:42.70,Lyrics,,0,0,0,,When I see your smiling face.
+Dialogue: 1,0:00:43.60,0:00:46.00,Lyrics,,0,0,0,,Come on, sing it with me,
+Dialogue: 1,0:00:46.00,0:00:48.24,Lyrics,,0,0,0,,One small note, then two, then three.
+Dialogue: 1,0:00:48.24,0:00:50.60,Lyrics,,0,0,0,,Let the worries lose their way,
+Dialogue: 1,0:00:50.60,0:00:52.48,Lyrics,,0,0,0,,We can start again today.
+Dialogue: 1,0:00:52.48,0:00:54.70,Lyrics,,0,0,0,,Come on, sing it with me,
+Dialogue: 1,0:00:54.70,0:00:56.98,Lyrics,,0,0,0,,Low and soft or wild and free.
+Dialogue: 1,0:00:56.98,0:00:59.16,Lyrics,,0,0,0,,Nothing fancy, nothing planned,
+Dialogue: 1,0:00:59.16,0:01:03.50,Lyrics,,0,0,0,,Just your voice beside my hand.
+Dialogue: 1,0:01:06.56,0:01:10.00,Lyrics,,0,0,0,,Kettle humming in the kitchen,
+Dialogue: 1,0:01:10.54,0:01:14.00,Lyrics,,0,0,0,,Dust is dancing on the shelf.
+Dialogue: 1,0:01:14.00,0:01:18.50,Lyrics,,0,0,0,,You turn an ordinary Tuesday
+Dialogue: 1,0:01:18.50,0:01:23.00,Lyrics,,0,0,0,,Into somewhere I can rest.
+Dialogue: 1,0:01:23.00,0:01:27.30,Lyrics,,0,0,0,,And the road can wait till later,
+Dialogue: 1,0:01:27.30,0:01:31.18,Lyrics,,0,0,0,,There is plenty here to hold:
+Dialogue: 1,0:01:31.18,0:01:35.84,Lyrics,,0,0,0,,A worn-out chair, a folded blanket,
+Dialogue: 1,0:01:35.84,0:01:40.00,Lyrics,,0,0,0,,And a story left untold.
+Dialogue: 1,0:01:40.00,0:01:42.72,Lyrics,,0,0,0,,Come on, sing it with me,
+Dialogue: 1,0:01:42.72,0:01:45.00,Lyrics,,0,0,0,,One small note, then two, then three.
+Dialogue: 1,0:01:45.00,0:01:47.34,Lyrics,,0,0,0,,Let the worries lose their way,
+Dialogue: 1,0:01:47.34,0:01:49.20,Lyrics,,0,0,0,,We can start again today.
+Dialogue: 1,0:01:49.20,0:01:51.46,Lyrics,,0,0,0,,Come on, sing it with me,
+Dialogue: 1,0:01:51.46,0:01:53.74,Lyrics,,0,0,0,,Low and soft or wild and free.
+Dialogue: 1,0:01:53.74,0:01:55.88,Lyrics,,0,0,0,,Nothing fancy, nothing planned,
+Dialogue: 1,0:01:55.88,0:02:00.50,Lyrics,,0,0,0,,Just your voice beside my hand.
+Dialogue: 1,0:02:01.96,0:02:06.34,Lyrics,,0,0,0,,If the day gets loud around us,
+Dialogue: 1,0:02:06.34,0:02:10.34,Lyrics,,0,0,0,,If the sky forgets to clear,
+Dialogue: 1,0:02:10.34,0:02:15.30,Lyrics,,0,0,0,,I will leave a place beside me,
+Dialogue: 1,0:02:15.30,0:02:20.00,Lyrics,,0,0,0,,You can always meet me here.
+Dialogue: 1,0:02:21.82,0:02:24.18,Lyrics,,0,0,0,,Come on, sing it with me,
+Dialogue: 1,0:02:24.18,0:02:26.52,Lyrics,,0,0,0,,One small note, then two, then three.
+Dialogue: 1,0:02:26.52,0:02:28.76,Lyrics,,0,0,0,,Let the worries lose their way,
+Dialogue: 1,0:02:28.76,0:02:30.62,Lyrics,,0,0,0,,We can start again today.
+Dialogue: 1,0:02:30.62,0:02:32.90,Lyrics,,0,0,0,,Come on, sing it with me,
+Dialogue: 1,0:02:32.90,0:02:35.18,Lyrics,,0,0,0,,Low and soft or wild and free.
+Dialogue: 1,0:02:35.18,0:02:37.36,Lyrics,,0,0,0,,Nothing fancy, nothing planned,
+Dialogue: 1,0:02:37.36,0:02:41.50,Lyrics,,0,0,0,,Just your voice beside my hand.
+Dialogue: 1,0:02:43.00,0:02:50.50,Lyrics,,0,0,0,,Just your voice beside my hand,
+Dialogue: 1,0:02:51.60,0:02:59.00,Lyrics,,0,0,0,,Take your time, I understand.

@@ -22,6 +22,8 @@ A dedicated, high-performance web cinema player and repository hosting the offic
 | 4 | **Dave from Barnsley** | UK Boom-Bap / Comedy Rap | 94 BPM | 3:20 | [`videos/Dave from Barnsley.mp4`](videos/Dave%20from%20Barnsley.mp4) | [SRT](subtitles/dave-barnsley.srt) / [ASS](subtitles/dave-barnsley.ass) |
 | 5 | **Crazy Rap** | UK Comedy Rap / Garage Hip-Hop | 130 BPM | 2:04 | [`videos/Crazy Rap.mp4`](videos/Crazy%20Rap.mp4) | [SRT](subtitles/crazy-rap.srt) / [ASS](subtitles/crazy-rap.ass) |
 | 6 | **Statistically, We're Fine** | UK Alternative Comedy Hip-Hop | 94 BPM | 2:22 | [`videos/Statistically, We're Fine.mp4`](videos/Statistically,%20We're%20Fine.mp4) | [SRT](subtitles/statistically.srt) / [ASS](subtitles/statistically.ass) |
+| 7 | **Your Voice Beside My Hand** | Acoustic Pop-Folk / Contemporary | 86 BPM | 3:07 | [`videos/Your Voice Beside My Hand.mp4`](videos/Your%20Voice%20Beside%20My%20Hand.mp4) | [SRT](subtitles/your-voice-beside-my-hand.srt) / [ASS](subtitles/your-voice-beside-my-hand.ass) |
+
 
 ---
 
@@ -59,23 +61,29 @@ A dedicated, high-performance web cinema player and repository hosting the offic
 ```
 linacre-music-videos/
 ├── covers/                      # Square album artwork (1080x1080)
+│   ├── barnsley-town.jpg
 │   ├── crazy-rap.jpg
 │   ├── dave-barnsley.jpg
 │   ├── penny.jpg
 │   ├── skint-dave.jpg
-│   └── statistically.jpg
+│   ├── statistically.jpg
+│   └── your-voice-beside-my-hand.jpg
 ├── subtitles/                   # Clean SRT and ASS subtitle files
+│   ├── barnsley-town.srt / .ass
 │   ├── crazy-rap.srt / .ass
 │   ├── dave-barnsley.srt / .ass
 │   ├── penny.srt / .ass
 │   ├── skint-dave.srt / .ass
-│   └── statistically.srt / .ass
+│   ├── statistically.srt / .ass
+│   └── your-voice-beside-my-hand.srt / .ass
 ├── videos/                      # 1080p master MP4 renders (<50 MB each)
+│   ├── Barnsley Town.mp4
 │   ├── Crazy Rap.mp4
 │   ├── Dave from Barnsley.mp4
 │   ├── Penny, You're Still Here.mp4
 │   ├── Skint Dave from Barnsley.mp4
-│   └── Statistically, We're Fine.mp4
+│   ├── Statistically, We're Fine.mp4
+│   └── Your Voice Beside My Hand.mp4
 ├── app.js                       # Player engine, ambient glow, synced teleprompter
 ├── index.html                   # Responsive cinema player portal
 ├── style.css                    # Glassmorphism dark aesthetic styling

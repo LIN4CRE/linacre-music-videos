@@ -1824,5 +1824,251 @@
         "text": "We\u2019re doing fine."
       }
     ]
+  },
+  {
+    "id": "your-voice-beside-my-hand",
+    "title": "Your Voice Beside My Hand",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "Acoustic Pop-Folk / Contemporary",
+    "duration": "3:07",
+    "durationSec": 187.16,
+    "videoFile": "videos/Your Voice Beside My Hand.mp4",
+    "coverFile": "covers/your-voice-beside-my-hand.jpg",
+    "bpm": "86 BPM",
+    "model": "Suno V6-MINI",
+    "story": "A warm, intimate acoustic folk-pop ballad about quiet mornings, comfort in presence, and starting again without pressure.",
+    "lyrics": [
+      {
+        "start": 10.0,
+        "end": 13.5,
+        "text": "Coffee cooling by the window,"
+      },
+      {
+        "start": 14.0,
+        "end": 17.5,
+        "text": "Morning folding into gold."
+      },
+      {
+        "start": 18.0,
+        "end": 20.2,
+        "text": "You say, \"Take your time,"
+      },
+      {
+        "start": 20.2,
+        "end": 25.18,
+        "text": "There's nowhere that we have to be today.\""
+      },
+      {
+        "start": 27.16,
+        "end": 31.0,
+        "text": "So we leave the door half-open,"
+      },
+      {
+        "start": 31.64,
+        "end": 35.5,
+        "text": "Let the quiet fill the space."
+      },
+      {
+        "start": 36.16,
+        "end": 39.22,
+        "text": "Every little breath feels lighter"
+      },
+      {
+        "start": 39.22,
+        "end": 42.7,
+        "text": "When I see your smiling face."
+      },
+      {
+        "start": 43.6,
+        "end": 46.0,
+        "text": "Come on, sing it with me,"
+      },
+      {
+        "start": 46.0,
+        "end": 48.24,
+        "text": "One small note, then two, then three."
+      },
+      {
+        "start": 48.24,
+        "end": 50.6,
+        "text": "Let the worries lose their way,"
+      },
+      {
+        "start": 50.6,
+        "end": 52.48,
+        "text": "We can start again today."
+      },
+      {
+        "start": 52.48,
+        "end": 54.7,
+        "text": "Come on, sing it with me,"
+      },
+      {
+        "start": 54.7,
+        "end": 56.98,
+        "text": "Low and soft or wild and free."
+      },
+      {
+        "start": 56.98,
+        "end": 59.16,
+        "text": "Nothing fancy, nothing planned,"
+      },
+      {
+        "start": 59.16,
+        "end": 63.5,
+        "text": "Just your voice beside my hand."
+      },
+      {
+        "start": 66.56,
+        "end": 70.0,
+        "text": "Kettle humming in the kitchen,"
+      },
+      {
+        "start": 70.54,
+        "end": 74.0,
+        "text": "Dust is dancing on the shelf."
+      },
+      {
+        "start": 74.0,
+        "end": 78.5,
+        "text": "You turn an ordinary Tuesday"
+      },
+      {
+        "start": 78.5,
+        "end": 83.0,
+        "text": "Into somewhere I can rest."
+      },
+      {
+        "start": 83.0,
+        "end": 87.3,
+        "text": "And the road can wait till later,"
+      },
+      {
+        "start": 87.3,
+        "end": 91.18,
+        "text": "There is plenty here to hold:"
+      },
+      {
+        "start": 91.18,
+        "end": 95.84,
+        "text": "A worn-out chair, a folded blanket,"
+      },
+      {
+        "start": 95.84,
+        "end": 100.0,
+        "text": "And a story left untold."
+      },
+      {
+        "start": 100.0,
+        "end": 102.72,
+        "text": "Come on, sing it with me,"
+      },
+      {
+        "start": 102.72,
+        "end": 105.0,
+        "text": "One small note, then two, then three."
+      },
+      {
+        "start": 105.0,
+        "end": 107.34,
+        "text": "Let the worries lose their way,"
+      },
+      {
+        "start": 107.34,
+        "end": 109.2,
+        "text": "We can start again today."
+      },
+      {
+        "start": 109.2,
+        "end": 111.46,
+        "text": "Come on, sing it with me,"
+      },
+      {
+        "start": 111.46,
+        "end": 113.74,
+        "text": "Low and soft or wild and free."
+      },
+      {
+        "start": 113.74,
+        "end": 115.88,
+        "text": "Nothing fancy, nothing planned,"
+      },
+      {
+        "start": 115.88,
+        "end": 120.5,
+        "text": "Just your voice beside my hand."
+      },
+      {
+        "start": 121.96,
+        "end": 126.34,
+        "text": "If the day gets loud around us,"
+      },
+      {
+        "start": 126.34,
+        "end": 130.34,
+        "text": "If the sky forgets to clear,"
+      },
+      {
+        "start": 130.34,
+        "end": 135.3,
+        "text": "I will leave a place beside me,"
+      },
+      {
+        "start": 135.3,
+        "end": 140.0,
+        "text": "You can always meet me here."
+      },
+      {
+        "start": 141.82,
+        "end": 144.18,
+        "text": "Come on, sing it with me,"
+      },
+      {
+        "start": 144.18,
+        "end": 146.52,
+        "text": "One small note, then two, then three."
+      },
+      {
+        "start": 146.52,
+        "end": 148.76,
+        "text": "Let the worries lose their way,"
+      },
+      {
+        "start": 148.76,
+        "end": 150.62,
+        "text": "We can start again today."
+      },
+      {
+        "start": 150.62,
+        "end": 152.9,
+        "text": "Come on, sing it with me,"
+      },
+      {
+        "start": 152.9,
+        "end": 155.18,
+        "text": "Low and soft or wild and free."
+      },
+      {
+        "start": 155.18,
+        "end": 157.36,
+        "text": "Nothing fancy, nothing planned,"
+      },
+      {
+        "start": 157.36,
+        "end": 161.5,
+        "text": "Just your voice beside my hand."
+      },
+      {
+        "start": 163.0,
+        "end": 170.5,
+        "text": "Just your voice beside my hand,"
+      },
+      {
+        "start": 171.6,
+        "end": 179.0,
+        "text": "Take your time, I understand."
+      }
+    ]
   }
 ]

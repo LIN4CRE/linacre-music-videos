@@ -265,6 +265,7 @@ function drawAmbientFrame() {
 function updateAmbientPalette(trackId) {
   const palettes = {
     'barnsley-town': 'radial-gradient(circle at 50% 20%, rgba(0, 240, 255, 0.14) 0%, rgba(8, 9, 13, 0.95) 75%)',
+    'your-voice-beside-my-hand': 'radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.15) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'skint-dave': 'radial-gradient(circle at 50% 20%, rgba(255, 170, 0, 0.12) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'penny': 'radial-gradient(circle at 50% 20%, rgba(244, 63, 94, 0.12) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'dave-barnsley': 'radial-gradient(circle at 50% 20%, rgba(59, 130, 246, 0.12) 0%, rgba(8, 9, 13, 0.95) 75%)',
