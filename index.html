@@ -103,6 +103,26 @@
               </div>
 
               <div class="action-buttons-group">
+                <button id="prevTrackBtn" class="action-btn" title="Previous Track (P)">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="19 20 9 12 19 4 19 20"></polygon>
+                    <line x1="5" y1="19" x2="5" y2="5"></line>
+                  </svg>
+                  <span>Prev</span>
+                </button>
+                <button id="nextTrackBtn" class="action-btn" title="Next Track (N)">
+                  <span>Next</span>
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="5 4 15 12 5 20 5 4"></polygon>
+                    <line x1="19" y1="5" x2="19" y2="19"></line>
+                  </svg>
+                </button>
+                <button id="autoplayToggleBtn" class="action-btn active" title="Toggle Continuous Autoplay (A)">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span id="autoplayText">Autoplay: ON</span>
+                </button>
                 <a id="downloadVideoBtn" href="videos/Jessica, Hold Your Head Up.mp4" download class="action-btn" title="Download Master MP4 (1080p)">
                   <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"></path>
@@ -132,7 +152,7 @@
               </svg>
               Master Tracks & Video Collection
             </h3>
-            <span class="track-count-badge" id="trackCountBadge">9 Videos</span>
+            <span class="track-count-badge" id="trackCountBadge">10 Videos</span>
           </div>
 
           <div class="playlist-grid" id="playlistGrid">
@@ -183,6 +203,8 @@
       </div>
       <div class="shortcuts-grid">
         <div class="shortcut-item"><kbd>Space</kbd> / <kbd>K</kbd> <span>Play / Pause</span></div>
+        <div class="shortcut-item"><kbd>N</kbd> / <kbd>P</kbd> <span>Next / Prev Track</span></div>
+        <div class="shortcut-item"><kbd>A</kbd> <span>Toggle Autoplay</span></div>
         <div class="shortcut-item"><kbd>F</kbd> <span>Fullscreen Video</span></div>
         <div class="shortcut-item"><kbd>T</kbd> <span>Toggle Theater Mode</span></div>
         <div class="shortcut-item"><kbd>M</kbd> <span>Toggle Mute</span></div>

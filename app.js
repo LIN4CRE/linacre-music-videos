@@ -7,6 +7,7 @@
 let tracks = [];
 let currentTrackIndex = 0;
 let isTheaterMode = false;
+let isAutoplay = true;
 let ambientInterval = null;
 
 // DOM Elements
@@ -23,6 +24,11 @@ const trackBpmEl = document.getElementById('trackBpmBadge');
 const trackModelEl = document.getElementById('trackModelBadge');
 const downloadBtn = document.getElementById('downloadVideoBtn');
 const brandLogo = document.getElementById('brandLogo');
+
+const autoplayBtn = document.getElementById('autoplayToggleBtn');
+const autoplayText = document.getElementById('autoplayText');
+const prevTrackBtn = document.getElementById('prevTrackBtn');
+const nextTrackBtn = document.getElementById('nextTrackBtn');
 
 const playlistGrid = document.getElementById('playlistGrid');
 const lyricsContainer = document.getElementById('lyricsContainer');
@@ -265,6 +271,7 @@ function drawAmbientFrame() {
 function updateAmbientPalette(trackId) {
   const palettes = {
     'jessica-hold-your-head-up': 'radial-gradient(circle at 50% 20%, rgba(251, 146, 60, 0.16) 0%, rgba(8, 9, 13, 0.95) 75%)',
+    'the-road-beyond': 'radial-gradient(circle at 50% 20%, rgba(129, 140, 248, 0.16) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'barnsley-town': 'radial-gradient(circle at 50% 20%, rgba(0, 240, 255, 0.14) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'your-voice-beside-my-hand': 'radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.15) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'nic-on-donny-road': 'radial-gradient(circle at 50% 20%, rgba(20, 184, 166, 0.15) 0%, rgba(8, 9, 13, 0.95) 75%)',
@@ -297,9 +304,56 @@ function showToast(msg) {
   }, 2800);
 }
 
+// Playlist Navigation & Autoplay
+function playNextTrack(isAuto = false) {
+  if (!tracks || tracks.length === 0) return;
+  const nextIndex = (currentTrackIndex + 1) % tracks.length;
+  showToast(isAuto ? `Autoplaying next: ${tracks[nextIndex].title}` : `Next: ${tracks[nextIndex].title}`);
+  loadTrack(nextIndex, true);
+}
+
+function playPrevTrack() {
+  if (!tracks || tracks.length === 0) return;
+  const prevIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+  showToast(`Previous: ${tracks[prevIndex].title}`);
+  loadTrack(prevIndex, true);
+}
+
+function toggleAutoplay() {
+  isAutoplay = !isAutoplay;
+  if (autoplayBtn) {
+    autoplayBtn.classList.toggle('active', isAutoplay);
+  }
+  if (autoplayText) {
+    autoplayText.textContent = isAutoplay ? 'Autoplay: ON' : 'Autoplay: OFF';
+  }
+  showToast(isAutoplay ? 'Continuous Autoplay: ON' : 'Continuous Autoplay: OFF');
+}
+
 // Setup Event Listeners
 function setupEventListeners() {
   video.addEventListener('timeupdate', handleTimeUpdate);
+
+  // Continuous Autoplay when video finishes
+  video.addEventListener('ended', () => {
+    if (ambientInterval) clearInterval(ambientInterval);
+    if (isAutoplay) {
+      playNextTrack(true);
+    }
+  });
+
+  // Next / Previous Track Buttons
+  if (nextTrackBtn) {
+    nextTrackBtn.addEventListener('click', () => playNextTrack(false));
+  }
+  if (prevTrackBtn) {
+    prevTrackBtn.addEventListener('click', playPrevTrack);
+  }
+
+  // Autoplay Toggle Button
+  if (autoplayBtn) {
+    autoplayBtn.addEventListener('click', toggleAutoplay);
+  }
 
   // Playback Rate Buttons
   rateButtons.forEach(btn => {
@@ -376,6 +430,18 @@ function setupEventListeners() {
         e.preventDefault();
         video.muted = !video.muted;
         showToast(video.muted ? 'Muted' : 'Unmuted');
+        break;
+      case 'KeyN':
+        e.preventDefault();
+        playNextTrack(false);
+        break;
+      case 'KeyP':
+        e.preventDefault();
+        playPrevTrack();
+        break;
+      case 'KeyA':
+        e.preventDefault();
+        toggleAutoplay();
         break;
       case 'ArrowLeft':
         e.preventDefault();

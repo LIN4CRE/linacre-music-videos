@@ -1,0 +1,91 @@
+[Script Info]
+Title: The Road Beyond - Official Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:03:42.46,Header,,0,0,0,,{\b1}THE ROAD BEYOND{\b0}   |   LINACRE
+Dialogue: 1,0:00:10.00,0:00:12.36,Lyrics,,0,0,0,,Fifteen with a lifetime folded in your coat,
+Dialogue: 1,0:00:12.36,0:00:15.00,Lyrics,,0,0,0,,Jess, you learned to swim before you learned to float.
+Dialogue: 1,0:00:15.00,0:00:17.70,Lyrics,,0,0,0,,Callum took a different road, went living with his dad,
+Dialogue: 1,0:00:17.70,0:00:21.12,Lyrics,,0,0,0,,Then Jodie found another love, and the home got rearranged.
+Dialogue: 1,0:00:21.12,0:00:23.80,Lyrics,,0,0,0,,Jack came laughing, little brother bright-eyed in the hall,
+Dialogue: 1,0:00:23.80,0:00:26.46,Lyrics,,0,0,0,,Then his dad got locked away, left a silence on the wall.
+Dialogue: 1,0:00:26.46,0:00:29.16,Lyrics,,0,0,0,,When he came back, the truth came crashing through the room,
+Dialogue: 1,0:00:29.16,0:00:32.02,Lyrics,,0,0,0,,A cheating heart can turn a house into a tomb.
+Dialogue: 1,0:00:32.02,0:00:34.58,Lyrics,,0,0,0,,You kept your head up though the nights were long,
+Dialogue: 1,0:00:34.58,0:00:37.34,Lyrics,,0,0,0,,Kept a little ember when the world felt wrong.
+Dialogue: 1,0:00:37.34,0:00:39.84,Lyrics,,0,0,0,,Every tear you swallowed left a silver mark,
+Dialogue: 1,0:00:39.84,0:00:42.98,Lyrics,,0,0,0,,But there's still a beating drum inside your heart.
+Dialogue: 1,0:00:42.98,0:00:45.96,Lyrics,,0,0,0,,Jess, you're not the wreckage, you're the road beyond,
+Dialogue: 1,0:00:45.96,0:00:48.78,Lyrics,,0,0,0,,Not the things they took, but the strength you're standing on.
+Dialogue: 1,0:00:48.78,0:00:51.36,Lyrics,,0,0,0,,Fifteen years and fearless, even when you're scared,
+Dialogue: 1,0:00:51.36,0:00:54.24,Lyrics,,0,0,0,,You've been through the fire, but you're still right there.
+Dialogue: 1,0:00:54.24,0:00:56.96,Lyrics,,0,0,0,,Jess, let the future find you, let the hard days bend,
+Dialogue: 1,0:00:56.96,0:00:59.80,Lyrics,,0,0,0,,You and David raising glasses, talking like friends.
+Dialogue: 1,0:00:59.80,0:01:02.20,Lyrics,,0,0,0,,From the flooded eyes to skies of blue,
+Dialogue: 1,0:01:02.20,0:01:04.96,Lyrics,,0,0,0,,There's a brighter chapter waiting just for you.
+Dialogue: 1,0:01:04.96,0:01:09.68,Lyrics,,0,0,0,,Jodie got sick, and the whole world changed its name,
+Dialogue: 1,0:01:09.68,0:01:12.32,Lyrics,,0,0,0,,Cancer took her slowly, left a candle in the rain.
+Dialogue: 1,0:01:12.32,0:01:15.08,Lyrics,,0,0,0,,One year later, Mum was gone, too young to say goodbye,
+Dialogue: 1,0:01:15.08,0:01:17.74,Lyrics,,0,0,0,,And Jack went to his father while you learned not to cry.
+Dialogue: 1,0:01:17.74,0:01:20.32,Lyrics,,0,0,0,,Two months passed, then Skida died, your dad was gone as well,
+Dialogue: 1,0:01:20.32,0:01:23.08,Lyrics,,0,0,0,,Another empty chair, another story you could tell.
+Dialogue: 1,0:01:23.08,0:01:25.90,Lyrics,,0,0,0,,Now Bonny keeps you close, Nannan holds the line,
+Dialogue: 1,0:01:25.90,0:01:28.64,Lyrics,,0,0,0,,While school feels like a mountain every single morning time.
+Dialogue: 1,0:01:28.64,0:01:31.54,Lyrics,,0,0,0,,But you're more than every absence, more than every loss,
+Dialogue: 1,0:01:31.54,0:01:34.24,Lyrics,,0,0,0,,More than all the broken roads and everything they cost.
+Dialogue: 1,0:01:34.24,0:01:37.00,Lyrics,,0,0,0,,When the hallway feels too narrow, when the lessons feel unfair,
+Dialogue: 1,0:01:37.00,0:01:39.88,Lyrics,,0,0,0,,Remember, Jess, your future's bigger than that chair.
+Dialogue: 1,0:01:39.88,0:01:42.88,Lyrics,,0,0,0,,Jess, you're not the wreckage, you're the road beyond,
+Dialogue: 1,0:01:42.88,0:01:45.72,Lyrics,,0,0,0,,Not the things they took, but the strength you're standing on.
+Dialogue: 1,0:01:45.72,0:01:48.28,Lyrics,,0,0,0,,Fifteen years and fearless, even when you're scared,
+Dialogue: 1,0:01:48.28,0:01:51.18,Lyrics,,0,0,0,,You've been through the fire, but you're still right there.
+Dialogue: 1,0:01:51.18,0:01:53.90,Lyrics,,0,0,0,,Jess, let the future find you, let the hard days bend,
+Dialogue: 1,0:01:53.90,0:01:56.72,Lyrics,,0,0,0,,You and David raising glasses, talking like friends.
+Dialogue: 1,0:01:56.72,0:01:59.18,Lyrics,,0,0,0,,From the flooded eyes to skies of blue,
+Dialogue: 1,0:01:59.18,0:02:01.88,Lyrics,,0,0,0,,There's a brighter chapter waiting just for you.
+Dialogue: 1,0:02:01.88,0:02:04.46,Lyrics,,0,0,0,,Next door, the garden centre wears a friendly face,
+Dialogue: 1,0:02:04.46,0:02:07.18,Lyrics,,0,0,0,,But Fake Grandad makes you feel unsafe in that place.
+Dialogue: 1,0:02:07.18,0:02:10.00,Lyrics,,0,0,0,,You know where his eyes go, and it makes you mad,
+Dialogue: 1,0:02:10.00,0:02:12.86,Lyrics,,0,0,0,,Makes you sad, makes your whole body feel bad.
+Dialogue: 1,0:02:12.86,0:02:15.28,Lyrics,,0,0,0,,Jess, it isn't yours to carry, none of that shame,
+Dialogue: 1,0:02:15.28,0:02:17.98,Lyrics,,0,0,0,,Tell Bonny, tell a teacher, put a boundary on his name.
+Dialogue: 1,0:02:17.98,0:02:20.82,Lyrics,,0,0,0,,Stay with people who believe you, keep the door in sight,
+Dialogue: 1,0:02:20.82,0:02:23.42,Lyrics,,0,0,0,,You deserve to feel protected every day and night.
+Dialogue: 1,0:02:23.42,0:02:26.14,Lyrics,,0,0,0,,And the money in the family has a history of pain,
+Dialogue: 1,0:02:26.14,0:02:28.86,Lyrics,,0,0,0,,David helped to build it through the sun and through the rain.
+Dialogue: 1,0:02:28.86,0:02:31.40,Lyrics,,0,0,0,,Worked like somebody's servant, gave his whole life away,
+Dialogue: 1,0:02:31.40,0:02:33.88,Lyrics,,0,0,0,,Then got tossed aside and told, 'You're not my real son today.'
+Dialogue: 1,0:02:33.88,0:02:36.62,Lyrics,,0,0,0,,But blood can't buy a brother, and a name can't make a home,
+Dialogue: 1,0:02:36.62,0:02:39.34,Lyrics,,0,0,0,,David knows the road you're on, so you don't walk alone.
+Dialogue: 1,0:02:39.34,0:02:42.00,Lyrics,,0,0,0,,After years of flooding tears, two beers and honest talk,
+Dialogue: 1,0:02:42.00,0:02:44.78,Lyrics,,0,0,0,,A little light came through the cracks, a little room to walk.
+Dialogue: 1,0:02:44.78,0:02:47.82,Lyrics,,0,0,0,,No more keeping quiet just to keep the peace,
+Dialogue: 1,0:02:47.82,0:02:50.50,Lyrics,,0,0,0,,No more making smaller what you feel and need.
+Dialogue: 1,0:02:50.50,0:02:53.34,Lyrics,,0,0,0,,If the dark comes knocking, let the good ones know,
+Dialogue: 1,0:02:53.34,0:02:56.30,Lyrics,,0,0,0,,You are not alone here, and you're not a ghost.
+Dialogue: 1,0:02:56.30,0:02:58.78,Lyrics,,0,0,0,,Jess, you're not the wreckage, you're the road beyond,
+Dialogue: 1,0:02:58.78,0:03:01.62,Lyrics,,0,0,0,,Not the things they took, but the strength you're standing on.
+Dialogue: 1,0:03:01.62,0:03:04.38,Lyrics,,0,0,0,,Fifteen years and fearless, even when you're scared,
+Dialogue: 1,0:03:04.38,0:03:07.12,Lyrics,,0,0,0,,You've been through the fire, but you're still right there.
+Dialogue: 1,0:03:07.12,0:03:09.86,Lyrics,,0,0,0,,Jess, let the future find you, let the hard days bend,
+Dialogue: 1,0:03:09.86,0:03:12.76,Lyrics,,0,0,0,,You and David raising glasses, talking like friends.
+Dialogue: 1,0:03:12.76,0:03:15.10,Lyrics,,0,0,0,,From the flooded eyes to skies of blue,
+Dialogue: 1,0:03:15.10,0:03:18.00,Lyrics,,0,0,0,,There's a brighter chapter waiting just for you.
+Dialogue: 1,0:03:18.00,0:03:20.42,Lyrics,,0,0,0,,Jessica, breathe easy, let tomorrow start,
+Dialogue: 1,0:03:20.42,0:03:23.14,Lyrics,,0,0,0,,Bonny's keeping watch, and you've got a brave heart.
+Dialogue: 1,0:03:23.14,0:03:26.10,Lyrics,,0,0,0,,The past may leave a scar, but it won't decide what's true,
+Dialogue: 1,0:03:26.10,0:03:28.76,Lyrics,,0,0,0,,There's a brighter chapter waiting, Jess, for you.
+Dialogue: 1,0:03:28.76,0:03:34.38,Lyrics,,0,0,0,,Just for you...
+Dialogue: 1,0:03:34.38,0:03:42.40,Lyrics,,0,0,0,,Just for you...
