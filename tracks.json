@@ -1,346 +1,5 @@
 [
   {
-    "id": "jessica-hold-your-head-up",
-    "title": "Jessica, Hold Your Head Up",
-    "artist": "Linacre",
-    "album": "Proper Mad",
-    "genre": "Acoustic Pop-Folk / Contemporary",
-    "duration": "4:00",
-    "durationSec": 239.98,
-    "videoFile": "videos/Jessica, Hold Your Head Up.mp4",
-    "coverFile": "covers/jessica-hold-your-head-up.jpg",
-    "bpm": "88 BPM",
-    "model": "Suno V6-MINI",
-    "story": "A deeply moving, uplifting acoustic folk-pop ballad dedicated to Jessica at 15. Through heartbreak, grief, loss, family turmoil, and quiet courage, she and her uncle David share honest talks, beers, and laughter under the porch light\u2014reminding her that the storm has passed and tomorrow belongs to her.",
-    "lyrics": [
-      {
-        "start": 0.62,
-        "end": 3.1,
-        "text": "Fifteen candles, fifteen years,"
-      },
-      {
-        "start": 3.1,
-        "end": 5.58,
-        "text": "Still standing tall through storms and tears."
-      },
-      {
-        "start": 5.58,
-        "end": 7.88,
-        "text": "Callum took a different road,"
-      },
-      {
-        "start": 7.88,
-        "end": 10.18,
-        "text": "Left a space where memories glowed."
-      },
-      {
-        "start": 10.18,
-        "end": 12.72,
-        "text": "Then Jack arrived, a little light,"
-      },
-      {
-        "start": 12.72,
-        "end": 15.26,
-        "text": "While grown-up hearts kept losing sight."
-      },
-      {
-        "start": 15.26,
-        "end": 17.63,
-        "text": "Doors kept changing, names moved on,"
-      },
-      {
-        "start": 17.63,
-        "end": 20.0,
-        "text": "Still you found the strength to carry on."
-      },
-      {
-        "start": 20.0,
-        "end": 22.87,
-        "text": "You learned too young what goodbyes mean,"
-      },
-      {
-        "start": 22.87,
-        "end": 25.74,
-        "text": "But kept a spark beneath the rain."
-      },
-      {
-        "start": 25.74,
-        "end": 27.64,
-        "text": "And every scar you never show"
-      },
-      {
-        "start": 27.64,
-        "end": 30.38,
-        "text": "Is proof of how much you have grown."
-      },
-      {
-        "start": 30.38,
-        "end": 33.54,
-        "text": "Jessica, hold your head up high,"
-      },
-      {
-        "start": 33.54,
-        "end": 36.18,
-        "text": "You've got tomorrow in your eyes."
-      },
-      {
-        "start": 36.18,
-        "end": 38.22,
-        "text": "From every tear and every test,"
-      },
-      {
-        "start": 38.22,
-        "end": 40.78,
-        "text": "You're still becoming your very best."
-      },
-      {
-        "start": 40.78,
-        "end": 43.38,
-        "text": "With Bonny's arms and David's words,"
-      },
-      {
-        "start": 43.38,
-        "end": 45.7,
-        "text": "A little hope can move the world."
-      },
-      {
-        "start": 45.7,
-        "end": 48.22,
-        "text": "The road is wide, the sky is blue,"
-      },
-      {
-        "start": 48.22,
-        "end": 51.38,
-        "text": "There's brighter days belonging to you."
-      },
-      {
-        "start": 51.38,
-        "end": 55.0,
-        "text": "Jack's dad disappeared behind a wall,"
-      },
-      {
-        "start": 55.0,
-        "end": 59.9,
-        "text": "Came back with promises that couldn't stand at all."
-      },
-      {
-        "start": 59.9,
-        "end": 62.4,
-        "text": "Your mum Jodie fought with all her might,"
-      },
-      {
-        "start": 62.4,
-        "end": 65.04,
-        "text": "Then left her love inside your life."
-      },
-      {
-        "start": 65.04,
-        "end": 67.44,
-        "text": "A year of courage, a year of pain,"
-      },
-      {
-        "start": 67.44,
-        "end": 70.02,
-        "text": "Her name still falls like summer rain."
-      },
-      {
-        "start": 70.02,
-        "end": 72.34,
-        "text": "Jack found shelter somewhere new,"
-      },
-      {
-        "start": 72.34,
-        "end": 75.0,
-        "text": "And then Skida slipped away from you."
-      },
-      {
-        "start": 75.0,
-        "end": 78.12,
-        "text": "Two months later, another goodbye,"
-      },
-      {
-        "start": 78.12,
-        "end": 80.56,
-        "text": "Too much weight for a fifteen-year life."
-      },
-      {
-        "start": 80.56,
-        "end": 83.02,
-        "text": "But through the ache, through every bend,"
-      },
-      {
-        "start": 83.02,
-        "end": 85.72,
-        "text": "You found a home where hearts can mend."
-      },
-      {
-        "start": 85.72,
-        "end": 88.18,
-        "text": "Jessica, hold your head up high,"
-      },
-      {
-        "start": 88.18,
-        "end": 90.88,
-        "text": "You've got tomorrow in your eyes."
-      },
-      {
-        "start": 90.88,
-        "end": 92.9,
-        "text": "From every tear and every test,"
-      },
-      {
-        "start": 92.9,
-        "end": 95.48,
-        "text": "You're still becoming your very best."
-      },
-      {
-        "start": 95.48,
-        "end": 98.0,
-        "text": "With Bonny's arms and David's words,"
-      },
-      {
-        "start": 98.0,
-        "end": 100.4,
-        "text": "A little hope can move the world."
-      },
-      {
-        "start": 100.4,
-        "end": 103.22,
-        "text": "The road is wide, the sky is blue,"
-      },
-      {
-        "start": 103.22,
-        "end": 106.1,
-        "text": "There's brighter days belonging to you."
-      },
-      {
-        "start": 106.1,
-        "end": 109.24,
-        "text": "School feels heavy, mornings drag,"
-      },
-      {
-        "start": 109.24,
-        "end": 112.38,
-        "text": "Some days you're walking with a loaded bag."
-      },
-      {
-        "start": 112.38,
-        "end": 114.85,
-        "text": "But after floods of sleepless tears,"
-      },
-      {
-        "start": 114.85,
-        "end": 117.32,
-        "text": "You and David face the years."
-      },
-      {
-        "start": 117.32,
-        "end": 119.79,
-        "text": "A couple beers, a talking night,"
-      },
-      {
-        "start": 119.79,
-        "end": 122.26,
-        "text": "Small honest jokes, a porch-light bright."
-      },
-      {
-        "start": 122.26,
-        "end": 125.93,
-        "text": "No perfect map, no magic tune,"
-      },
-      {
-        "start": 125.93,
-        "end": 129.6,
-        "text": "Just two brave hearts making room."
-      },
-      {
-        "start": 129.6,
-        "end": 132.78,
-        "text": "Jessica, hold your head up high,"
-      },
-      {
-        "start": 132.78,
-        "end": 135.96,
-        "text": "You've got tomorrow in your eyes."
-      },
-      {
-        "start": 135.96,
-        "end": 137.98,
-        "text": "From every tear and every test,"
-      },
-      {
-        "start": 137.98,
-        "end": 140.56,
-        "text": "You're still becoming your very best."
-      },
-      {
-        "start": 140.56,
-        "end": 143.2,
-        "text": "With Bonny's arms and David's words,"
-      },
-      {
-        "start": 143.2,
-        "end": 145.5,
-        "text": "A little hope can move the world."
-      },
-      {
-        "start": 145.5,
-        "end": 148.04,
-        "text": "The road is wide, the sky is blue,"
-      },
-      {
-        "start": 148.04,
-        "end": 150.94,
-        "text": "There's brighter days belonging to you."
-      },
-      {
-        "start": 150.94,
-        "end": 153.28,
-        "text": "Jessica, let the old hurt fade,"
-      },
-      {
-        "start": 153.28,
-        "end": 155.74,
-        "text": "Look at the life you're gonna make."
-      },
-      {
-        "start": 155.74,
-        "end": 158.86,
-        "text": "You are more than what went wrong,"
-      },
-      {
-        "start": 158.86,
-        "end": 161.76,
-        "text": "You are the reason hope stays strong."
-      },
-      {
-        "start": 161.76,
-        "end": 166.78,
-        "text": "Fifteen years, and still you rise,"
-      },
-      {
-        "start": 166.78,
-        "end": 171.96,
-        "text": "Brave heart, bright soul, wide-open skies."
-      },
-      {
-        "start": 171.96,
-        "end": 176.38,
-        "text": "The future's waiting, warm and new,"
-      },
-      {
-        "start": 176.38,
-        "end": 181.56,
-        "text": "Jessica, it's calling you."
-      },
-      {
-        "start": 181.56,
-        "end": 191.86,
-        "text": "Jessica, it's calling you..."
-      }
-    ]
-  },
-  {
     "id": "the-road-beyond",
     "title": "The Road Beyond",
     "artist": "Linacre",
@@ -727,6 +386,347 @@
     ]
   },
   {
+    "id": "jessica-hold-your-head-up",
+    "title": "Jessica, Hold Your Head Up",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "Acoustic Pop-Folk / Contemporary",
+    "duration": "4:00",
+    "durationSec": 239.98,
+    "videoFile": "videos/Jessica, Hold Your Head Up.mp4",
+    "coverFile": "covers/jessica-hold-your-head-up.jpg",
+    "bpm": "88 BPM",
+    "model": "Suno V6-MINI",
+    "story": "A deeply moving, uplifting acoustic folk-pop ballad dedicated to Jessica at 15. Through heartbreak, grief, loss, family turmoil, and quiet courage, she and her uncle David share honest talks, beers, and laughter under the porch light—reminding her that the storm has passed and tomorrow belongs to her.",
+    "lyrics": [
+      {
+        "start": 0.62,
+        "end": 3.1,
+        "text": "Fifteen candles, fifteen years,"
+      },
+      {
+        "start": 3.1,
+        "end": 5.58,
+        "text": "Still standing tall through storms and tears."
+      },
+      {
+        "start": 5.58,
+        "end": 7.88,
+        "text": "Callum took a different road,"
+      },
+      {
+        "start": 7.88,
+        "end": 10.18,
+        "text": "Left a space where memories glowed."
+      },
+      {
+        "start": 10.18,
+        "end": 12.72,
+        "text": "Then Jack arrived, a little light,"
+      },
+      {
+        "start": 12.72,
+        "end": 15.26,
+        "text": "While grown-up hearts kept losing sight."
+      },
+      {
+        "start": 15.26,
+        "end": 17.63,
+        "text": "Doors kept changing, names moved on,"
+      },
+      {
+        "start": 17.63,
+        "end": 20.0,
+        "text": "Still you found the strength to carry on."
+      },
+      {
+        "start": 20.0,
+        "end": 22.87,
+        "text": "You learned too young what goodbyes mean,"
+      },
+      {
+        "start": 22.87,
+        "end": 25.74,
+        "text": "But kept a spark beneath the rain."
+      },
+      {
+        "start": 25.74,
+        "end": 27.64,
+        "text": "And every scar you never show"
+      },
+      {
+        "start": 27.64,
+        "end": 30.38,
+        "text": "Is proof of how much you have grown."
+      },
+      {
+        "start": 30.38,
+        "end": 33.54,
+        "text": "Jessica, hold your head up high,"
+      },
+      {
+        "start": 33.54,
+        "end": 36.18,
+        "text": "You've got tomorrow in your eyes."
+      },
+      {
+        "start": 36.18,
+        "end": 38.22,
+        "text": "From every tear and every test,"
+      },
+      {
+        "start": 38.22,
+        "end": 40.78,
+        "text": "You're still becoming your very best."
+      },
+      {
+        "start": 40.78,
+        "end": 43.38,
+        "text": "With Bonny's arms and David's words,"
+      },
+      {
+        "start": 43.38,
+        "end": 45.7,
+        "text": "A little hope can move the world."
+      },
+      {
+        "start": 45.7,
+        "end": 48.22,
+        "text": "The road is wide, the sky is blue,"
+      },
+      {
+        "start": 48.22,
+        "end": 51.38,
+        "text": "There's brighter days belonging to you."
+      },
+      {
+        "start": 51.38,
+        "end": 55.0,
+        "text": "Jack's dad disappeared behind a wall,"
+      },
+      {
+        "start": 55.0,
+        "end": 59.9,
+        "text": "Came back with promises that couldn't stand at all."
+      },
+      {
+        "start": 59.9,
+        "end": 62.4,
+        "text": "Your mum Jodie fought with all her might,"
+      },
+      {
+        "start": 62.4,
+        "end": 65.04,
+        "text": "Then left her love inside your life."
+      },
+      {
+        "start": 65.04,
+        "end": 67.44,
+        "text": "A year of courage, a year of pain,"
+      },
+      {
+        "start": 67.44,
+        "end": 70.02,
+        "text": "Her name still falls like summer rain."
+      },
+      {
+        "start": 70.02,
+        "end": 72.34,
+        "text": "Jack found shelter somewhere new,"
+      },
+      {
+        "start": 72.34,
+        "end": 75.0,
+        "text": "And then Skida slipped away from you."
+      },
+      {
+        "start": 75.0,
+        "end": 78.12,
+        "text": "Two months later, another goodbye,"
+      },
+      {
+        "start": 78.12,
+        "end": 80.56,
+        "text": "Too much weight for a fifteen-year life."
+      },
+      {
+        "start": 80.56,
+        "end": 83.02,
+        "text": "But through the ache, through every bend,"
+      },
+      {
+        "start": 83.02,
+        "end": 85.72,
+        "text": "You found a home where hearts can mend."
+      },
+      {
+        "start": 85.72,
+        "end": 88.18,
+        "text": "Jessica, hold your head up high,"
+      },
+      {
+        "start": 88.18,
+        "end": 90.88,
+        "text": "You've got tomorrow in your eyes."
+      },
+      {
+        "start": 90.88,
+        "end": 92.9,
+        "text": "From every tear and every test,"
+      },
+      {
+        "start": 92.9,
+        "end": 95.48,
+        "text": "You're still becoming your very best."
+      },
+      {
+        "start": 95.48,
+        "end": 98.0,
+        "text": "With Bonny's arms and David's words,"
+      },
+      {
+        "start": 98.0,
+        "end": 100.4,
+        "text": "A little hope can move the world."
+      },
+      {
+        "start": 100.4,
+        "end": 103.22,
+        "text": "The road is wide, the sky is blue,"
+      },
+      {
+        "start": 103.22,
+        "end": 106.1,
+        "text": "There's brighter days belonging to you."
+      },
+      {
+        "start": 106.1,
+        "end": 109.24,
+        "text": "School feels heavy, mornings drag,"
+      },
+      {
+        "start": 109.24,
+        "end": 112.38,
+        "text": "Some days you're walking with a loaded bag."
+      },
+      {
+        "start": 112.38,
+        "end": 114.85,
+        "text": "But after floods of sleepless tears,"
+      },
+      {
+        "start": 114.85,
+        "end": 117.32,
+        "text": "You and David face the years."
+      },
+      {
+        "start": 117.32,
+        "end": 119.79,
+        "text": "A couple beers, a talking night,"
+      },
+      {
+        "start": 119.79,
+        "end": 122.26,
+        "text": "Small honest jokes, a porch-light bright."
+      },
+      {
+        "start": 122.26,
+        "end": 125.93,
+        "text": "No perfect map, no magic tune,"
+      },
+      {
+        "start": 125.93,
+        "end": 129.6,
+        "text": "Just two brave hearts making room."
+      },
+      {
+        "start": 129.6,
+        "end": 132.78,
+        "text": "Jessica, hold your head up high,"
+      },
+      {
+        "start": 132.78,
+        "end": 135.96,
+        "text": "You've got tomorrow in your eyes."
+      },
+      {
+        "start": 135.96,
+        "end": 137.98,
+        "text": "From every tear and every test,"
+      },
+      {
+        "start": 137.98,
+        "end": 140.56,
+        "text": "You're still becoming your very best."
+      },
+      {
+        "start": 140.56,
+        "end": 143.2,
+        "text": "With Bonny's arms and David's words,"
+      },
+      {
+        "start": 143.2,
+        "end": 145.5,
+        "text": "A little hope can move the world."
+      },
+      {
+        "start": 145.5,
+        "end": 148.04,
+        "text": "The road is wide, the sky is blue,"
+      },
+      {
+        "start": 148.04,
+        "end": 150.94,
+        "text": "There's brighter days belonging to you."
+      },
+      {
+        "start": 150.94,
+        "end": 153.28,
+        "text": "Jessica, let the old hurt fade,"
+      },
+      {
+        "start": 153.28,
+        "end": 155.74,
+        "text": "Look at the life you're gonna make."
+      },
+      {
+        "start": 155.74,
+        "end": 158.86,
+        "text": "You are more than what went wrong,"
+      },
+      {
+        "start": 158.86,
+        "end": 161.76,
+        "text": "You are the reason hope stays strong."
+      },
+      {
+        "start": 161.76,
+        "end": 166.78,
+        "text": "Fifteen years, and still you rise,"
+      },
+      {
+        "start": 166.78,
+        "end": 171.96,
+        "text": "Brave heart, bright soul, wide-open skies."
+      },
+      {
+        "start": 171.96,
+        "end": 176.38,
+        "text": "The future's waiting, warm and new,"
+      },
+      {
+        "start": 176.38,
+        "end": 181.56,
+        "text": "Jessica, it's calling you."
+      },
+      {
+        "start": 181.56,
+        "end": 191.86,
+        "text": "Jessica, it's calling you..."
+      }
+    ]
+  },
+  {
     "id": "barnsley-town",
     "title": "Barnsley Town",
     "artist": "Linacre",
@@ -753,7 +753,7 @@
       {
         "start": 5.68,
         "end": 9.2,
-        "text": "Creepy Steve\u2019s by the bins like he\u2019s always been there"
+        "text": "Creepy Steve’s by the bins like he’s always been there"
       },
       {
         "start": 9.98,
@@ -763,22 +763,22 @@
       {
         "start": 12.32,
         "end": 14.7,
-        "text": "Lift smells funny but we\u2019re loyal to the soil"
+        "text": "Lift smells funny but we’re loyal to the soil"
       },
       {
         "start": 15.02,
         "end": 16.8,
-        "text": "Mucky woman\u2019s laughing in a dressing gown"
+        "text": "Mucky woman’s laughing in a dressing gown"
       },
       {
         "start": 16.8,
         "end": 19.08,
-        "text": "Says, \u201cI\u2019ve got class, love\u201d \u2014 then she falls straight down"
+        "text": "Says, “I’ve got class, love” — then she falls straight down"
       },
       {
         "start": 19.08,
         "end": 21.96,
-        "text": "Creepy Steve\u2019s got a raincoat and a plastic cup"
+        "text": "Creepy Steve’s got a raincoat and a plastic cup"
       },
       {
         "start": 21.96,
@@ -798,12 +798,12 @@
       {
         "start": 28.26,
         "end": 30.56,
-        "text": "If the rent\u2019s gone up, we\u2019ll blame the moon"
+        "text": "If the rent’s gone up, we’ll blame the moon"
       },
       {
         "start": 30.6,
         "end": 32.72,
-        "text": "If the telly breaks, we\u2019ll fix it with a spoon"
+        "text": "If the telly breaks, we’ll fix it with a spoon"
       },
       {
         "start": 32.92,
@@ -813,7 +813,7 @@
       {
         "start": 35.32,
         "end": 38.06,
-        "text": "We\u2019re making do, mate \u2014 that\u2019s the council plan"
+        "text": "We’re making do, mate — that’s the council plan"
       },
       {
         "start": 38.36,
@@ -823,22 +823,22 @@
       {
         "start": 40.48,
         "end": 42.72,
-        "text": "Mucky woman\u2019s moonwalking in a leopard hat"
+        "text": "Mucky woman’s moonwalking in a leopard hat"
       },
       {
         "start": 42.76,
         "end": 45.0,
-        "text": "Barnsley Town, sing it loud, don\u2019t be shy"
+        "text": "Barnsley Town, sing it loud, don’t be shy"
       },
       {
         "start": 45.2,
         "end": 47.32,
-        "text": "Chambers pub calling, so we\u2019re giving it a try"
+        "text": "Chambers pub calling, so we’re giving it a try"
       },
       {
         "start": 47.54,
         "end": 49.8,
-        "text": "Crazy cuz, crazy cuz, life\u2019s a funny little tune"
+        "text": "Crazy cuz, crazy cuz, life’s a funny little tune"
       },
       {
         "start": 50.44,
@@ -848,7 +848,7 @@
       {
         "start": 51.96,
         "end": 53.96,
-        "text": "Creepy Steve says, \u201cOne more?\u201d \u2014 and we all shout, \u201cCourse!\u201d"
+        "text": "Creepy Steve says, “One more?” — and we all shout, “Course!”"
       },
       {
         "start": 54.0,
@@ -858,32 +858,32 @@
       {
         "start": 62.22,
         "end": 67.42,
-        "text": "The hallway\u2019s got a mystery stain with history"
+        "text": "The hallway’s got a mystery stain with history"
       },
       {
         "start": 67.8,
         "end": 70.0,
-        "text": "Landlord calls it \u201ccharacter,\u201d we call it misery"
+        "text": "Landlord calls it “character,” we call it misery"
       },
       {
         "start": 70.4,
         "end": 72.56,
-        "text": "Mucky woman\u2019s got a handbag full of receipts"
+        "text": "Mucky woman’s got a handbag full of receipts"
       },
       {
         "start": 72.56,
         "end": 75.0,
-        "text": "And a kebab that\u2019s been ageing for three weeks"
+        "text": "And a kebab that’s been ageing for three weeks"
       },
       {
         "start": 75.04,
         "end": 77.3,
-        "text": "Creepy Steve\u2019s doing parkour by the bin store"
+        "text": "Creepy Steve’s doing parkour by the bin store"
       },
       {
         "start": 77.56,
         "end": 79.6,
-        "text": "Missed the landing, now he\u2019s knocking on floor four"
+        "text": "Missed the landing, now he’s knocking on floor four"
       },
       {
         "start": 79.98,
@@ -893,22 +893,22 @@
       {
         "start": 82.14,
         "end": 84.1,
-        "text": "\u201cNever trust a pigeon that refuses to sleep\u201d"
+        "text": "“Never trust a pigeon that refuses to sleep”"
       },
       {
         "start": 84.32,
         "end": 86.74,
-        "text": "The neighbour\u2019s got a barbecue made from a chair"
+        "text": "The neighbour’s got a barbecue made from a chair"
       },
       {
         "start": 86.74,
         "end": 88.74,
-        "text": "Someone\u2019s growing herbs in the communal air"
+        "text": "Someone’s growing herbs in the communal air"
       },
       {
         "start": 88.78,
         "end": 91.22,
-        "text": "We\u2019ve got big dreams and a tiny front room"
+        "text": "We’ve got big dreams and a tiny front room"
       },
       {
         "start": 91.26,
@@ -923,22 +923,22 @@
       {
         "start": 96.08,
         "end": 98.2,
-        "text": "Mucky woman\u2019s moonwalking in a leopard hat"
+        "text": "Mucky woman’s moonwalking in a leopard hat"
       },
       {
         "start": 98.4,
         "end": 100.62,
-        "text": "Barnsley Town, sing it loud, don\u2019t be shy"
+        "text": "Barnsley Town, sing it loud, don’t be shy"
       },
       {
         "start": 100.62,
         "end": 102.8,
-        "text": "Chambers pub calling, so we\u2019re giving it a try"
+        "text": "Chambers pub calling, so we’re giving it a try"
       },
       {
         "start": 103.0,
         "end": 105.3,
-        "text": "Crazy cuz, crazy cuz, life\u2019s a funny little tune"
+        "text": "Crazy cuz, crazy cuz, life’s a funny little tune"
       },
       {
         "start": 105.58,
@@ -948,7 +948,7 @@
       {
         "start": 107.34,
         "end": 109.4,
-        "text": "Creepy Steve says, \u201cOne more?\u201d \u2014 and we all shout, \u201cCourse!\u201d"
+        "text": "Creepy Steve says, “One more?” — and we all shout, “Course!”"
       },
       {
         "start": 109.44,
@@ -958,12 +958,12 @@
       {
         "start": 112.6,
         "end": 126.5,
-        "text": "\u266a (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da...) \u266a"
+        "text": "♪ (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da...) ♪"
       },
       {
         "start": 126.6,
         "end": 141.5,
-        "text": "\u266a (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da!) \u266a"
+        "text": "♪ (Da-ba-dee, da-ba-da, da-ba-dee, da-ba-da!) ♪"
       },
       {
         "start": 142.36,
@@ -973,7 +973,7 @@
       {
         "start": 144.2,
         "end": 146.46,
-        "text": "Mucky woman\u2019s singing through a borrowed megaphone hat"
+        "text": "Mucky woman’s singing through a borrowed megaphone hat"
       },
       {
         "start": 146.6,
@@ -983,7 +983,7 @@
       {
         "start": 148.76,
         "end": 151.2,
-        "text": "We\u2019re too skint for taxis but we still get by"
+        "text": "We’re too skint for taxis but we still get by"
       },
       {
         "start": 151.46,
@@ -998,12 +998,12 @@
       {
         "start": 155.84,
         "end": 158.18,
-        "text": "Creepy Steve says, \u201cLast one!\u201d \u2014 we all know the score"
+        "text": "Creepy Steve says, “Last one!” — we all know the score"
       },
       {
         "start": 158.18,
         "end": 161.32,
-        "text": "Then we\u2019re dancing in the drizzle outside Chambers\u2019 door!"
+        "text": "Then we’re dancing in the drizzle outside Chambers’ door!"
       },
       {
         "start": 161.32,
@@ -1013,7 +1013,7 @@
       {
         "start": 163.58,
         "end": 165.64,
-        "text": "Creepy Steve, don\u2019t let us down"
+        "text": "Creepy Steve, don’t let us down"
       },
       {
         "start": 165.86,
@@ -1028,7 +1028,7 @@
       {
         "start": 171.2,
         "end": 180.68,
-        "text": "\u266a Chambers... Chambers! \u266a"
+        "text": "♪ Chambers... Chambers! ♪"
       }
     ]
   },
@@ -1059,17 +1059,17 @@
       {
         "start": 15.32,
         "end": 18.4,
-        "text": "Nic says, \u201cYou\u2019ve got a plan then?\u201d I say, \u201cI\u2019ve got a few\u201d"
+        "text": "Nic says, “You’ve got a plan then?” I say, “I’ve got a few”"
       },
       {
         "start": 18.94,
         "end": 22.85,
-        "text": "There\u2019s a chair that needs repairing and a shed that wants me too"
+        "text": "There’s a chair that needs repairing and a shed that wants me too"
       },
       {
         "start": 22.9,
         "end": 24.24,
-        "text": "My left side\u2019s playing hide-and-seek"
+        "text": "My left side’s playing hide-and-seek"
       },
       {
         "start": 26.3,
@@ -1089,12 +1089,12 @@
       {
         "start": 39.52,
         "end": 43.39,
-        "text": "I\u2019m skint, Dave from Barnsley, counting pennies by the sink"
+        "text": "I’m skint, Dave from Barnsley, counting pennies by the sink"
       },
       {
         "start": 43.44,
         "end": 47.31,
-        "text": "Body coming loose at the seams, but I\u2019m not done, I think"
+        "text": "Body coming loose at the seams, but I’m not done, I think"
       },
       {
         "start": 47.36,
@@ -1109,12 +1109,12 @@
       {
         "start": 55.26,
         "end": 58.72,
-        "text": "If the day says no, I\u2019ll have another go"
+        "text": "If the day says no, I’ll have another go"
       },
       {
         "start": 59.08,
         "end": 63.9,
-        "text": "There\u2019s a small light somewhere and I\u2019m learning where it goes"
+        "text": "There’s a small light somewhere and I’m learning where it goes"
       },
       {
         "start": 66.6,
@@ -1149,7 +1149,7 @@
       {
         "start": 89.46,
         "end": 92.08,
-        "text": "Nic puts tea beside me, says, \u201cDon\u2019t make it grand\u201d"
+        "text": "Nic puts tea beside me, says, “Don’t make it grand”"
       },
       {
         "start": 92.94,
@@ -1159,12 +1159,12 @@
       {
         "start": 97.86,
         "end": 101.42,
-        "text": "I\u2019m skint, Dave from Barnsley, counting pennies by the sink"
+        "text": "I’m skint, Dave from Barnsley, counting pennies by the sink"
       },
       {
         "start": 101.86,
         "end": 105.32,
-        "text": "Body coming loose at the seams, but I\u2019m not done, I think"
+        "text": "Body coming loose at the seams, but I’m not done, I think"
       },
       {
         "start": 106.66,
@@ -1179,12 +1179,12 @@
       {
         "start": 113.26,
         "end": 116.76,
-        "text": "If the day says no, I\u2019ll have another go"
+        "text": "If the day says no, I’ll have another go"
       },
       {
         "start": 117.02,
         "end": 121.88,
-        "text": "There\u2019s a small light somewhere and I\u2019m learning where it goes"
+        "text": "There’s a small light somewhere and I’m learning where it goes"
       },
       {
         "start": 124.3,
@@ -1214,37 +1214,37 @@
       {
         "start": 144.86,
         "end": 150.02,
-        "text": "Not the ringing in my ears this time\u2014something I have done"
+        "text": "Not the ringing in my ears this time—something I have done"
       },
       {
         "start": 152.88,
         "end": 157.14,
-        "text": "I\u2019m skint, Dave from Barnsley, but the numbers start to change"
+        "text": "I’m skint, Dave from Barnsley, but the numbers start to change"
       },
       {
         "start": 157.48,
         "end": 161.62,
-        "text": "That little thing I built today has found its way to someone\u2019s place"
+        "text": "That little thing I built today has found its way to someone’s place"
       },
       {
         "start": 162.14,
         "end": 165.52,
-        "text": "Fester\u2019s on the worktop, Ralf is curled up blue"
+        "text": "Fester’s on the worktop, Ralf is curled up blue"
       },
       {
         "start": 165.96,
         "end": 169.7,
-        "text": "Nic is laughing in the doorway saying, \u201cSee, I knew you\u2019d do\u201d"
+        "text": "Nic is laughing in the doorway saying, “See, I knew you’d do”"
       },
       {
         "start": 169.96,
         "end": 173.58,
-        "text": "If the day says no, I\u2019ll have another go"
+        "text": "If the day says no, I’ll have another go"
       },
       {
         "start": 173.9,
         "end": 178.86,
-        "text": "There\u2019s a small light getting brighter and I\u2019m learning where it goes"
+        "text": "There’s a small light getting brighter and I’m learning where it goes"
       },
       {
         "start": 185.74,
@@ -1259,12 +1259,12 @@
       {
         "start": 194.18,
         "end": 198.38,
-        "text": "I\u2019m still here, still trying, with a spark beneath the skin"
+        "text": "I’m still here, still trying, with a spark beneath the skin"
       },
       {
         "start": 199.84,
         "end": 204.58,
-        "text": "Skint, Dave from Barnsley\u2014and tonight, I think I win"
+        "text": "Skint, Dave from Barnsley—and tonight, I think I win"
       }
     ]
   },
@@ -1581,7 +1581,7 @@
       {
         "start": 6.06,
         "end": 7.85,
-        "text": "Nic says, \u201cYou\u2019ll get there\u201d"
+        "text": "Nic says, “You’ll get there”"
       },
       {
         "start": 7.9,
@@ -1611,12 +1611,12 @@
       {
         "start": 26.16,
         "end": 28.15,
-        "text": "Nic says, \u201cBreathe, love, take it slow\u201d"
+        "text": "Nic says, “Breathe, love, take it slow”"
       },
       {
         "start": 28.2,
         "end": 30.5,
-        "text": "Dave says, \u201cI would, but me body says no\u201d"
+        "text": "Dave says, “I would, but me body says no”"
       },
       {
         "start": 31.48,
@@ -1641,12 +1641,12 @@
       {
         "start": 41.9,
         "end": 44.95,
-        "text": "Oh Dave, Dave, world\u2019s most miserable man"
+        "text": "Oh Dave, Dave, world’s most miserable man"
       },
       {
         "start": 45.0,
         "end": 47.23,
-        "text": "Down on his luck but he\u2019s doing what he can"
+        "text": "Down on his luck but he’s doing what he can"
       },
       {
         "start": 47.28,
@@ -1656,12 +1656,12 @@
       {
         "start": 49.56,
         "end": 51.0,
-        "text": "He keeps on trying though the battery\u2019s spent"
+        "text": "He keeps on trying though the battery’s spent"
       },
       {
         "start": 51.96,
         "end": 53.98,
-        "text": "Oh Dave, Dave, don\u2019t throw in the towel"
+        "text": "Oh Dave, Dave, don’t throw in the towel"
       },
       {
         "start": 54.46,
@@ -1671,12 +1671,12 @@
       {
         "start": 56.54,
         "end": 58.93,
-        "text": "Nic says, \u201cOne more go, you\u2019re closer than you think\u201d"
+        "text": "Nic says, “One more go, you’re closer than you think”"
       },
       {
         "start": 58.98,
         "end": 61.04,
-        "text": "He\u2019s got one little spark, and it\u2019s starting to blink"
+        "text": "He’s got one little spark, and it’s starting to blink"
       },
       {
         "start": 61.7,
@@ -1721,7 +1721,7 @@
       {
         "start": 80.32,
         "end": 82.69,
-        "text": "Back aches, knees creak, shoulder says \u201cWhy?\u201d"
+        "text": "Back aches, knees creak, shoulder says “Why?”"
       },
       {
         "start": 82.74,
@@ -1741,12 +1741,12 @@
       {
         "start": 90.4,
         "end": 91.72,
-        "text": "Oh Dave, Dave, world\u2019s most miserable man"
+        "text": "Oh Dave, Dave, world’s most miserable man"
       },
       {
         "start": 92.34,
         "end": 94.31,
-        "text": "Down on his luck but he\u2019s doing what he can"
+        "text": "Down on his luck but he’s doing what he can"
       },
       {
         "start": 94.36,
@@ -1756,12 +1756,12 @@
       {
         "start": 96.66,
         "end": 98.82,
-        "text": "He keeps on trying though the battery\u2019s spent"
+        "text": "He keeps on trying though the battery’s spent"
       },
       {
         "start": 100.22,
         "end": 101.42,
-        "text": "Oh Dave, Dave, don\u2019t throw in the towel"
+        "text": "Oh Dave, Dave, don’t throw in the towel"
       },
       {
         "start": 101.58,
@@ -1771,12 +1771,12 @@
       {
         "start": 103.7,
         "end": 105.89,
-        "text": "Nic says, \u201cOne more go, you\u2019re closer than you think\u201d"
+        "text": "Nic says, “One more go, you’re closer than you think”"
       },
       {
         "start": 105.94,
         "end": 108.16,
-        "text": "He\u2019s got one little spark, and it\u2019s starting to blink"
+        "text": "He’s got one little spark, and it’s starting to blink"
       },
       {
         "start": 108.7,
@@ -1786,22 +1786,22 @@
       {
         "start": 113.14,
         "end": 115.15,
-        "text": "I\u2019ve got a list, though I\u2019ve lost where I put it"
+        "text": "I’ve got a list, though I’ve lost where I put it"
       },
       {
         "start": 115.2,
         "end": 117.41,
-        "text": "A half-built thing and a cat that\u2019s chewed it"
+        "text": "A half-built thing and a cat that’s chewed it"
       },
       {
         "start": 117.46,
         "end": 119.81,
-        "text": "The world says no, but I\u2019m not done yet"
+        "text": "The world says no, but I’m not done yet"
       },
       {
         "start": 119.86,
         "end": 122.38,
-        "text": "I\u2019ve survived worse than a dodgy internet set"
+        "text": "I’ve survived worse than a dodgy internet set"
       },
       {
         "start": 122.74,
@@ -1816,22 +1816,22 @@
       {
         "start": 127.38,
         "end": 129.55,
-        "text": "If success is a door, I\u2019ll lean on the frame"
+        "text": "If success is a door, I’ll lean on the frame"
       },
       {
         "start": 129.6,
         "end": 131.89,
-        "text": "If it won\u2019t open today, I\u2019ll remember the name"
+        "text": "If it won’t open today, I’ll remember the name"
       },
       {
         "start": 131.94,
         "end": 134.29,
-        "text": "Then one small customer says, \u201cThis works for me\u201d"
+        "text": "Then one small customer says, “This works for me”"
       },
       {
         "start": 134.34,
         "end": 136.35,
-        "text": "One proper payment, not a maybe or \u201cwe\u2019ll see\u201d"
+        "text": "One proper payment, not a maybe or “we’ll see”"
       },
       {
         "start": 136.4,
@@ -1851,7 +1851,7 @@
       {
         "start": 143.98,
         "end": 145.88,
-        "text": "The room\u2019s still a mess, but the feeling is right"
+        "text": "The room’s still a mess, but the feeling is right"
       },
       {
         "start": 146.2,
@@ -1861,7 +1861,7 @@
       {
         "start": 148.64,
         "end": 150.64,
-        "text": "But Dave lifts his chin and he\u2019s grinning now"
+        "text": "But Dave lifts his chin and he’s grinning now"
       },
       {
         "start": 152.04,
@@ -1876,12 +1876,12 @@
       {
         "start": 155.6,
         "end": 157.7,
-        "text": "Oh Dave, Dave, world\u2019s most miserable man"
+        "text": "Oh Dave, Dave, world’s most miserable man"
       },
       {
         "start": 158.08,
         "end": 160.27,
-        "text": "Down on his luck but he\u2019s doing what he can"
+        "text": "Down on his luck but he’s doing what he can"
       },
       {
         "start": 160.32,
@@ -1891,7 +1891,7 @@
       {
         "start": 162.64,
         "end": 164.85,
-        "text": "He kept on moving and he\u2019s landed a hit"
+        "text": "He kept on moving and he’s landed a hit"
       },
       {
         "start": 164.9,
@@ -1901,17 +1901,17 @@
       {
         "start": 167.5,
         "end": 169.56,
-        "text": "Fester and Ralf, it\u2019s time for the show"
+        "text": "Fester and Ralf, it’s time for the show"
       },
       {
         "start": 170.74,
         "end": 172.03,
-        "text": "Nic says, \u201cSee? You\u2019re closer than you think\u201d"
+        "text": "Nic says, “See? You’re closer than you think”"
       },
       {
         "start": 172.08,
         "end": 174.14,
-        "text": "That little spark caught fire, now it\u2019s starting to link"
+        "text": "That little spark caught fire, now it’s starting to link"
       },
       {
         "start": 174.6,
@@ -1931,7 +1931,7 @@
       {
         "start": 181.28,
         "end": 183.72,
-        "text": "And Dave\u2019s got a future inside his head"
+        "text": "And Dave’s got a future inside his head"
       },
       {
         "start": 184.12,
@@ -1941,7 +1941,7 @@
       {
         "start": 186.98,
         "end": 189.54,
-        "text": "Barnsley\u2019s finest doing what he can"
+        "text": "Barnsley’s finest doing what he can"
       }
     ]
   },
@@ -1977,12 +1977,12 @@
       {
         "start": 10.32,
         "end": 12.06,
-        "text": "Said the rent needs sorting \u2014 I\u2019ve heard that before."
+        "text": "Said the rent needs sorting — I’ve heard that before."
       },
       {
         "start": 12.1,
         "end": 13.8,
-        "text": "Down by the bins, Kev\u2019s doing deals with a grin,"
+        "text": "Down by the bins, Kev’s doing deals with a grin,"
       },
       {
         "start": 14.02,
@@ -1992,22 +1992,22 @@
       {
         "start": 15.58,
         "end": 17.4,
-        "text": "She\u2019s a proper muck magnet, boots full of clay,"
+        "text": "She’s a proper muck magnet, boots full of clay,"
       },
       {
         "start": 17.44,
         "end": 19.04,
-        "text": "Says, \u201cCome on, handsome, let\u2019s get filthy today.\u201d"
+        "text": "Says, “Come on, handsome, let’s get filthy today.”"
       },
       {
         "start": 19.08,
         "end": 20.9,
-        "text": "I said, \u201cLove, I\u2019ve got manners, a mop and a plan,\u201d"
+        "text": "I said, “Love, I’ve got manners, a mop and a plan,”"
       },
       {
         "start": 20.94,
         "end": 22.74,
-        "text": "She said, \u201cForget the mop \u2014 be a mucky woman\u2019s man.\u201d"
+        "text": "She said, “Forget the mop — be a mucky woman’s man.”"
       },
       {
         "start": 22.78,
@@ -2017,7 +2017,7 @@
       {
         "start": 24.56,
         "end": 26.32,
-        "text": "Neighbours start knocking: \u201cCan we come in?\u201d"
+        "text": "Neighbours start knocking: “Can we come in?”"
       },
       {
         "start": 26.36,
@@ -2027,7 +2027,7 @@
       {
         "start": 28.12,
         "end": 29.62,
-        "text": "Best worst evening that we\u2019ve ever had."
+        "text": "Best worst evening that we’ve ever had."
       },
       {
         "start": 30.16,
@@ -2067,32 +2067,32 @@
       {
         "start": 42.04,
         "end": 43.7,
-        "text": "Put the kettle on \u2014 it\u2019s the crazy rap!"
+        "text": "Put the kettle on — it’s the crazy rap!"
       },
       {
         "start": 43.74,
         "end": 45.58,
-        "text": "She said, \u201cYou\u2019re a grass,\u201d I said, \u201cNo, I\u2019m a sage,\u201d"
+        "text": "She said, “You’re a grass,” I said, “No, I’m a sage,”"
       },
       {
         "start": 45.62,
         "end": 47.28,
-        "text": "She said, \u201cThat\u2019s not a herb, that\u2019s a landlord\u2019s rage.\u201d"
+        "text": "She said, “That’s not a herb, that’s a landlord’s rage.”"
       },
       {
         "start": 47.32,
         "end": 48.99,
-        "text": "Got a spliff in the garden, but the garden\u2019s a tray,"
+        "text": "Got a spliff in the garden, but the garden’s a tray,"
       },
       {
         "start": 49.32,
         "end": 50.82,
-        "text": "Three dead plants and a fox that won\u2019t go away."
+        "text": "Three dead plants and a fox that won’t go away."
       },
       {
         "start": 50.86,
         "end": 52.6,
-        "text": "Her coat\u2019s second-hand but her attitude\u2019s new,"
+        "text": "Her coat’s second-hand but her attitude’s new,"
       },
       {
         "start": 52.64,
@@ -2102,12 +2102,12 @@
       {
         "start": 54.44,
         "end": 56.12,
-        "text": "She called me a stud \u2014 I said, \u201cThat\u2019s a screw,\u201d"
+        "text": "She called me a stud — I said, “That’s a screw,”"
       },
       {
         "start": 56.16,
         "end": 57.88,
-        "text": "Now I\u2019m fixing the cupboard while she fixes my mood."
+        "text": "Now I’m fixing the cupboard while she fixes my mood."
       },
       {
         "start": 57.92,
@@ -2117,17 +2117,17 @@
       {
         "start": 59.68,
         "end": 61.54,
-        "text": "Someone\u2019s burnt the toast, but we\u2019re blaming the hall."
+        "text": "Someone’s burnt the toast, but we’re blaming the hall."
       },
       {
         "start": 61.58,
         "end": 63.14,
-        "text": "The dog\u2019s got my slipper, the cat\u2019s got the cap,"
+        "text": "The dog’s got my slipper, the cat’s got the cap,"
       },
       {
         "start": 63.34,
         "end": 64.9,
-        "text": "Everybody\u2019s skanking to the crazy rap."
+        "text": "Everybody’s skanking to the crazy rap."
       },
       {
         "start": 65.42,
@@ -2167,12 +2167,12 @@
       {
         "start": 77.3,
         "end": 78.92,
-        "text": "Put the kettle on \u2014 it\u2019s the crazy rap!"
+        "text": "Put the kettle on — it’s the crazy rap!"
       },
       {
         "start": 78.96,
         "end": 80.88,
-        "text": "She said, \u201cCall me dirty,\u201d I said, \u201cThat\u2019s your brand,\u201d"
+        "text": "She said, “Call me dirty,” I said, “That’s your brand,”"
       },
       {
         "start": 80.92,
@@ -2237,7 +2237,7 @@
       {
         "start": 107.22,
         "end": 109.04,
-        "text": "Put the kettle on \u2014 it\u2019s the crazy rap!"
+        "text": "Put the kettle on — it’s the crazy rap!"
       },
       {
         "start": 109.08,
@@ -2247,7 +2247,7 @@
       {
         "start": 110.96,
         "end": 112.56,
-        "text": "Mind that woman \u2014 she don\u2019t stop."
+        "text": "Mind that woman — she don’t stop."
       },
       {
         "start": 112.6,
@@ -2278,12 +2278,12 @@
       {
         "start": 0.74,
         "end": 1.4,
-        "text": "Right\u2014keep it tidy."
+        "text": "Right—keep it tidy."
       },
       {
         "start": 4.4,
         "end": 5.94,
-        "text": "No, actually, don\u2019t."
+        "text": "No, actually, don’t."
       },
       {
         "start": 10.52,
@@ -2293,7 +2293,7 @@
       {
         "start": 13.58,
         "end": 16.18,
-        "text": "He said, \u201cIt\u2019s nearly vintage,\u201d I said, \u201cNearly\u2019s brave.\u201d"
+        "text": "He said, “It’s nearly vintage,” I said, “Nearly’s brave.”"
       },
       {
         "start": 16.22,
@@ -2308,7 +2308,7 @@
       {
         "start": 21.42,
         "end": 23.92,
-        "text": "I\u2019m remarkably composed in a queue for a kebab,"
+        "text": "I’m remarkably composed in a queue for a kebab,"
       },
       {
         "start": 23.96,
@@ -2318,17 +2318,17 @@
       {
         "start": 26.46,
         "end": 28.9,
-        "text": "I\u2019ve got manners like a butler, taste buds like a bin,"
+        "text": "I’ve got manners like a butler, taste buds like a bin,"
       },
       {
         "start": 28.94,
         "end": 31.56,
-        "text": "Put a crown upon a sausage and I\u2019ll probably let it in."
+        "text": "Put a crown upon a sausage and I’ll probably let it in."
       },
       {
         "start": 31.6,
         "end": 32.34,
-        "text": "Hold up\u2014"
+        "text": "Hold up—"
       },
       {
         "start": 32.34,
@@ -2343,12 +2343,12 @@
       {
         "start": 34.12,
         "end": 35.98,
-        "text": "That\u2019s definitely part of the plan."
+        "text": "That’s definitely part of the plan."
       },
       {
         "start": 36.02,
         "end": 38.74,
-        "text": "We\u2019re doing fine, we\u2019re doing fine,"
+        "text": "We’re doing fine, we’re doing fine,"
       },
       {
         "start": 38.78,
@@ -2358,17 +2358,17 @@
       {
         "start": 41.48,
         "end": 43.6,
-        "text": "Hands up high if your life\u2019s off-line,"
+        "text": "Hands up high if your life’s off-line,"
       },
       {
         "start": 43.64,
         "end": 46.3,
-        "text": "We\u2019re doing fine, we\u2019re doing fine."
+        "text": "We’re doing fine, we’re doing fine."
       },
       {
         "start": 46.86,
         "end": 47.9,
-        "text": "Say, \u201cFine!\u201d"
+        "text": "Say, “Fine!”"
       },
       {
         "start": 47.9,
@@ -2378,7 +2378,7 @@
       {
         "start": 49.46,
         "end": 50.48,
-        "text": "Say, \u201cFine!\u201d"
+        "text": "Say, “Fine!”"
       },
       {
         "start": 50.48,
@@ -2388,7 +2388,7 @@
       {
         "start": 51.58,
         "end": 54.83,
-        "text": "That\u2019s the spirit\u2014statistically, we\u2019re fine."
+        "text": "That’s the spirit—statistically, we’re fine."
       },
       {
         "start": 55.2,
@@ -2408,7 +2408,7 @@
       {
         "start": 64.08,
         "end": 67.06,
-        "text": "Now it\u2019s more emotionally available than anyone upstairs."
+        "text": "Now it’s more emotionally available than anyone upstairs."
       },
       {
         "start": 67.1,
@@ -2418,42 +2418,42 @@
       {
         "start": 69.84,
         "end": 72.58,
-        "text": "Bought a motivational mug, it said, \u201cTry again someday.\u201d"
+        "text": "Bought a motivational mug, it said, “Try again someday.”"
       },
       {
         "start": 72.62,
         "end": 74.92,
-        "text": "My barber asked for guidance; I said, \u201cSurprise me, mate,\u201d"
+        "text": "My barber asked for guidance; I said, “Surprise me, mate,”"
       },
       {
         "start": 74.96,
         "end": 77.58,
-        "text": "Now I look like a haunted pear that\u2019s running late."
+        "text": "Now I look like a haunted pear that’s running late."
       },
       {
         "start": 77.62,
         "end": 79.02,
-        "text": "The bass drops out\u2014"
+        "text": "The bass drops out—"
       },
       {
         "start": 79.02,
         "end": 80.0,
-        "text": "The room gets tense\u2014"
+        "text": "The room gets tense—"
       },
       {
         "start": 80.4,
         "end": 81.19,
-        "text": "I\u2019ve got one thought"
+        "text": "I’ve got one thought"
       },
       {
         "start": 81.24,
         "end": 82.76,
-        "text": "And it\u2019s making no sense."
+        "text": "And it’s making no sense."
       },
       {
         "start": 82.8,
         "end": 84.6,
-        "text": "I\u2019m fluent in excuses, conversational in cheek,"
+        "text": "I’m fluent in excuses, conversational in cheek,"
       },
       {
         "start": 85.16,
@@ -2468,17 +2468,17 @@
       {
         "start": 90.34,
         "end": 92.82,
-        "text": "If confidence was currency, I\u2019d owe a pound or two."
+        "text": "If confidence was currency, I’d owe a pound or two."
       },
       {
         "start": 92.86,
         "end": 94.56,
-        "text": "You can call me unrealistic; I prefer \u201cfuture-famous,\u201d"
+        "text": "You can call me unrealistic; I prefer “future-famous,”"
       },
       {
         "start": 95.46,
         "end": 98.02,
-        "text": "I put \u201cenigmatic\u201d on a form that asked for \u201cname and address.\u201d"
+        "text": "I put “enigmatic” on a form that asked for “name and address.”"
       },
       {
         "start": 98.06,
@@ -2488,12 +2488,12 @@
       {
         "start": 100.54,
         "end": 102.32,
-        "text": "If you didn\u2019t get the first one, there\u2019s another one\u2014watch out."
+        "text": "If you didn’t get the first one, there’s another one—watch out."
       },
       {
         "start": 103.66,
         "end": 106.3,
-        "text": "We\u2019re doing fine, we\u2019re doing fine,"
+        "text": "We’re doing fine, we’re doing fine,"
       },
       {
         "start": 106.5,
@@ -2503,17 +2503,17 @@
       {
         "start": 109.2,
         "end": 111.34,
-        "text": "Hands up high if your life\u2019s off-line,"
+        "text": "Hands up high if your life’s off-line,"
       },
       {
         "start": 111.38,
         "end": 113.8,
-        "text": "We\u2019re doing fine, we\u2019re doing fine."
+        "text": "We’re doing fine, we’re doing fine."
       },
       {
         "start": 114.26,
         "end": 115.52,
-        "text": "Say, \u201cFine!\u201d"
+        "text": "Say, “Fine!”"
       },
       {
         "start": 115.52,
@@ -2523,7 +2523,7 @@
       {
         "start": 116.5,
         "end": 117.8,
-        "text": "Say, \u201cFine!\u201d"
+        "text": "Say, “Fine!”"
       },
       {
         "start": 117.8,
@@ -2533,7 +2533,7 @@
       {
         "start": 118.98,
         "end": 123.0,
-        "text": "That\u2019s the spirit\u2014statistically, we\u2019re fine."
+        "text": "That’s the spirit—statistically, we’re fine."
       },
       {
         "start": 123.8,
@@ -2548,7 +2548,7 @@
       {
         "start": 129.24,
         "end": 133.0,
-        "text": "We\u2019re doing fine."
+        "text": "We’re doing fine."
       }
     ]
   },
@@ -2810,7 +2810,7 @@
     "coverFile": "covers/nic-on-donny-road.jpg",
     "bpm": "98 BPM",
     "model": "Suno V6-MINI",
-    "story": "A hilarious, affectionate Northern comedy rap anthem celebrating Nic running the household on Donny Road\u2014sorting out grumpy Dave, feeding cats Fester & Ralf, and keeping the entire show moving with tea and a smile.",
+    "story": "A hilarious, affectionate Northern comedy rap anthem celebrating Nic running the household on Donny Road—sorting out grumpy Dave, feeding cats Fester & Ralf, and keeping the entire show moving with tea and a smile.",
     "lyrics": [
       {
         "start": 0.0,
