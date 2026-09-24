@@ -1,5 +1,346 @@
 [
   {
+    "id": "jessica-hold-your-head-up",
+    "title": "Jessica, Hold Your Head Up",
+    "artist": "Linacre",
+    "album": "Proper Mad",
+    "genre": "Acoustic Pop-Folk / Contemporary",
+    "duration": "4:00",
+    "durationSec": 239.98,
+    "videoFile": "videos/Jessica, Hold Your Head Up.mp4",
+    "coverFile": "covers/jessica-hold-your-head-up.jpg",
+    "bpm": "88 BPM",
+    "model": "Suno V6-MINI",
+    "story": "A deeply moving, uplifting acoustic folk-pop ballad dedicated to Jessica at 15. Through heartbreak, grief, loss, family turmoil, and quiet courage, she and her uncle David share honest talks, beers, and laughter under the porch light\u2014reminding her that the storm has passed and tomorrow belongs to her.",
+    "lyrics": [
+      {
+        "start": 0.62,
+        "end": 3.1,
+        "text": "Fifteen candles, fifteen years,"
+      },
+      {
+        "start": 3.1,
+        "end": 5.58,
+        "text": "Still standing tall through storms and tears."
+      },
+      {
+        "start": 5.58,
+        "end": 7.88,
+        "text": "Callum took a different road,"
+      },
+      {
+        "start": 7.88,
+        "end": 10.18,
+        "text": "Left a space where memories glowed."
+      },
+      {
+        "start": 10.18,
+        "end": 12.72,
+        "text": "Then Jack arrived, a little light,"
+      },
+      {
+        "start": 12.72,
+        "end": 15.26,
+        "text": "While grown-up hearts kept losing sight."
+      },
+      {
+        "start": 15.26,
+        "end": 17.63,
+        "text": "Doors kept changing, names moved on,"
+      },
+      {
+        "start": 17.63,
+        "end": 20.0,
+        "text": "Still you found the strength to carry on."
+      },
+      {
+        "start": 20.0,
+        "end": 22.87,
+        "text": "You learned too young what goodbyes mean,"
+      },
+      {
+        "start": 22.87,
+        "end": 25.74,
+        "text": "But kept a spark beneath the rain."
+      },
+      {
+        "start": 25.74,
+        "end": 27.64,
+        "text": "And every scar you never show"
+      },
+      {
+        "start": 27.64,
+        "end": 30.38,
+        "text": "Is proof of how much you have grown."
+      },
+      {
+        "start": 30.38,
+        "end": 33.54,
+        "text": "Jessica, hold your head up high,"
+      },
+      {
+        "start": 33.54,
+        "end": 36.18,
+        "text": "You've got tomorrow in your eyes."
+      },
+      {
+        "start": 36.18,
+        "end": 38.22,
+        "text": "From every tear and every test,"
+      },
+      {
+        "start": 38.22,
+        "end": 40.78,
+        "text": "You're still becoming your very best."
+      },
+      {
+        "start": 40.78,
+        "end": 43.38,
+        "text": "With Bonny's arms and David's words,"
+      },
+      {
+        "start": 43.38,
+        "end": 45.7,
+        "text": "A little hope can move the world."
+      },
+      {
+        "start": 45.7,
+        "end": 48.22,
+        "text": "The road is wide, the sky is blue,"
+      },
+      {
+        "start": 48.22,
+        "end": 51.38,
+        "text": "There's brighter days belonging to you."
+      },
+      {
+        "start": 51.38,
+        "end": 55.0,
+        "text": "Jack's dad disappeared behind a wall,"
+      },
+      {
+        "start": 55.0,
+        "end": 59.9,
+        "text": "Came back with promises that couldn't stand at all."
+      },
+      {
+        "start": 59.9,
+        "end": 62.4,
+        "text": "Your mum Jodie fought with all her might,"
+      },
+      {
+        "start": 62.4,
+        "end": 65.04,
+        "text": "Then left her love inside your life."
+      },
+      {
+        "start": 65.04,
+        "end": 67.44,
+        "text": "A year of courage, a year of pain,"
+      },
+      {
+        "start": 67.44,
+        "end": 70.02,
+        "text": "Her name still falls like summer rain."
+      },
+      {
+        "start": 70.02,
+        "end": 72.34,
+        "text": "Jack found shelter somewhere new,"
+      },
+      {
+        "start": 72.34,
+        "end": 75.0,
+        "text": "And then Skida slipped away from you."
+      },
+      {
+        "start": 75.0,
+        "end": 78.12,
+        "text": "Two months later, another goodbye,"
+      },
+      {
+        "start": 78.12,
+        "end": 80.56,
+        "text": "Too much weight for a fifteen-year life."
+      },
+      {
+        "start": 80.56,
+        "end": 83.02,
+        "text": "But through the ache, through every bend,"
+      },
+      {
+        "start": 83.02,
+        "end": 85.72,
+        "text": "You found a home where hearts can mend."
+      },
+      {
+        "start": 85.72,
+        "end": 88.18,
+        "text": "Jessica, hold your head up high,"
+      },
+      {
+        "start": 88.18,
+        "end": 90.88,
+        "text": "You've got tomorrow in your eyes."
+      },
+      {
+        "start": 90.88,
+        "end": 92.9,
+        "text": "From every tear and every test,"
+      },
+      {
+        "start": 92.9,
+        "end": 95.48,
+        "text": "You're still becoming your very best."
+      },
+      {
+        "start": 95.48,
+        "end": 98.0,
+        "text": "With Bonny's arms and David's words,"
+      },
+      {
+        "start": 98.0,
+        "end": 100.4,
+        "text": "A little hope can move the world."
+      },
+      {
+        "start": 100.4,
+        "end": 103.22,
+        "text": "The road is wide, the sky is blue,"
+      },
+      {
+        "start": 103.22,
+        "end": 106.1,
+        "text": "There's brighter days belonging to you."
+      },
+      {
+        "start": 106.1,
+        "end": 109.24,
+        "text": "School feels heavy, mornings drag,"
+      },
+      {
+        "start": 109.24,
+        "end": 112.38,
+        "text": "Some days you're walking with a loaded bag."
+      },
+      {
+        "start": 112.38,
+        "end": 114.85,
+        "text": "But after floods of sleepless tears,"
+      },
+      {
+        "start": 114.85,
+        "end": 117.32,
+        "text": "You and David face the years."
+      },
+      {
+        "start": 117.32,
+        "end": 119.79,
+        "text": "A couple beers, a talking night,"
+      },
+      {
+        "start": 119.79,
+        "end": 122.26,
+        "text": "Small honest jokes, a porch-light bright."
+      },
+      {
+        "start": 122.26,
+        "end": 125.93,
+        "text": "No perfect map, no magic tune,"
+      },
+      {
+        "start": 125.93,
+        "end": 129.6,
+        "text": "Just two brave hearts making room."
+      },
+      {
+        "start": 129.6,
+        "end": 132.78,
+        "text": "Jessica, hold your head up high,"
+      },
+      {
+        "start": 132.78,
+        "end": 135.96,
+        "text": "You've got tomorrow in your eyes."
+      },
+      {
+        "start": 135.96,
+        "end": 137.98,
+        "text": "From every tear and every test,"
+      },
+      {
+        "start": 137.98,
+        "end": 140.56,
+        "text": "You're still becoming your very best."
+      },
+      {
+        "start": 140.56,
+        "end": 143.2,
+        "text": "With Bonny's arms and David's words,"
+      },
+      {
+        "start": 143.2,
+        "end": 145.5,
+        "text": "A little hope can move the world."
+      },
+      {
+        "start": 145.5,
+        "end": 148.04,
+        "text": "The road is wide, the sky is blue,"
+      },
+      {
+        "start": 148.04,
+        "end": 150.94,
+        "text": "There's brighter days belonging to you."
+      },
+      {
+        "start": 150.94,
+        "end": 153.28,
+        "text": "Jessica, let the old hurt fade,"
+      },
+      {
+        "start": 153.28,
+        "end": 155.74,
+        "text": "Look at the life you're gonna make."
+      },
+      {
+        "start": 155.74,
+        "end": 158.86,
+        "text": "You are more than what went wrong,"
+      },
+      {
+        "start": 158.86,
+        "end": 161.76,
+        "text": "You are the reason hope stays strong."
+      },
+      {
+        "start": 161.76,
+        "end": 166.78,
+        "text": "Fifteen years, and still you rise,"
+      },
+      {
+        "start": 166.78,
+        "end": 171.96,
+        "text": "Brave heart, bright soul, wide-open skies."
+      },
+      {
+        "start": 171.96,
+        "end": 176.38,
+        "text": "The future's waiting, warm and new,"
+      },
+      {
+        "start": 176.38,
+        "end": 181.56,
+        "text": "Jessica, it's calling you."
+      },
+      {
+        "start": 181.56,
+        "end": 191.86,
+        "text": "Jessica, it's calling you..."
+      }
+    ]
+  },
+  {
     "id": "barnsley-town",
     "title": "Barnsley Town",
     "artist": "Linacre",

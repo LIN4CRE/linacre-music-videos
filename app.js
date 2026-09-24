@@ -264,6 +264,7 @@ function drawAmbientFrame() {
 
 function updateAmbientPalette(trackId) {
   const palettes = {
+    'jessica-hold-your-head-up': 'radial-gradient(circle at 50% 20%, rgba(251, 146, 60, 0.16) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'barnsley-town': 'radial-gradient(circle at 50% 20%, rgba(0, 240, 255, 0.14) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'your-voice-beside-my-hand': 'radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.15) 0%, rgba(8, 9, 13, 0.95) 75%)',
     'nic-on-donny-road': 'radial-gradient(circle at 50% 20%, rgba(20, 184, 166, 0.15) 0%, rgba(8, 9, 13, 0.95) 75%)',

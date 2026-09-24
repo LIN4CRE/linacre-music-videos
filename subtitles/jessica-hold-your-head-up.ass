@@ -1,0 +1,82 @@
+[Script Info]
+Title: Jessica, Hold Your Head Up - Official Lyric Video
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lyrics,Segoe UI,38,&H00FFFFFF,&H000000FF,&H00101010,&H90000000,-1,0,0,0,100,100,0.5,0,1,3.5,2,2,60,60,205,1
+Style: Header,Segoe UI,26,&H00E0E0E0,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,2,0,1,2,1,8,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:03:59.98,Header,,0,0,0,,{\b1}JESSICA, HOLD YOUR HEAD UP{\b0}   |   LINACRE
+Dialogue: 1,0:00:00.62,0:00:03.10,Lyrics,,0,0,0,,Fifteen candles, fifteen years,
+Dialogue: 1,0:00:03.10,0:00:05.58,Lyrics,,0,0,0,,Still standing tall through storms and tears.
+Dialogue: 1,0:00:05.58,0:00:07.88,Lyrics,,0,0,0,,Callum took a different road,
+Dialogue: 1,0:00:07.88,0:00:10.18,Lyrics,,0,0,0,,Left a space where memories glowed.
+Dialogue: 1,0:00:10.18,0:00:12.72,Lyrics,,0,0,0,,Then Jack arrived, a little light,
+Dialogue: 1,0:00:12.72,0:00:15.26,Lyrics,,0,0,0,,While grown-up hearts kept losing sight.
+Dialogue: 1,0:00:15.26,0:00:17.63,Lyrics,,0,0,0,,Doors kept changing, names moved on,
+Dialogue: 1,0:00:17.63,0:00:20.00,Lyrics,,0,0,0,,Still you found the strength to carry on.
+Dialogue: 1,0:00:20.00,0:00:22.87,Lyrics,,0,0,0,,You learned too young what goodbyes mean,
+Dialogue: 1,0:00:22.87,0:00:25.74,Lyrics,,0,0,0,,But kept a spark beneath the rain.
+Dialogue: 1,0:00:25.74,0:00:27.64,Lyrics,,0,0,0,,And every scar you never show
+Dialogue: 1,0:00:27.64,0:00:30.38,Lyrics,,0,0,0,,Is proof of how much you have grown.
+Dialogue: 1,0:00:30.38,0:00:33.54,Lyrics,,0,0,0,,Jessica, hold your head up high,
+Dialogue: 1,0:00:33.54,0:00:36.18,Lyrics,,0,0,0,,You've got tomorrow in your eyes.
+Dialogue: 1,0:00:36.18,0:00:38.22,Lyrics,,0,0,0,,From every tear and every test,
+Dialogue: 1,0:00:38.22,0:00:40.78,Lyrics,,0,0,0,,You're still becoming your very best.
+Dialogue: 1,0:00:40.78,0:00:43.38,Lyrics,,0,0,0,,With Bonny's arms and David's words,
+Dialogue: 1,0:00:43.38,0:00:45.70,Lyrics,,0,0,0,,A little hope can move the world.
+Dialogue: 1,0:00:45.70,0:00:48.22,Lyrics,,0,0,0,,The road is wide, the sky is blue,
+Dialogue: 1,0:00:48.22,0:00:51.38,Lyrics,,0,0,0,,There's brighter days belonging to you.
+Dialogue: 1,0:00:51.38,0:00:55.00,Lyrics,,0,0,0,,Jack's dad disappeared behind a wall,
+Dialogue: 1,0:00:55.00,0:00:59.90,Lyrics,,0,0,0,,Came back with promises that couldn't stand at all.
+Dialogue: 1,0:00:59.90,0:01:02.40,Lyrics,,0,0,0,,Your mum Jodie fought with all her might,
+Dialogue: 1,0:01:02.40,0:01:05.04,Lyrics,,0,0,0,,Then left her love inside your life.
+Dialogue: 1,0:01:05.04,0:01:07.44,Lyrics,,0,0,0,,A year of courage, a year of pain,
+Dialogue: 1,0:01:07.44,0:01:10.02,Lyrics,,0,0,0,,Her name still falls like summer rain.
+Dialogue: 1,0:01:10.02,0:01:12.34,Lyrics,,0,0,0,,Jack found shelter somewhere new,
+Dialogue: 1,0:01:12.34,0:01:15.00,Lyrics,,0,0,0,,And then Skida slipped away from you.
+Dialogue: 1,0:01:15.00,0:01:18.12,Lyrics,,0,0,0,,Two months later, another goodbye,
+Dialogue: 1,0:01:18.12,0:01:20.56,Lyrics,,0,0,0,,Too much weight for a fifteen-year life.
+Dialogue: 1,0:01:20.56,0:01:23.02,Lyrics,,0,0,0,,But through the ache, through every bend,
+Dialogue: 1,0:01:23.02,0:01:25.72,Lyrics,,0,0,0,,You found a home where hearts can mend.
+Dialogue: 1,0:01:25.72,0:01:28.18,Lyrics,,0,0,0,,Jessica, hold your head up high,
+Dialogue: 1,0:01:28.18,0:01:30.88,Lyrics,,0,0,0,,You've got tomorrow in your eyes.
+Dialogue: 1,0:01:30.88,0:01:32.90,Lyrics,,0,0,0,,From every tear and every test,
+Dialogue: 1,0:01:32.90,0:01:35.48,Lyrics,,0,0,0,,You're still becoming your very best.
+Dialogue: 1,0:01:35.48,0:01:38.00,Lyrics,,0,0,0,,With Bonny's arms and David's words,
+Dialogue: 1,0:01:38.00,0:01:40.40,Lyrics,,0,0,0,,A little hope can move the world.
+Dialogue: 1,0:01:40.40,0:01:43.22,Lyrics,,0,0,0,,The road is wide, the sky is blue,
+Dialogue: 1,0:01:43.22,0:01:46.10,Lyrics,,0,0,0,,There's brighter days belonging to you.
+Dialogue: 1,0:01:46.10,0:01:49.24,Lyrics,,0,0,0,,School feels heavy, mornings drag,
+Dialogue: 1,0:01:49.24,0:01:52.38,Lyrics,,0,0,0,,Some days you're walking with a loaded bag.
+Dialogue: 1,0:01:52.38,0:01:54.85,Lyrics,,0,0,0,,But after floods of sleepless tears,
+Dialogue: 1,0:01:54.85,0:01:57.32,Lyrics,,0,0,0,,You and David face the years.
+Dialogue: 1,0:01:57.32,0:01:59.79,Lyrics,,0,0,0,,A couple beers, a talking night,
+Dialogue: 1,0:01:59.79,0:02:02.26,Lyrics,,0,0,0,,Small honest jokes, a porch-light bright.
+Dialogue: 1,0:02:02.26,0:02:05.93,Lyrics,,0,0,0,,No perfect map, no magic tune,
+Dialogue: 1,0:02:05.93,0:02:09.60,Lyrics,,0,0,0,,Just two brave hearts making room.
+Dialogue: 1,0:02:09.60,0:02:12.78,Lyrics,,0,0,0,,Jessica, hold your head up high,
+Dialogue: 1,0:02:12.78,0:02:15.96,Lyrics,,0,0,0,,You've got tomorrow in your eyes.
+Dialogue: 1,0:02:15.96,0:02:17.98,Lyrics,,0,0,0,,From every tear and every test,
+Dialogue: 1,0:02:17.98,0:02:20.56,Lyrics,,0,0,0,,You're still becoming your very best.
+Dialogue: 1,0:02:20.56,0:02:23.20,Lyrics,,0,0,0,,With Bonny's arms and David's words,
+Dialogue: 1,0:02:23.20,0:02:25.50,Lyrics,,0,0,0,,A little hope can move the world.
+Dialogue: 1,0:02:25.50,0:02:28.04,Lyrics,,0,0,0,,The road is wide, the sky is blue,
+Dialogue: 1,0:02:28.04,0:02:30.94,Lyrics,,0,0,0,,There's brighter days belonging to you.
+Dialogue: 1,0:02:30.94,0:02:33.28,Lyrics,,0,0,0,,Jessica, let the old hurt fade,
+Dialogue: 1,0:02:33.28,0:02:35.74,Lyrics,,0,0,0,,Look at the life you're gonna make.
+Dialogue: 1,0:02:35.74,0:02:38.86,Lyrics,,0,0,0,,You are more than what went wrong,
+Dialogue: 1,0:02:38.86,0:02:41.76,Lyrics,,0,0,0,,You are the reason hope stays strong.
+Dialogue: 1,0:02:41.76,0:02:46.78,Lyrics,,0,0,0,,Fifteen years, and still you rise,
+Dialogue: 1,0:02:46.78,0:02:51.96,Lyrics,,0,0,0,,Brave heart, bright soul, wide-open skies.
+Dialogue: 1,0:02:51.96,0:02:56.38,Lyrics,,0,0,0,,The future's waiting, warm and new,
+Dialogue: 1,0:02:56.38,0:03:01.56,Lyrics,,0,0,0,,Jessica, it's calling you.
+Dialogue: 1,0:03:01.56,0:03:11.86,Lyrics,,0,0,0,,Jessica, it's calling you...

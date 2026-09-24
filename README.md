@@ -16,14 +16,15 @@ A dedicated, high-performance web cinema player and repository hosting the offic
 
 | # | Track Title | Genre | BPM | Duration | Video File | Subtitles |
 |---|-------------|-------|-----|----------|------------|-----------|
-| 1 | **Barnsley Town** | UK Comedy Pop-Rap / Garage | 132 BPM | 3:01 | [`videos/Barnsley Town.mp4`](videos/Barnsley%20Town.mp4) | [SRT](subtitles/barnsley-town.srt) / [ASS](subtitles/barnsley-town.ass) |
-| 2 | **Skint Dave from Barnsley** | British Indie Rock / Pub-Singalong | 96 BPM | 3:41 | [`videos/Skint Dave from Barnsley.mp4`](videos/Skint%20Dave%20from%20Barnsley.mp4) | [SRT](subtitles/skint-dave.srt) / [ASS](subtitles/skint-dave.ass) |
-| 3 | **Penny, You're Still Here** | Contemporary Folk-Pop / Heartfelt | 112 BPM | 3:58 | [`videos/Penny, You're Still Here.mp4`](videos/Penny,%20You're%20Still%20Here.mp4) | [SRT](subtitles/penny.srt) / [ASS](subtitles/penny.ass) |
-| 4 | **Dave from Barnsley** | UK Boom-Bap / Comedy Rap | 94 BPM | 3:20 | [`videos/Dave from Barnsley.mp4`](videos/Dave%20from%20Barnsley.mp4) | [SRT](subtitles/dave-barnsley.srt) / [ASS](subtitles/dave-barnsley.ass) |
-| 5 | **Crazy Rap** | UK Comedy Rap / Garage Hip-Hop | 130 BPM | 2:04 | [`videos/Crazy Rap.mp4`](videos/Crazy%20Rap.mp4) | [SRT](subtitles/crazy-rap.srt) / [ASS](subtitles/crazy-rap.ass) |
-| 6 | **Statistically, We're Fine** | UK Alternative Comedy Hip-Hop | 94 BPM | 2:22 | [`videos/Statistically, We're Fine.mp4`](videos/Statistically,%20We're%20Fine.mp4) | [SRT](subtitles/statistically.srt) / [ASS](subtitles/statistically.ass) |
-| 7 | **Your Voice Beside My Hand** | Acoustic Pop-Folk / Contemporary | 86 BPM | 3:07 | [`videos/Your Voice Beside My Hand.mp4`](videos/Your%20Voice%20Beside%20My%20Hand.mp4) | [SRT](subtitles/your-voice-beside-my-hand.srt) / [ASS](subtitles/your-voice-beside-my-hand.ass) |
-| 8 | **Nic on Donny Road** | UK Comedy Rap / Northern Boom-Bap | 98 BPM | 2:53 | [`videos/Nic on Donny Road.mp4`](videos/Nic%20on%20Donny%20Road.mp4) | [SRT](subtitles/nic-on-donny-road.srt) / [ASS](subtitles/nic-on-donny-road.ass) |
+| 1 | **Jessica, Hold Your Head Up** | Acoustic Pop-Folk / Contemporary | 88 BPM | 4:00 | [`videos/Jessica, Hold Your Head Up.mp4`](videos/Jessica,%20Hold%20Your%20Head%20Up.mp4) | [SRT](subtitles/jessica-hold-your-head-up.srt) / [ASS](subtitles/jessica-hold-your-head-up.ass) |
+| 2 | **Barnsley Town** | UK Comedy Pop-Rap / Garage | 132 BPM | 3:01 | [`videos/Barnsley Town.mp4`](videos/Barnsley%20Town.mp4) | [SRT](subtitles/barnsley-town.srt) / [ASS](subtitles/barnsley-town.ass) |
+| 3 | **Skint Dave from Barnsley** | British Indie Rock / Pub-Singalong | 96 BPM | 3:41 | [`videos/Skint Dave from Barnsley.mp4`](videos/Skint%20Dave%20from%20Barnsley.mp4) | [SRT](subtitles/skint-dave.srt) / [ASS](subtitles/skint-dave.ass) |
+| 4 | **Penny, You're Still Here** | Contemporary Folk-Pop / Heartfelt | 112 BPM | 3:58 | [`videos/Penny, You're Still Here.mp4`](videos/Penny,%20You're%20Still%20Here.mp4) | [SRT](subtitles/penny.srt) / [ASS](subtitles/penny.ass) |
+| 5 | **Dave from Barnsley** | UK Boom-Bap / Comedy Rap | 94 BPM | 3:20 | [`videos/Dave from Barnsley.mp4`](videos/Dave%20from%20Barnsley.mp4) | [SRT](subtitles/dave-barnsley.srt) / [ASS](subtitles/dave-barnsley.ass) |
+| 6 | **Crazy Rap** | UK Comedy Rap / Garage Hip-Hop | 130 BPM | 2:04 | [`videos/Crazy Rap.mp4`](videos/Crazy%20Rap.mp4) | [SRT](subtitles/crazy-rap.srt) / [ASS](subtitles/crazy-rap.ass) |
+| 7 | **Statistically, We're Fine** | UK Alternative Comedy Hip-Hop | 94 BPM | 2:22 | [`videos/Statistically, We're Fine.mp4`](videos/Statistically,%20We're%20Fine.mp4) | [SRT](subtitles/statistically.srt) / [ASS](subtitles/statistically.ass) |
+| 8 | **Your Voice Beside My Hand** | Acoustic Pop-Folk / Contemporary | 86 BPM | 3:07 | [`videos/Your Voice Beside My Hand.mp4`](videos/Your%20Voice%20Beside%20My%20Hand.mp4) | [SRT](subtitles/your-voice-beside-my-hand.srt) / [ASS](subtitles/your-voice-beside-my-hand.ass) |
+| 9 | **Nic on Donny Road** | UK Comedy Rap / Northern Boom-Bap | 98 BPM | 2:53 | [`videos/Nic on Donny Road.mp4`](videos/Nic%20on%20Donny%20Road.mp4) | [SRT](subtitles/nic-on-donny-road.srt) / [ASS](subtitles/nic-on-donny-road.ass) |
 
 
 
@@ -63,6 +64,7 @@ A dedicated, high-performance web cinema player and repository hosting the offic
 ```
 linacre-music-videos/
 ├── covers/                      # Square album artwork (1080x1080)
+│   ├── jessica-hold-your-head-up.jpg
 │   ├── barnsley-town.jpg
 │   ├── crazy-rap.jpg
 │   ├── dave-barnsley.jpg
@@ -72,6 +74,7 @@ linacre-music-videos/
 │   ├── your-voice-beside-my-hand.jpg
 │   └── nic-on-donny-road.jpg
 ├── subtitles/                   # Clean SRT and ASS subtitle files
+│   ├── jessica-hold-your-head-up.srt / .ass
 │   ├── barnsley-town.srt / .ass
 │   ├── crazy-rap.srt / .ass
 │   ├── dave-barnsley.srt / .ass
@@ -81,6 +84,7 @@ linacre-music-videos/
 │   ├── your-voice-beside-my-hand.srt / .ass
 │   └── nic-on-donny-road.srt / .ass
 ├── videos/                      # 1080p master MP4 renders (<50 MB each)
+│   ├── Jessica, Hold Your Head Up.mp4
 │   ├── Barnsley Town.mp4
 │   ├── Crazy Rap.mp4
 │   ├── Dave from Barnsley.mp4
