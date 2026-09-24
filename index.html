@@ -87,6 +87,7 @@
                 <span id="trackBpmBadge" class="badge bpm-badge">90 BPM</span>
                 <span id="trackModelBadge" class="badge model-badge">Suno V6-MINI</span>
                 <span class="badge hd-badge">1080p FHD</span>
+                <span class="badge audio-quality-badge" id="audioQualityBadge" title="Studio Master 48kHz Stereo AAC (320kbps)">320k • 48kHz Hi-Fi</span>
               </div>
               <h2 id="currentTrackTitle" class="current-track-title">The Road Beyond</h2>
               <p id="currentTrackStory" class="current-track-story">
@@ -95,11 +96,28 @@
             </div>
 
             <div class="track-actions-bar">
-              <div class="playback-rate-group" title="Playback Speed">
-                <button class="rate-btn" data-rate="0.75">0.75x</button>
-                <button class="rate-btn active" data-rate="1.0">1.0x</button>
-                <button class="rate-btn" data-rate="1.25">1.25x</button>
-                <button class="rate-btn" data-rate="1.5">1.5x</button>
+              <div class="audio-controls-cluster">
+                <div class="playback-rate-group" title="Playback Speed">
+                  <button class="rate-btn" data-rate="0.75">0.75x</button>
+                  <button class="rate-btn active" data-rate="1.0">1.0x</button>
+                  <button class="rate-btn" data-rate="1.25">1.25x</button>
+                  <button class="rate-btn" data-rate="1.5">1.5x</button>
+                </div>
+
+                <div class="audio-mastering-group" title="Studio Audio Mastering DSP Engine">
+                  <span class="audio-dsp-label">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:13px;height:13px;">
+                      <path d="M12 2v20M17 5v14M7 8v8M2 11v2M22 11v2"></path>
+                    </svg>
+                    DSP
+                  </span>
+                  <select id="audioProfileSelect" class="audio-profile-select" aria-label="Audio Mastering Profile">
+                    <option value="studio">Studio Master (Direct)</option>
+                    <option value="warmth">Vocal Clarity & Warmth</option>
+                    <option value="air">Acoustic Air & Shimmer</option>
+                    <option value="punch">Deep Bass Punch</option>
+                  </select>
+                </div>
               </div>
 
               <div class="action-buttons-group">

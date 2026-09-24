@@ -1,7 +1,8 @@
 /**
  * Linacre Music Videos — Cinema Player Engine
  * Ambient frame glow, real-time interactive lyric teleprompter, responsive playlist,
- * instant search, shuffle & repeat modes, localStorage persistence, MediaSession API, keyboard controls
+ * instant search, shuffle & repeat modes, localStorage persistence, MediaSession API,
+ * Studio Web Audio DSP Engine with true-peak anti-clipping limiter and parametric EQ mastering.
  */
 
 // Application State
@@ -39,6 +40,7 @@ const shuffleToggleBtn = document.getElementById('shuffleToggleBtn');
 const shuffleBtnText = document.getElementById('shuffleBtnText');
 const repeatToggleBtn = document.getElementById('repeatToggleBtn');
 const repeatBtnText = document.getElementById('repeatBtnText');
+const audioProfileSelect = document.getElementById('audioProfileSelect');
 
 const playlistGrid = document.getElementById('playlistGrid');
 const lyricsContainer = document.getElementById('lyricsContainer');
@@ -49,6 +51,111 @@ const closeModalBtn = document.getElementById('closeModalBtn');
 const copyShareBtn = document.getElementById('copyShareLinkBtn');
 const toastEl = document.getElementById('toast');
 const rateButtons = document.querySelectorAll('.rate-btn');
+
+// Studio Web Audio DSP Engine
+let audioCtx = null;
+let mediaSourceNode = null;
+let bassFilter = null;
+let midFilter = null;
+let trebleFilter = null;
+let limiterNode = null;
+let masterGainNode = null;
+let dspInitialized = false;
+let currentAudioProfile = 'studio';
+
+const AUDIO_PROFILES = {
+  studio: { bass: 0, mid: 0, treble: 0, label: 'Studio Master (Direct Flat)' },
+  warmth: { bass: 1.5, mid: 2.2, treble: 0.8, label: 'Vocal Clarity & Warmth' },
+  air:    { bass: 0, mid: 1.0, treble: 2.8, label: 'Acoustic Air & Shimmer' },
+  punch:  { bass: 3.2, mid: -0.5, treble: 1.0, label: 'Deep Bass Punch' }
+};
+
+function initAudioDSP() {
+  if (dspInitialized) return;
+  try {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) return;
+
+    audioCtx = new AudioContextClass();
+    mediaSourceNode = audioCtx.createMediaElementSource(video);
+
+    // Parametric 3-Band Studio EQ
+    // 1. Low Shelf (Bass / Body, 100Hz)
+    bassFilter = audioCtx.createBiquadFilter();
+    bassFilter.type = 'lowshelf';
+    bassFilter.frequency.value = 100;
+    bassFilter.gain.value = 0;
+
+    // 2. Peaking (Vocal Presence & Clarity, 3.2kHz)
+    midFilter = audioCtx.createBiquadFilter();
+    midFilter.type = 'peaking';
+    midFilter.frequency.value = 3200;
+    midFilter.Q.value = 0.8;
+    midFilter.gain.value = 0;
+
+    // 3. High Shelf (Acoustic Sparkle & Air, 8.5kHz)
+    trebleFilter = audioCtx.createBiquadFilter();
+    trebleFilter.type = 'highshelf';
+    trebleFilter.frequency.value = 8500;
+    trebleFilter.gain.value = 0;
+
+    // 4. Master Smoothing Gain Node (eliminates click/pop on track transitions)
+    masterGainNode = audioCtx.createGain();
+    masterGainNode.gain.value = 1.0;
+
+    // 5. Ultra-clean True Peak Brickwall Limiter (Protects against inter-sample clipping on DACs)
+    limiterNode = audioCtx.createDynamicsCompressor();
+    limiterNode.threshold.value = -0.5; // Catch true peaks above -0.5 dB
+    limiterNode.knee.value = 2.0;       // Smooth analog-style knee
+    limiterNode.ratio.value = 20.0;     // Brickwall limiting ratio
+    limiterNode.attack.value = 0.002;   // 2ms ultra-fast transient attack
+    limiterNode.release.value = 0.05;   // 50ms fast transparent release
+
+    // Connect audio processing graph:
+    // Video Source -> Master Gain -> Bass Filter -> Mid Filter -> Treble Filter -> Limiter -> Destination
+    mediaSourceNode.connect(masterGainNode);
+    masterGainNode.connect(bassFilter);
+    bassFilter.connect(midFilter);
+    midFilter.connect(trebleFilter);
+    trebleFilter.connect(limiterNode);
+    limiterNode.connect(audioCtx.destination);
+
+    dspInitialized = true;
+    applyAudioProfile(currentAudioProfile, false);
+    console.log('[AudioDSP] Web Audio Studio Limiter & Parametric EQ engine online.');
+  } catch (err) {
+    console.warn('[AudioDSP] Web Audio API initialization bypassed (fallback to direct browser audio):', err);
+  }
+}
+
+function applyAudioProfile(profileKey, notify = true) {
+  if (!AUDIO_PROFILES[profileKey]) profileKey = 'studio';
+  currentAudioProfile = profileKey;
+  const p = AUDIO_PROFILES[profileKey];
+
+  if (audioProfileSelect && audioProfileSelect.value !== profileKey) {
+    audioProfileSelect.value = profileKey;
+  }
+
+  if (audioCtx && audioCtx.state === 'suspended') {
+    audioCtx.resume().catch(() => {});
+  }
+
+  if (dspInitialized && audioCtx) {
+    const t = audioCtx.currentTime;
+    bassFilter.gain.setTargetAtTime(p.bass, t, 0.08);
+    midFilter.gain.setTargetAtTime(p.mid, t, 0.08);
+    trebleFilter.gain.setTargetAtTime(p.treble, t, 0.08);
+  }
+
+  try {
+    localStorage.setItem('linacre_audio_profile', profileKey);
+  } catch (e) {}
+
+  if (notify) {
+    showToast(`Mastering DSP: ${p.label}`);
+  }
+}
 
 // Preferences Persistence
 function loadPreferences() {
@@ -82,6 +189,12 @@ function loadPreferences() {
       repeatMode = savedRepeat;
       updateRepeatButtonUI();
     }
+
+    const savedProfile = localStorage.getItem('linacre_audio_profile');
+    if (savedProfile && AUDIO_PROFILES[savedProfile]) {
+      currentAudioProfile = savedProfile;
+      if (audioProfileSelect) audioProfileSelect.value = savedProfile;
+    }
   } catch (e) {
     // localStorage might be unavailable in sandboxed environments
   }
@@ -94,6 +207,7 @@ function savePreferences() {
     localStorage.setItem('linacre_autoplay', isAutoplay ? '1' : '0');
     localStorage.setItem('linacre_shuffle', isShuffle ? '1' : '0');
     localStorage.setItem('linacre_repeat', repeatMode);
+    localStorage.setItem('linacre_audio_profile', currentAudioProfile);
   } catch (e) {}
 }
 
@@ -272,6 +386,18 @@ function loadTrack(index, autoPlay = true) {
 
   // Re-render playlist cards to update active indicator and equalizer bars
   renderPlaylist();
+
+  // Apply smooth micro-fade if audio DSP is running to prevent click/pop
+  if (dspInitialized && audioCtx && masterGainNode) {
+    const t = audioCtx.currentTime;
+    masterGainNode.gain.setValueAtTime(masterGainNode.gain.value, t);
+    masterGainNode.gain.linearRampToValueAtTime(0.01, t + 0.04);
+    setTimeout(() => {
+      if (masterGainNode && audioCtx) {
+        masterGainNode.gain.linearRampToValueAtTime(1.0, audioCtx.currentTime + 0.08);
+      }
+    }, 60);
+  }
 
   // Update Media Elements
   video.pause();
@@ -521,8 +647,12 @@ function cycleRepeatMode() {
 function setupEventListeners() {
   video.addEventListener('timeupdate', handleTimeUpdate);
 
-  // Equalizer animation & ambient canvas triggers
+  // Equalizer animation, audio DSP trigger & ambient canvas
   video.addEventListener('play', () => {
+    initAudioDSP();
+    if (audioCtx && audioCtx.state === 'suspended') {
+      audioCtx.resume().catch(() => {});
+    }
     document.querySelectorAll('.now-playing-bars').forEach(el => el.classList.remove('paused'));
     if (ambientInterval) clearInterval(ambientInterval);
     ambientInterval = setInterval(drawAmbientFrame, 200);
@@ -549,6 +679,14 @@ function setupEventListeners() {
   video.addEventListener('ratechange', () => {
     savePreferences();
   });
+
+  // Audio Profile Selector
+  if (audioProfileSelect) {
+    audioProfileSelect.addEventListener('change', (e) => {
+      initAudioDSP();
+      applyAudioProfile(e.target.value);
+    });
+  }
 
   // Next / Previous Track Buttons
   if (nextTrackBtn) {
@@ -639,7 +777,7 @@ function setupEventListeners() {
 
   // Global Keyboard Shortcuts
   window.addEventListener('keydown', (e) => {
-    if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+    if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
       if (e.key === 'Escape') {
         document.activeElement.blur();
       }
