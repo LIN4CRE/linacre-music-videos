@@ -152,7 +152,35 @@
               </svg>
               Master Tracks & Video Collection
             </h3>
-            <span class="track-count-badge" id="trackCountBadge">10 Videos</span>
+            <div class="playlist-controls-row">
+              <div class="playlist-search-box">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:15px;height:15px;opacity:0.7;">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="playlistSearchInput" class="playlist-search-input" placeholder="Search title, genre, lyrics..." aria-label="Search tracks">
+              </div>
+              <button id="shuffleToggleBtn" class="action-btn" title="Toggle Shuffle (S)" style="padding: 0.35rem 0.65rem; font-size: 0.8rem;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;">
+                  <polyline points="16 3 21 3 21 8"></polyline>
+                  <line x1="4" y1="20" x2="21" y2="3"></line>
+                  <polyline points="21 16 21 21 16 21"></polyline>
+                  <line x1="15" y1="15" x2="21" y2="21"></line>
+                  <line x1="4" y1="4" x2="9" y2="9"></line>
+                </svg>
+                <span id="shuffleBtnText">Shuffle: OFF</span>
+              </button>
+              <button id="repeatToggleBtn" class="action-btn active" title="Cycle Repeat Mode (R)" style="padding: 0.35rem 0.65rem; font-size: 0.8rem;">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;">
+                  <polyline points="17 1 21 5 17 9"></polyline>
+                  <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                  <polyline points="7 23 3 19 7 15"></polyline>
+                  <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+                </svg>
+                <span id="repeatBtnText">Repeat: ALL</span>
+              </button>
+              <span class="track-count-badge" id="trackCountBadge">10 Videos</span>
+            </div>
           </div>
 
           <div class="playlist-grid" id="playlistGrid">
@@ -205,6 +233,9 @@
         <div class="shortcut-item"><kbd>Space</kbd> / <kbd>K</kbd> <span>Play / Pause</span></div>
         <div class="shortcut-item"><kbd>N</kbd> / <kbd>P</kbd> <span>Next / Prev Track</span></div>
         <div class="shortcut-item"><kbd>A</kbd> <span>Toggle Autoplay</span></div>
+        <div class="shortcut-item"><kbd>S</kbd> <span>Toggle Shuffle</span></div>
+        <div class="shortcut-item"><kbd>R</kbd> <span>Cycle Repeat Mode</span></div>
+        <div class="shortcut-item"><kbd>/</kbd> <span>Focus Search</span></div>
         <div class="shortcut-item"><kbd>F</kbd> <span>Fullscreen Video</span></div>
         <div class="shortcut-item"><kbd>T</kbd> <span>Toggle Theater Mode</span></div>
         <div class="shortcut-item"><kbd>M</kbd> <span>Toggle Mute</span></div>

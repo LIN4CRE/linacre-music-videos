@@ -1,6 +1,7 @@
 /**
  * Linacre Music Videos — Cinema Player Engine
- * Ambient frame glow, real-time interactive lyric teleprompter, responsive playlist, keyboard controls
+ * Ambient frame glow, real-time interactive lyric teleprompter, responsive playlist,
+ * instant search, shuffle & repeat modes, localStorage persistence, MediaSession API, keyboard controls
  */
 
 // Application State
@@ -8,6 +9,9 @@ let tracks = [];
 let currentTrackIndex = 0;
 let isTheaterMode = false;
 let isAutoplay = true;
+let isShuffle = false;
+let repeatMode = 'all'; // 'all' | 'one' | 'off'
+let searchQuery = '';
 let ambientInterval = null;
 
 // DOM Elements
@@ -30,6 +34,12 @@ const autoplayText = document.getElementById('autoplayText');
 const prevTrackBtn = document.getElementById('prevTrackBtn');
 const nextTrackBtn = document.getElementById('nextTrackBtn');
 
+const playlistSearchInput = document.getElementById('playlistSearchInput');
+const shuffleToggleBtn = document.getElementById('shuffleToggleBtn');
+const shuffleBtnText = document.getElementById('shuffleBtnText');
+const repeatToggleBtn = document.getElementById('repeatToggleBtn');
+const repeatBtnText = document.getElementById('repeatBtnText');
+
 const playlistGrid = document.getElementById('playlistGrid');
 const lyricsContainer = document.getElementById('lyricsContainer');
 const theaterBtn = document.getElementById('theaterModeBtn');
@@ -40,8 +50,82 @@ const copyShareBtn = document.getElementById('copyShareLinkBtn');
 const toastEl = document.getElementById('toast');
 const rateButtons = document.querySelectorAll('.rate-btn');
 
+// Preferences Persistence
+function loadPreferences() {
+  try {
+    const savedVol = localStorage.getItem('linacre_volume');
+    if (savedVol !== null) video.volume = Math.max(0, Math.min(1, parseFloat(savedVol)));
+
+    const savedSpeed = localStorage.getItem('linacre_speed');
+    if (savedSpeed !== null) {
+      const speed = parseFloat(savedSpeed);
+      video.playbackRate = speed;
+      rateButtons.forEach(b => b.classList.toggle('active', parseFloat(b.dataset.rate) === speed));
+    }
+
+    const savedAutoplay = localStorage.getItem('linacre_autoplay');
+    if (savedAutoplay !== null) {
+      isAutoplay = savedAutoplay === '1';
+      if (autoplayBtn) autoplayBtn.classList.toggle('active', isAutoplay);
+      if (autoplayText) autoplayText.textContent = isAutoplay ? 'Autoplay: ON' : 'Autoplay: OFF';
+    }
+
+    const savedShuffle = localStorage.getItem('linacre_shuffle');
+    if (savedShuffle !== null) {
+      isShuffle = savedShuffle === '1';
+      if (shuffleToggleBtn) shuffleToggleBtn.classList.toggle('active', isShuffle);
+      if (shuffleBtnText) shuffleBtnText.textContent = isShuffle ? 'Shuffle: ON' : 'Shuffle: OFF';
+    }
+
+    const savedRepeat = localStorage.getItem('linacre_repeat');
+    if (savedRepeat && ['all', 'one', 'off'].includes(savedRepeat)) {
+      repeatMode = savedRepeat;
+      updateRepeatButtonUI();
+    }
+  } catch (e) {
+    // localStorage might be unavailable in sandboxed environments
+  }
+}
+
+function savePreferences() {
+  try {
+    localStorage.setItem('linacre_volume', video.volume);
+    localStorage.setItem('linacre_speed', video.playbackRate);
+    localStorage.setItem('linacre_autoplay', isAutoplay ? '1' : '0');
+    localStorage.setItem('linacre_shuffle', isShuffle ? '1' : '0');
+    localStorage.setItem('linacre_repeat', repeatMode);
+  } catch (e) {}
+}
+
+function updateRepeatButtonUI() {
+  if (!repeatToggleBtn || !repeatBtnText) return;
+  repeatToggleBtn.classList.toggle('active', repeatMode !== 'off');
+  if (repeatMode === 'all') {
+    repeatBtnText.textContent = 'Repeat: ALL';
+    repeatToggleBtn.title = 'Repeat Playlist (Click for Track / Off)';
+  } else if (repeatMode === 'one') {
+    repeatBtnText.textContent = 'Repeat: ONE';
+    repeatToggleBtn.title = 'Repeat Current Track (Click for Off)';
+  } else {
+    repeatBtnText.textContent = 'Repeat: OFF';
+    repeatToggleBtn.title = 'Repeat Disabled (Click for All)';
+  }
+}
+
+function escapeHtml(str) {
+  return (str || '').replace(/[&<>"']/g, m => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  })[m]);
+}
+
 // Fetch or Initialize Tracks
 async function initApp() {
+  loadPreferences();
+
   try {
     const res = await fetch('tracks.json');
     if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -61,7 +145,7 @@ async function initApp() {
   renderPlaylist();
   setupEventListeners();
 
-  // Check URL hash for direct track link (e.g. #penny or #crazy-rap)
+  // Check URL hash for direct track link (e.g. #penny or #the-road-beyond)
   const hash = window.location.hash.replace('#', '').trim();
   const foundIndex = tracks.findIndex(t => t.id === hash);
   if (foundIndex >= 0) {
@@ -76,13 +160,48 @@ async function initApp() {
 // Render the Playlist Cards
 function renderPlaylist() {
   const countBadge = document.getElementById('trackCountBadge');
-  if (countBadge) countBadge.textContent = `${tracks.length} Videos`;
+  const q = searchQuery.toLowerCase().trim();
+
+  const filtered = tracks.map((track, originalIndex) => ({ track, originalIndex }))
+    .filter(({ track }) => {
+      if (!q) return true;
+      const titleMatch = track.title && track.title.toLowerCase().includes(q);
+      const genreMatch = track.genre && track.genre.toLowerCase().includes(q);
+      const artistMatch = track.artist && track.artist.toLowerCase().includes(q);
+      const storyMatch = track.story && track.story.toLowerCase().includes(q);
+      const lyricsMatch = track.lyrics && track.lyrics.some(l => l.text && l.text.toLowerCase().includes(q));
+      return titleMatch || genreMatch || artistMatch || storyMatch || lyricsMatch;
+    });
+
+  if (countBadge) {
+    countBadge.textContent = q ? `${filtered.length} of ${tracks.length} Videos` : `${tracks.length} Videos`;
+  }
 
   playlistGrid.innerHTML = '';
-  tracks.forEach((track, index) => {
+
+  if (filtered.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'playlist-empty-state';
+    empty.innerHTML = `
+      <strong>No tracks matching "${escapeHtml(searchQuery)}"</strong>
+      <p>Try searching by song title, genre, artist, or lyrics.</p>
+    `;
+    playlistGrid.appendChild(empty);
+    return;
+  }
+
+  filtered.forEach(({ track, originalIndex }) => {
+    const isActive = originalIndex === currentTrackIndex;
     const card = document.createElement('div');
-    card.className = `track-card ${index === currentTrackIndex ? 'active' : ''}`;
-    card.dataset.index = index;
+    card.className = `track-card ${isActive ? 'active' : ''}`;
+    card.dataset.index = originalIndex;
+
+    const trackNum = String(originalIndex + 1).padStart(2, '0');
+    const eqBars = isActive ? `
+      <span class="now-playing-bars ${video.paused ? 'paused' : ''}">
+        <span></span><span></span><span></span>
+      </span>
+    ` : '';
 
     card.innerHTML = `
       <div class="track-card-thumb">
@@ -94,7 +213,9 @@ function renderPlaylist() {
         </div>
       </div>
       <div class="track-card-info">
-        <h4 class="track-card-title">${track.title}</h4>
+        <h4 class="track-card-title">
+          <span class="track-index-num">#${trackNum}</span>${track.title}${eqBars}
+        </h4>
         <div class="track-card-sub">
           <span>${track.artist}</span>
           <span>•</span>
@@ -108,11 +229,36 @@ function renderPlaylist() {
     `;
 
     card.addEventListener('click', () => {
-      loadTrack(index, true);
+      loadTrack(originalIndex, true);
     });
 
     playlistGrid.appendChild(card);
   });
+}
+
+// Media Session API for Hardware & Lockscreen controls
+function updateMediaSession(track) {
+  if (!('mediaSession' in navigator)) return;
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: track.title,
+      artist: track.artist || 'Linacre',
+      album: 'Proper Mad (Deluxe)',
+      artwork: [
+        { src: track.coverFile, sizes: '512x512', type: 'image/jpeg' }
+      ]
+    });
+
+    navigator.mediaSession.setActionHandler('play', () => video.play());
+    navigator.mediaSession.setActionHandler('pause', () => video.pause());
+    navigator.mediaSession.setActionHandler('previoustrack', () => playPrevTrack());
+    navigator.mediaSession.setActionHandler('nexttrack', () => playNextTrack(false));
+    navigator.mediaSession.setActionHandler('seekto', (details) => {
+      if (details.seekTime !== undefined) video.currentTime = details.seekTime;
+    });
+  } catch (e) {
+    // Unsupported mediaSession features silently ignored
+  }
 }
 
 // Load Selected Track
@@ -124,10 +270,8 @@ function loadTrack(index, autoPlay = true) {
   // Update URL hash
   window.history.replaceState(null, '', `#${track.id}`);
 
-  // Update Active Playlist Card
-  document.querySelectorAll('.track-card').forEach((c, idx) => {
-    c.classList.toggle('active', idx === index);
-  });
+  // Re-render playlist cards to update active indicator and equalizer bars
+  renderPlaylist();
 
   // Update Media Elements
   video.pause();
@@ -154,6 +298,9 @@ function loadTrack(index, autoPlay = true) {
 
   // Update Ambient Color Accent
   updateAmbientPalette(track.id);
+
+  // Update OS Media Session
+  updateMediaSession(track);
 }
 
 // Render Interactive Lyrics Teleprompter
@@ -216,7 +363,6 @@ function handleTimeUpdate() {
 
   // If between lines, keep previous active or fade
   if (!activeFound && curTime > 0) {
-    // Find closest preceding line
     let closestLine = null;
     let closestDiff = Infinity;
     lines.forEach(line => {
@@ -244,19 +390,6 @@ function initAmbientCanvas() {
   if (!ambientCanvas || !ambientCtx) return;
   ambientCanvas.width = 64;
   ambientCanvas.height = 36;
-
-  video.addEventListener('play', () => {
-    if (ambientInterval) clearInterval(ambientInterval);
-    ambientInterval = setInterval(drawAmbientFrame, 200);
-  });
-
-  video.addEventListener('pause', () => {
-    if (ambientInterval) clearInterval(ambientInterval);
-  });
-
-  video.addEventListener('ended', () => {
-    if (ambientInterval) clearInterval(ambientInterval);
-  });
 }
 
 function drawAmbientFrame() {
@@ -307,14 +440,45 @@ function showToast(msg) {
 // Playlist Navigation & Autoplay
 function playNextTrack(isAuto = false) {
   if (!tracks || tracks.length === 0) return;
-  const nextIndex = (currentTrackIndex + 1) % tracks.length;
+
+  if (isAuto && repeatMode === 'one') {
+    video.currentTime = 0;
+    video.play().catch(e => console.log(e));
+    showToast(`Repeating: ${tracks[currentTrackIndex].title}`);
+    return;
+  }
+
+  let nextIndex;
+  if (isShuffle && tracks.length > 1) {
+    let rand = Math.floor(Math.random() * (tracks.length - 1));
+    if (rand >= currentTrackIndex) rand += 1;
+    nextIndex = rand;
+  } else {
+    nextIndex = currentTrackIndex + 1;
+    if (nextIndex >= tracks.length) {
+      if (repeatMode === 'all') {
+        nextIndex = 0;
+      } else {
+        showToast('Playlist finished.');
+        return;
+      }
+    }
+  }
+
   showToast(isAuto ? `Autoplaying next: ${tracks[nextIndex].title}` : `Next: ${tracks[nextIndex].title}`);
   loadTrack(nextIndex, true);
 }
 
 function playPrevTrack() {
   if (!tracks || tracks.length === 0) return;
-  const prevIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+  let prevIndex;
+  if (isShuffle && tracks.length > 1) {
+    let rand = Math.floor(Math.random() * (tracks.length - 1));
+    if (rand >= currentTrackIndex) rand += 1;
+    prevIndex = rand;
+  } else {
+    prevIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+  }
   showToast(`Previous: ${tracks[prevIndex].title}`);
   loadTrack(prevIndex, true);
 }
@@ -327,12 +491,47 @@ function toggleAutoplay() {
   if (autoplayText) {
     autoplayText.textContent = isAutoplay ? 'Autoplay: ON' : 'Autoplay: OFF';
   }
+  savePreferences();
   showToast(isAutoplay ? 'Continuous Autoplay: ON' : 'Continuous Autoplay: OFF');
+}
+
+function toggleShuffle() {
+  isShuffle = !isShuffle;
+  if (shuffleToggleBtn) {
+    shuffleToggleBtn.classList.toggle('active', isShuffle);
+  }
+  if (shuffleBtnText) {
+    shuffleBtnText.textContent = isShuffle ? 'Shuffle: ON' : 'Shuffle: OFF';
+  }
+  savePreferences();
+  showToast(isShuffle ? 'Shuffle Mode: ON' : 'Shuffle Mode: OFF');
+}
+
+function cycleRepeatMode() {
+  if (repeatMode === 'all') repeatMode = 'one';
+  else if (repeatMode === 'one') repeatMode = 'off';
+  else repeatMode = 'all';
+
+  updateRepeatButtonUI();
+  savePreferences();
+  showToast(`Repeat Mode: ${repeatMode.toUpperCase()}`);
 }
 
 // Setup Event Listeners
 function setupEventListeners() {
   video.addEventListener('timeupdate', handleTimeUpdate);
+
+  // Equalizer animation & ambient canvas triggers
+  video.addEventListener('play', () => {
+    document.querySelectorAll('.now-playing-bars').forEach(el => el.classList.remove('paused'));
+    if (ambientInterval) clearInterval(ambientInterval);
+    ambientInterval = setInterval(drawAmbientFrame, 200);
+  });
+
+  video.addEventListener('pause', () => {
+    document.querySelectorAll('.now-playing-bars').forEach(el => el.classList.add('paused'));
+    if (ambientInterval) clearInterval(ambientInterval);
+  });
 
   // Continuous Autoplay when video finishes
   video.addEventListener('ended', () => {
@@ -340,6 +539,15 @@ function setupEventListeners() {
     if (isAutoplay) {
       playNextTrack(true);
     }
+  });
+
+  // Volume & Speed change persistence
+  video.addEventListener('volumechange', () => {
+    savePreferences();
+  });
+
+  video.addEventListener('ratechange', () => {
+    savePreferences();
   });
 
   // Next / Previous Track Buttons
@@ -355,6 +563,31 @@ function setupEventListeners() {
     autoplayBtn.addEventListener('click', toggleAutoplay);
   }
 
+  // Shuffle & Repeat Toggle Buttons
+  if (shuffleToggleBtn) {
+    shuffleToggleBtn.addEventListener('click', toggleShuffle);
+  }
+  if (repeatToggleBtn) {
+    repeatToggleBtn.addEventListener('click', cycleRepeatMode);
+  }
+
+  // Search Input Listener
+  if (playlistSearchInput) {
+    playlistSearchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value;
+      renderPlaylist();
+    });
+
+    playlistSearchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        playlistSearchInput.value = '';
+        searchQuery = '';
+        playlistSearchInput.blur();
+        renderPlaylist();
+      }
+    });
+  }
+
   // Playback Rate Buttons
   rateButtons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -362,6 +595,7 @@ function setupEventListeners() {
       btn.classList.add('active');
       const rate = parseFloat(btn.dataset.rate);
       video.playbackRate = rate;
+      savePreferences();
       showToast(`Speed: ${rate}x`);
     });
   });
@@ -405,7 +639,12 @@ function setupEventListeners() {
 
   // Global Keyboard Shortcuts
   window.addEventListener('keydown', (e) => {
-    if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+    if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+      if (e.key === 'Escape') {
+        document.activeElement.blur();
+      }
+      return;
+    }
 
     switch (e.code) {
       case 'Space':
@@ -443,6 +682,21 @@ function setupEventListeners() {
         e.preventDefault();
         toggleAutoplay();
         break;
+      case 'KeyS':
+        e.preventDefault();
+        toggleShuffle();
+        break;
+      case 'KeyR':
+        e.preventDefault();
+        cycleRepeatMode();
+        break;
+      case 'Slash':
+        e.preventDefault();
+        if (playlistSearchInput) {
+          playlistSearchInput.focus();
+          playlistSearchInput.select();
+        }
+        break;
       case 'ArrowLeft':
         e.preventDefault();
         video.currentTime = Math.max(0, video.currentTime - 5);
@@ -454,11 +708,13 @@ function setupEventListeners() {
       case 'ArrowUp':
         e.preventDefault();
         video.volume = Math.min(1, video.volume + 0.1);
+        savePreferences();
         showToast(`Volume: ${Math.round(video.volume * 100)}%`);
         break;
       case 'ArrowDown':
         e.preventDefault();
         video.volume = Math.max(0, video.volume - 0.1);
+        savePreferences();
         showToast(`Volume: ${Math.round(video.volume * 100)}%`);
         break;
       case 'Escape':
@@ -467,7 +723,6 @@ function setupEventListeners() {
           shortcutsModal.setAttribute('aria-hidden', 'true');
         }
         break;
-      case 'Slash':
       case 'QuestionMark':
         shortcutsBtn.click();
         break;
